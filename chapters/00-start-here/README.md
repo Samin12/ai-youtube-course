@@ -14,24 +14,23 @@ This chapter shows you how the course works and gets your tools ready. Once it's
 - **My process.** Know your viewer. Know your business and your offer. Then pick ideas your viewer wants that also lead back to your offer.
 - **The 8 stages.** Every video goes through the same stages: Ideation → Research → Packaging → Script → Film → Edit → Repurpose → Publish. Then we turn views into customers (Funnel) and put it all on autopilot.
 - **Every chapter has the same shape.** Why it matters → concepts → do it → check it → tips.
+- **Model vs. harness.** The model is the engine: the part that thinks and writes (like Claude Opus, GPT or Gemini). The harness is the car built around it: the app you use (the Claude app, ChatGPT, Claude Code). The harness decides whether the AI can read your files and remember you.
+- **Web vs. desktop.** The web version of Claude is great for chatting, with nothing to install. The desktop app can open the course folder on your computer, so that's what we use.
 - **CLAUDE.md.** Think about your first day at a new job. Your boss hands you a doc that says who the company is, who the customers are, and how things get done. `CLAUDE.md` is that doc for your AI. Claude reads it every time.
 
 ## What you'll build
 
 - This repo on your computer
 - The Claude desktop app, installed
-- The "Who I am" part of [`CLAUDE.md`](../../CLAUDE.md), filled in
+- Your onboarding, started: Claude fills in [`CLAUDE.md`](../../CLAUDE.md) as it interviews you
 
 ## Steps
 
 1. **Get the repo.** On the GitHub page, click the green **Code** button, then **Download ZIP**. Unzip it somewhere easy, like your Desktop. (Using Git? `git clone https://github.com/Samin12/ai-youtube-course.git`)
 2. **Install Claude.** Download the Claude desktop app from [claude.ai/download](https://claude.ai/download) and sign in. Any AI tool works for this course. I use Claude with the Claude Opus model.
-3. **Connect Claude to the repo.** Pick one:
-   - **Claude Code** (the Code tab in the desktop app): open this repo's folder. Claude reads `CLAUDE.md` on its own.
-   - **Normal Claude chat:** make a Claude Project and add `CLAUDE.md` to it. Later you'll add the files in `my-channel/` too.
-4. **Fill in "Who I am."** Open [`CLAUDE.md`](../../CLAUDE.md) and replace the brackets in the first section. Leave the rest for Chapter 1.
-5. **Test it.** Paste the prompt in [`prompts/check-my-setup.md`](prompts/check-my-setup.md) into Claude.
-6. **Look around.** Open `chapters/`, `my-channel/` and `my-video/` so you know where things live.
+3. **Paste the onboarding prompt.** Open the **Code** tab in the desktop app, pick the course folder, and paste the prompt from the [main README](../../README.md#start-here-copy-this-prompt). Claude checks your setup, then starts Chapter 1 with you, one question at a time. (Using a normal chat or another AI? Copy [`ONBOARDING.md`](../../ONBOARDING.md) into a new chat instead.)
+4. **Optional: test it.** In a new chat in the course folder, paste the prompt in [`prompts/check-my-setup.md`](prompts/check-my-setup.md). Claude should already know who you are.
+5. **Look around.** Open `chapters/`, `my-channel/` and `my-video/` so you know where things live.
 
 ## How this repo is laid out
 
@@ -43,6 +42,7 @@ This chapter shows you how the course works and gets your tools ready. Once it's
 
 ## Check it
 
+- [ ] You pasted the onboarding prompt, and Claude started interviewing you.
 - [ ] Claude can tell you your name and what you do, without you typing it again.
 - [ ] You can find `chapters/`, `my-channel/` and `my-video/`.
 - [ ] You can see the hidden `.claude` folder (see Tips).

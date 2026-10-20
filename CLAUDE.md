@@ -3,7 +3,7 @@
 > **What is this?** CLAUDE.md is a file Claude reads every time, so it always knows you and your audience.
 > Think of it as the onboarding doc a new hire gets on day one. Fill it in once, and you never have to explain yourself to Claude again.
 
-**How to fill it in:** replace everything in [brackets]. Delete any line you don't need. Short answers are best. You start it in Chapter 0 and finish it in Chapter 1.
+**How to fill it in:** the fastest way is the onboarding prompt in the [README](README.md) (or type `/onboarding` in Claude Code). Claude interviews you one question at a time and fills all of this in for you. Prefer doing it by hand? Replace everything in [brackets]. Delete any line you don't need. Short answers are best.
 
 **How Claude finds it:** keep this file in the main folder of this repo.
 - Using Claude Code (or the Code tab in the Claude desktop app)? Open this folder and Claude reads this file on its own, plus every file marked with @ below.
@@ -13,6 +13,9 @@
 
 ## Who I am
 
+My full audit (background, skills, proof, what I'll make) is in this file: @my-channel/about-me.md
+(The @ tells Claude Code to read that file too.)
+
 - Name: [your name]
 - What I do, in one line: [e.g. I run a small bookkeeping agency for restaurants]
 - My YouTube channel: [channel name and link, or "not started yet"]
@@ -21,9 +24,9 @@
 ## My viewer
 
 My full viewer avatar is in this file: @my-channel/viewer-avatar.md
-(You make it in Chapter 1. The @ tells Claude Code to read that file too.)
+My viewer is also my customer: the person who watches is the person who buys.
 
-My viewer in 5 lines (paste the summary from Chapter 1 here):
+My viewer in 5 lines:
 
 1. [Who they are]
 2. [Where they're stuck]
@@ -37,6 +40,12 @@ My full offer is in this file: @my-channel/offer.md
 
 - My one main offer, in one line: [what I sell, who it's for, and the problem it solves]
 - Where people buy or book: [link]
+
+## My lane
+
+My lane is in this file: @my-channel/lane.md
+
+- My lane in one sentence: [I help my viewer go from where they are now to where they want to be, using what I know]
 
 ## My voice
 
@@ -52,5 +61,6 @@ My brand voice guide is in this file: @my-channel/brand-voice.md
 
 - Keep my viewer in mind in everything you make for me.
 - Point every video toward my one main offer.
+- Keep every video idea inside my lane.
 - Write in plain, simple language with short sentences, in my voice.
 - If something's missing, ask me a question instead of guessing.

@@ -7,6 +7,26 @@ You'll learn how to use YouTube to grow your business. AI does most of the heavy
 - Watch the course: [Video link]
 - Join the free community: [Community link]
 
+## Start here: copy this prompt
+
+This one prompt sets everything up for you. Then Claude interviews you, one question at a time, and builds your first files: **you** (an audit of who you are and what you know), **your viewer** (your viewer avatar), and **your lane** (where the two overlap). It takes about 30 minutes.
+
+1. **Get Claude.** Download the Claude desktop app from [claude.ai/download](https://claude.ai/download) and sign in. I recommend the Opus model.
+2. **Open the Code tab** in the desktop app and choose a folder. If you downloaded this course already, pick its folder. If not, pick your Documents folder, and Claude will download the course for you.
+3. **Paste this prompt** and press Enter. On GitHub, click the copy icon in the top-right corner of the box.
+
+````text
+Set up my AI YouTube course and onboard me.
+
+1. Find the course folder. If the folder you're in has ONBOARDING.md, CLAUDE.md and a chapters/ folder, use it. If not, download the course from https://github.com/Samin12/ai-youtube-course into a folder called ai-youtube-course in my Documents folder (use git clone, or download and unzip the ZIP if git isn't installed), and work inside it from now on.
+2. Read ONBOARDING.md and follow its "For the AI" section, step by step.
+3. Explain what you're doing in plain English as you go. Ask before installing anything.
+````
+
+**Want to stop and come back later?** Just say "pause." Next time, open the course folder in Claude and say "continue onboarding." Everything you've answered is saved.
+
+**Using a regular chat or ChatGPT?** It works there too. Copy everything in [`ONBOARDING.md`](ONBOARDING.md) and paste it into a new chat. The AI interviews you the same way and hands you each finished file to save.
+
 ## Who this is for
 
 - Business owners
@@ -30,8 +50,8 @@ At the end, we put an AI agent team on top of everything, so it runs on autopilo
 
 | # | Chapter | What you build | Status |
 |---|---|---|---|
-| 00 | [Start here](chapters/00-start-here/README.md) | Your setup: this repo, Claude, and the start of your `CLAUDE.md` | **Ready** |
-| 01 | [Foundation](chapters/01-foundation/README.md) | `my-channel/`: viewer avatar, offer, brand voice | **Ready** |
+| 00 | [Start here](chapters/00-start-here/README.md) | Your setup: Claude, this repo, and the onboarding prompt | **Ready** |
+| 01 | [Foundation](chapters/01-foundation/README.md) | `my-channel/`: about you, viewer avatar, offer, lane, brand voice | **Ready** |
 | 02 | [Ideation](chapters/02-ideation/README.md) | `my-video/01-idea.md` | Outline ready, build coming soon |
 | 03 | [Research](chapters/03-research/README.md) | `my-video/02-research.md` | Outline ready, build coming soon |
 | 04 | [Packaging](chapters/04-packaging/README.md) | `my-video/03-packaging.md` | Outline ready, build coming soon |
@@ -61,14 +81,15 @@ Any AI tool works. I recommend the **Claude desktop app** with **Claude Opus**. 
 
 **3. Do the chapters in order.**
 
-Start with [Chapter 0](chapters/00-start-here/README.md). Chapter 1 is required before the rest, because every later chapter builds on it.
+Start with the [onboarding prompt](#start-here-copy-this-prompt) above. It covers Chapter 0 and Chapter 1 for you. Chapter 1 is required before the rest, because every later chapter builds on it.
 
 ## What's in this folder
 
 ```
 CLAUDE.md          Your "about me" file for AI. Claude reads it every time.
+ONBOARDING.md      The steps Claude follows when you paste the onboarding prompt.
 chapters/          One folder per chapter. Each has a README, prompts, and sometimes templates.
-my-channel/        Your channel files: viewer avatar, offer, brand voice, funnel map. Fill these in once.
+my-channel/        Your channel files: about me, viewer avatar, offer, lane, brand voice, funnel map. Fill these in once.
 my-video/          The video you're making. One file per stage, filled in as you go.
 examples/samin/    My filled-in examples, so you can see what "done" looks like.
 .claude/skills/    The same steps as Claude skills (saved instructions Claude can run for you).
@@ -82,7 +103,7 @@ Inside each chapter:
 
 **Making another video?** Copy the `my-video` folder, name the copy after your new video (like `my-video-2`), and clear out your old answers.
 
-**Skills** work in Claude Code, the version of Claude that can read and save files on your computer. Type `/viewer-avatar` to run the Chapter 1 interview.
+**Skills** work in Claude Code, the version of Claude that can read and save files on your computer (the Code tab in the desktop app). Type `/onboarding` to run the whole onboarding, or `/viewer-avatar` to run just the viewer avatar interview.
 
 **Can't see the `.claude` folder?** Folders that start with a dot are hidden. On a Mac, press **Cmd + Shift + .** in Finder to show them. On Windows, turn on **View > Hidden items** in File Explorer.
 
