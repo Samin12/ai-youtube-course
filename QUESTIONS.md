@@ -2,6 +2,8 @@
 
 These are all the questions Claude asks you during onboarding. Here they are in one place, so you can see the whole thing up front.
 
+**Prefer a visual?** Open [`questions.html`](questions.html) in your browser for a printable checklist. Claude opens it for you when onboarding starts.
+
 ## The fastest way: just talk
 
 You don't have to answer these one by one. The fastest way is to read through the list, then hit record and just talk.
@@ -110,4 +112,4 @@ You don't have to answer these one by one. The fastest way is to read through th
 
 ---
 
-**Ready?** Go back to the [README](README.md) and paste the onboarding prompt. When Claude asks how you want to do it, say **"I'll talk through it."**
+**Ready?** Go back to the [README](README.md) and paste the onboarding prompt. When Claude asks which way you'd like, say **"One by one"** or **"All at once."**

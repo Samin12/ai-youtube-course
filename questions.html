@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Your onboarding questions</title>
+<style>
+  :root {
+    --bg: #f5f0e8;
+    --card: #fffdf9;
+    --ink: #1f1e1d;
+    --muted: #6b6560;
+    --line: #e6ddd0;
+    --clay: #c96442;
+    --clay-soft: #f3e2d8;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font: 17px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  .wrap { max-width: 1180px; margin: 0 auto; padding: 48px 28px 64px; }
+  h1, h2, h3 { font-family: ui-serif, "Iowan Old Style", Georgia, "Times New Roman", serif; font-weight: 500; letter-spacing: -0.01em; }
+  h1 { font-size: 44px; margin: 0 0 8px; }
+  .sub { color: var(--muted); font-size: 19px; margin: 0 0 32px; max-width: 760px; }
+  .eyebrow { color: var(--clay); font-weight: 600; font-size: 13px; letter-spacing: .08em; text-transform: uppercase; margin-bottom: 10px; }
+
+  .ways { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; margin-bottom: 40px; }
+  .way { background: var(--card); border: 1px solid var(--line); border-radius: 18px; padding: 22px 24px; }
+  .way.rec { border: 2px solid var(--clay); }
+  .way h2 { font-size: 26px; margin: 4px 0 8px; }
+  .way p { margin: 0 0 10px; }
+  .tag { display: inline-block; background: var(--clay); color: #fff; font-size: 12px; font-weight: 600; border-radius: 999px; padding: 3px 10px; letter-spacing: .03em; }
+  .tag.plain { background: var(--clay-soft); color: var(--clay); }
+  .say { font-family: ui-serif, Georgia, serif; font-style: italic; color: var(--clay); font-size: 19px; }
+  kbd { font: 600 14px/1 ui-monospace, Menlo, monospace; background: #fff; border: 1px solid var(--line); border-bottom-width: 2px; border-radius: 6px; padding: 3px 7px; }
+  .keys { margin: 8px 0 0; padding-left: 18px; color: var(--muted); }
+  .keys li { margin: 3px 0; }
+
+  .parts { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+  .part { background: var(--card); border: 1px solid var(--line); border-radius: 18px; padding: 24px 26px; }
+  .part header { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; margin-bottom: 4px; }
+  .part h2 { font-size: 28px; margin: 0; }
+  .num { color: var(--clay); font-family: ui-serif, Georgia, serif; font-size: 18px; white-space: nowrap; }
+  .saves { color: var(--muted); font-size: 14px; margin: 0 0 14px; }
+  .saves code { font: 13px ui-monospace, Menlo, monospace; background: var(--clay-soft); color: #8a4a33; border-radius: 5px; padding: 1px 6px; }
+  .why { margin: 0 0 14px; }
+  h3 { font-size: 19px; margin: 18px 0 6px; }
+  ul.q { list-style: none; margin: 0; padding: 0; }
+  ul.q li { margin: 0; }
+  ul.q label { display: flex; gap: 10px; align-items: flex-start; padding: 5px 0; cursor: pointer; }
+  ul.q input { appearance: none; -webkit-appearance: none; flex: 0 0 18px; width: 18px; height: 18px; margin-top: 4px; border: 1.5px solid #c9bdae; border-radius: 5px; background: #fff; cursor: pointer; }
+  ul.q input:checked { background: var(--clay); border-color: var(--clay); box-shadow: inset 0 0 0 3px #fff; }
+  ul.q input:checked + span { color: var(--muted); text-decoration: line-through; text-decoration-color: #c9bdae; }
+  .hint { color: var(--muted); font-size: 14px; }
+  .note { background: var(--clay-soft); border-radius: 12px; padding: 12px 14px; margin: 10px 0 0; font-size: 15px; }
+
+  .bar { position: sticky; top: 0; z-index: 2; background: rgba(245,240,232,.92); backdrop-filter: blur(6px); border-bottom: 1px solid var(--line); }
+  .bar .in { max-width: 1180px; margin: 0 auto; padding: 10px 28px; display: flex; align-items: center; gap: 14px; font-size: 15px; color: var(--muted); }
+  .track { flex: 1; height: 6px; background: var(--line); border-radius: 999px; overflow: hidden; }
+  .fill { height: 100%; width: 0; background: var(--clay); transition: width .25s; }
+  button.reset { background: none; border: 1px solid var(--line); border-radius: 999px; padding: 4px 12px; color: var(--muted); font: inherit; font-size: 13px; cursor: pointer; }
+
+  footer { margin-top: 36px; text-align: center; color: var(--muted); }
+  footer .say { font-size: 22px; }
+
+  @media (max-width: 860px) { .ways, .parts { grid-template-columns: 1fr; } h1 { font-size: 34px; } }
+  @media print { .bar, button.reset { display: none; } body { background: #fff; } .part, .way { break-inside: avoid; } }
+</style>
+</head>
+<body>
+<div class="bar"><div class="in">
+  <span id="count">0 answered</span>
+  <div class="track"><div class="fill" id="fill"></div></div>
+  <button class="reset" id="reset" type="button">Clear checks</button>
+</div></div>
+
+<div class="wrap">
+  <div class="eyebrow">Grow your business with YouTube · Onboarding</div>
+  <h1>Your onboarding questions</h1>
+  <p class="sub">We're building three things, so your AI knows who you are and who it's making videos for, every time: <strong>you</strong>, <strong>your viewer</strong>, and <strong>your lane</strong>. Here's every question, up front.</p>
+
+  <div class="ways">
+    <div class="way">
+      <span class="tag plain">Option 1</span>
+      <h2>One by one</h2>
+      <p>Claude asks you each question, and you answer. Easy, steady, no prep.</p>
+      <p>Tell Claude: <span class="say">"One by one."</span></p>
+    </div>
+    <div class="way rec">
+      <span class="tag">Option 2 · Fastest</span>
+      <h2>All at once</h2>
+      <p>Read the questions below once. Then turn on voice and talk through everything in one go. Ramble, jump around, repeat yourself. Messy is fine, and more is better.</p>
+      <p>Tell Claude: <span class="say">"All at once."</span></p>
+      <ul class="keys">
+        <li>Claude's microphone button, or built-in dictation:</li>
+        <li>Mac: press <kbd>fn</kbd> <kbd>fn</kbd> (the 🌐 key twice)</li>
+        <li>Windows: press <kbd>⊞ Win</kbd> + <kbd>H</kbd></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="parts">
+
+    <section class="part">
+      <header><h2>You</h2><span class="num">Part 1 · the audit</span></header>
+      <p class="saves">Saves to <code>my-channel/about-me.md</code> and <code>my-channel/offer.md</code></p>
+      <p class="why">Your "you are here" dot. A GPS can't route you anywhere without it.</p>
+      <h3>Who you are</h3>
+      <ul class="q">
+        <li><label><input type="checkbox"><span>What's your name, and what do you do, in one line?</span></label></li>
+        <li><label><input type="checkbox"><span>Do you have a YouTube channel yet? What's it called?</span></label></li>
+        <li><label><input type="checkbox"><span>Where are you based?</span></label></li>
+      </ul>
+      <h3>Your story</h3>
+      <ul class="q">
+        <li><label><input type="checkbox"><span>What's your background? Jobs, experience, what you've worked on.</span></label></li>
+        <li><label><input type="checkbox"><span>What were the turning points that got you here?</span></label></li>
+      </ul>
+      <h3>Your business and offer</h3>
+      <ul class="q">
+        <li><label><input type="checkbox"><span>What do you sell, who is it for, and what problem does it solve?</span></label></li>
+        <li><label><input type="checkbox"><span>Roughly what does it cost, and where do people buy or book?</span></label></li>
+        <li><label><input type="checkbox"><span>Sell more than one thing? Which is the <strong>one main offer</strong> every video points to?</span></label></li>
+        <li><label><input type="checkbox"><span>No offer yet? What can you do, and what cool things have you done?</span></label></li>
+      </ul>
+      <h3>Skill check</h3>
+      <ul class="q">
+        <li><label><input type="checkbox"><span>What do people ask you about? What do they pay you for?</span></label></li>
+        <li><label><input type="checkbox"><span>What do you know better than most people around you?</span></label></li>
+      </ul>
+      <h3>Proof</h3>
+      <ul class="q">
+        <li><label><input type="checkbox"><span>What results have you gotten for yourself? <span class="hint">(numbers, before and after, wins)</span></span></label></li>
+        <li><label><input type="checkbox"><span>What results have you gotten for other people? <span class="hint">(client wins, testimonials)</span></span></label></li>
+      </ul>
+      <h3>What you'll make</h3>
+      <ul class="q">
+        <li><label><input type="checkbox"><span>What could you make 100 videos about without getting bored?</span></label></li>
+        <li><label><input type="checkbox"><span>What won't you make? <span class="hint">(topics, formats, showing your face or not)</span></span></label></li>
+      </ul>
+    </section>
+
+    <section class="part">
+      <header><h2>Your viewer</h2><span class="num">Part 2 · the avatar</span></header>
+      <p class="saves">Saves to <code>my-channel/viewer-avatar.md</code></p>
+      <p class="why">The one person you make videos for, who's also your customer. Based on Paddy Galloway's audience overview.</p>
+      <p class="note"><strong>Got material? Paste it in first.</strong> Have customers? Sales calls or emails. Starting from scratch? Comments, Reddit, competitor videos. Already have customers? Describe your best ones. They're your viewer.</p>
+      <h3>Cluster <span class="hint">· 1–2 words each</span></h3>
+      <ul class="q">
+        <li><label><input type="checkbox"><span>What's your niche?</span></label></li>
+        <li><label><input type="checkbox"><span>Roughly how old are they?</span></label></li>
+        <li><label><input type="checkbox"><span>What countries are most of them in?</span></label></li>
+        <li><label><input type="checkbox"><span>What channels like yours do they already watch?</span></label></li>
+      </ul>
+      <h3>TAM <span class="hint">· how big the audience is; Claude helps you estimate</span></h3>
+      <ul class="q">
+        <li><label><input type="checkbox"><span>Roughly how many people could want what you make?</span></label></li>
+        <li><label><input type="checkbox"><span>Your average views per video right now? <span class="hint">(new channel = 0)</span></span></label></li>
+      </ul>
+      <h3>Personality <span class="hint">· skip any that don't help</span></h3>
+      <ul class="q">
+        <li><label><input type="checkbox"><span>Who are they? <span class="hint">(job, life situation)</span> What are they like?</span></label></li>
+        <li><label><input type="checkbox"><span>What do they like, and what do they not like?</span></label></li>
+        <li><label><input type="checkbox"><span>What do they come to you for? What vibe do they have?</span></label></li>
+      </ul>
+      <h3>Problems and goals</h3>
+      <ul class="q">
+        <li><label><input type="checkbox"><span>Where are they stuck? What have they already tried?</span></label></li>
+        <li><label><input type="checkbox"><span>What words do they use for their problem? <span class="hint">(their words, not yours)</span></span></label></li>
+        <li><label><input type="checkbox"><span>What would they benefit from knowing?</span></label></li>
+      </ul>
+      <h3>Where they hang out, and the transformation</h3>
+      <ul class="q">
+        <li><label><input type="checkbox"><span>Where do they hang out, online and offline?</span></label></li>
+        <li><label><input type="checkbox"><span>Where are they now, and where do they want to be?</span></label></li>
+      </ul>
+    </section>
+
+    <section class="part">
+      <header><h2>Your lane</h2><span class="num">Part 3 · the overlap</span></header>
+      <p class="saves">Saves to <code>my-channel/lane.md</code></p>
+      <p class="why">Where what you know meets what your viewer needs. Like a taco truck: tacos the chef is great at, on a street full of people hungry for tacos.</p>
+      <p class="note"><strong>Nothing to answer here.</strong> Claude drafts it from Parts 1 and 2: your lane in one sentence, 3–5 lane topics, and a "not in my lane" list.</p>
+      <h3>Then you react</h3>
+      <ul class="q">
+        <li><label><input type="checkbox"><span>Which topics feel most like you?</span></label></li>
+        <li><label><input type="checkbox"><span>What's missing? What should we cut?</span></label></li>
+      </ul>
+    </section>
+
+    <section class="part">
+      <header><h2>Your voice</h2><span class="num">Part 4 · optional</span></header>
+      <p class="saves">Saves to <code>my-channel/brand-voice.md</code></p>
+      <p class="why">How you sound, so AI writes like you, not like AI.</p>
+      <p class="note"><strong>Did "all at once"?</strong> Your voice dump is already the best sample of how you talk. You can skip this part.</p>
+      <ul class="q">
+        <li><label><input type="checkbox"><span>How would a friend describe the way you talk?</span></label></li>
+        <li><label><input type="checkbox"><span>Words or phrases you use a lot? Words you'd never use?</span></label></li>
+        <li><label><input type="checkbox"><span>How do you like to explain things? <span class="hint">(story first, then the point?)</span></span></label></li>
+        <li><label><input type="checkbox"><span>Got a post, an email, or a video transcript that sounds like you? Paste it in.</span></label></li>
+      </ul>
+    </section>
+
+  </div>
+
+  <footer>
+    <p>Ready? Go back to Claude and say</p>
+    <p class="say">"One by one" &nbsp;or&nbsp; "All at once"</p>
+  </footer>
+</div>
+
+<script>
+  const boxes = [...document.querySelectorAll('ul.q input')];
+  const key = 'ytc-onboarding-checks';
+  const saved = JSON.parse(localStorage.getItem(key) || '[]');
+  boxes.forEach((b, i) => { b.checked = !!saved[i]; });
+  function update() {
+    const done = boxes.filter(b => b.checked).length;
+    document.getElementById('count').textContent = done + ' of ' + boxes.length + ' answered';
+    document.getElementById('fill').style.width = (100 * done / boxes.length) + '%';
+    localStorage.setItem(key, JSON.stringify(boxes.map(b => b.checked)));
+  }
+  boxes.forEach(b => b.addEventListener('change', update));
+  document.getElementById('reset').addEventListener('click', () => { boxes.forEach(b => b.checked = false); update(); });
+  update();
+</script>
+</body>
+</html>

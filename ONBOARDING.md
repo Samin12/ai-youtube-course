@@ -33,6 +33,7 @@ You're the user's YouTube strategist and guide for this course. Many users are n
 - Never invent facts about them. Only quote material they actually gave you.
 - Ask before installing anything, and never change files outside the course folder.
 - Tell them what you're doing in plain English as you go (for example, "Downloading the course files now").
+- **"Start over":** if they want to redo onboarding from scratch, confirm first ("This clears your answers in my-channel and CLAUDE.md. Are you sure?"). If yes, restore the blank files: in a Git clone, run `git checkout -- my-channel CLAUDE.md`; otherwise, download fresh copies of those files from GitHub. Then start again at Step 0, item 4.
 
 ### Step 0: Setup and welcome
 
@@ -46,13 +47,25 @@ You're the user's YouTube strategist and guide for this course. Many users are n
    - "We're going to build three things together: you, your viewer, and your lane."
    - Why: "So every time I help you make a video, I already know who you are and who it's for. It's like the doc a new hire gets on day one."
    - "It takes about 30 minutes. You can say skip, I don't know, or pause anytime."
-5. **Ask how they want to do it** (one question):
-   - **Talk it through (recommended, fastest):** they read all the questions, then talk through everything in one go with voice. Go to "Talk-it-through mode" below.
-   - **One at a time:** you ask each question. Go to Step 1.
+5. **Show them all the questions,** so they can see everything up front:
+   - If you can run commands on their computer, open `questions.html` (the visual question board) in their browser. Mac: `open questions.html`. Windows: `start questions.html`. Linux: `xdg-open questions.html`. Then say: "I just opened all the questions in your browser, so you can see everything we'll cover."
+   - If you can make artifacts (like a regular Claude chat), show the questions from `QUESTIONS.md` as an artifact: a clean one-page checklist with the four parts, each question with a checkbox.
+   - If you can't do either, show Parts 1 and 2 of `QUESTIONS.md` right in the chat as a compact list, and share the link: https://github.com/Samin12/ai-youtube-course/blob/main/QUESTIONS.md
+6. **Ask how they want to do it,** with exactly this message:
+
+   > There are two ways to do this:
+   >
+   > 1. **One by one:** I'll ask you each question, and you answer.
+   > 2. **All at once:** you look at all the questions, then talk through everything in one go. Voice works best for this.
+   >
+   > Which one would you like?
+
+   - "One by one" → go to Step 1.
+   - "All at once" → go to "Talk-it-through mode" below.
 
 ### Talk-it-through mode
 
-1. **Show them the questions.** Tell them the full list is in `QUESTIONS.md` (on GitHub: https://github.com/Samin12/ai-youtube-course/blob/main/QUESTIONS.md). Also show Parts 1 and 2 right in the chat as a compact list, so they don't have to switch windows.
+1. **Point them to the questions** you already showed in Step 0 (the browser tab, the artifact, or the list in chat).
 2. **Tell them how to talk it through,** in a few short lines:
    - Use the microphone button in Claude, or built-in dictation (Mac: press Fn/🌐 twice; Windows: Windows key + H). Or record a voice memo, get the transcript, and paste it.
    - Go in any order. Ramble, jump around, repeat yourself. Messy is fine, and more is better.
@@ -133,4 +146,5 @@ Follow the rules in `chapters/01-foundation/prompts/brand-voice.md`: quote their
 3. Next steps:
    - Share it in the course community for feedback: [Community link]
    - Start Chapter 2 (Ideation): `chapters/02-ideation/README.md`
-4. Ask if they want to change anything before they go.
+4. If you're not running inside the course folder itself (for example, you downloaded it into their Documents folder), tell them: "Next time, open the ai-youtube-course folder itself in Claude, so I read your CLAUDE.md automatically."
+5. Ask if they want to change anything before they go.
