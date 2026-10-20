@@ -2,10 +2,10 @@
 
 Turns your script into something easy to read on camera: either teleprompter lines (how I do it) or bullets you riff from (how Nate Curtiss suggests).
 
-**How to use it:** paste this into Claude. Your script should be in `my-video/04-script.md`, or paste it under the prompt.
+**How to use it:** paste this into Claude. Your script should be in `videos/<my-video>/04-script.md`, or paste it under the prompt.
 
 ````text
-Format my script (my-video/04-script.md, or pasted below) for filming.
+Format my script (videos/<my-video>/04-script.md, or pasted below) for filming.
 
 Give me BOTH versions:
 

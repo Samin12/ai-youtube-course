@@ -8,7 +8,7 @@ The core prompt is from Nate Curtiss's course. The 4 P's check is from Jake Trin
 Write three hook variations: bold claim, relatable pain, surprising fact.
 
 Context:
-- My title, thumbnail and outline are in my-video/ (or pasted below). Write in my voice from my-channel/brand-voice.md.
+- My title, thumbnail and outline are in videos/<my-video>/ (or pasted below). Write in my voice from my-channel/brand-voice.md.
 - Each hook is 30 seconds max when read out loud, written word for word.
 - The first sentence must match the title.
 - Each hook must hit the 4 P's. Label each part:

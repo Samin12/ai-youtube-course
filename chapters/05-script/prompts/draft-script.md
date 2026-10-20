@@ -2,14 +2,14 @@
 
 Drafts the full script in your voice, using the script architecture from this chapter.
 
-**How to use it:** paste this into Claude. Under it, paste 1–2 transcripts of videos (or voice memos) where you sound like yourself, plus your brain dump from Research if Claude can't see `my-video/`.
+**How to use it:** paste this into Claude. Under it, paste 1–2 transcripts of videos (or voice memos) where you sound like yourself, plus your brain dump from Research if Claude can't see `videos/<my-video>/`.
 
 ````text
 You are my scriptwriter. Write the script for my next video in MY voice.
 
 Use:
 - My CLAUDE.md, viewer avatar and brand voice guide (my-channel/brand-voice.md).
-- My outline and chosen hook (my-video/04-script.md), and my brain dump and research (my-video/02-research.md).
+- My outline and chosen hook (videos/<my-video>/04-script.md), and my brain dump and research (videos/<my-video>/02-research.md).
 - The transcripts pasted below, to match how I really talk.
 
 Structure:

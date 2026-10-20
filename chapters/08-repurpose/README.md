@@ -16,7 +16,7 @@ The video's done. Before it goes live, let's make it work 10 times harder. One v
 
 ## What you'll build
 
-[`my-video/07-repurpose.md`](../../my-video/07-repurpose.md): the list of ideas inside your video, and the posts made from them, ready to schedule in Publish.
+[`videos/<your-video>/07-repurpose.md`](../../videos/_template/07-repurpose.md): the list of ideas inside your video, and the posts made from them, ready to schedule in Publish.
 
 ## Steps
 
@@ -24,7 +24,7 @@ The video's done. Before it goes live, let's make it work 10 times harder. One v
 2. **Find the ideas.** Run [`prompts/find-the-ideas.md`](prompts/find-the-ideas.md). You get a list of separate ideas, each one a possible post.
 3. **Make the posts.** Run [`prompts/make-the-posts.md`](prompts/make-the-posts.md) for the ideas you like best.
 4. **Check each piece** against the list below. Fix anything that doesn't sound like you.
-5. **Save them** in `my-video/07-repurpose.md`. You'll schedule them in the Publish chapter.
+5. **Save them** in `videos/<your-video>/07-repurpose.md`. You'll schedule them in the Publish chapter.
 
 **How I do it:** Opus pulls the concepts out of my video, then my repurpose skills turn them into short scripts, tweets and carousels. *[Coming soon: my repurpose skills]*
 

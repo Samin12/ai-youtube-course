@@ -2,7 +2,7 @@
 
 > Every claim in your video gets proof on screen: the tweet, the chart, the result, the screenshot.
 > "If a visual does not clarify, prove, or help the viewer follow the video… it's just movement." *(Jake Trinder)*
-> Fill one row per claim. Your working copy goes in `my-video/06-edit-notes.md`.
+> Fill one row per claim. Your working copy goes in `videos/<your-video>/06-edit-notes.md`.
 
 | # | Time (or script line) | The claim | Proof to show | Type | Have it? |
 |---|---|---|---|---|---|

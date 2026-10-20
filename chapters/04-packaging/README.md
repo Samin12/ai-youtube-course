@@ -22,7 +22,7 @@ Your video sits next to 20 others in the feed, and people pick one. *(Jake Trind
 
 ## What you'll build
 
-[`my-video/03-packaging.md`](../../my-video/03-packaging.md): your top 3 titles, 3 thumbnail concepts, and your final pick.
+[`videos/<your-video>/03-packaging.md`](../../videos/_template/03-packaging.md): your top 3 titles, 3 thumbnail concepts, and your final pick.
 
 ## Steps
 
@@ -31,7 +31,7 @@ Your video sits next to 20 others in the feed, and people pick one. *(Jake Trind
 3. **Score them.** Run [`prompts/title-scoring.md`](prompts/title-scoring.md) with your titles. Pick your top 3. *(Nate Curtiss)*
 4. **Thumbnail concepts.** Run [`prompts/thumbnail-concepts.md`](prompts/thumbnail-concepts.md). Then make 3 real ones. *(Nate Curtiss)*
 5. **Test it in a feed.** Put your thumbnail and title in a screenshot of a YouTube feed, next to your competitors. Then shrink it to phone size.
-6. **Save** your pick in `my-video/03-packaging.md`.
+6. **Save** your pick in `videos/<your-video>/03-packaging.md`.
 
 ## Check it
 

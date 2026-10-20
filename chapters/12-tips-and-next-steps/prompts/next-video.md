@@ -2,10 +2,10 @@
 
 Plans your next video using what you learned from the last one.
 
-**How to use it:** paste this into Claude. It should see your `my-video/` files (or paste them in, especially `08-publish.md`).
+**How to use it:** paste this into Claude. It should see your `videos/<my-video>/` files (or paste them in, especially `08-publish.md`).
 
 ````text
-Help me plan my next video. Use my CLAUDE.md, viewer avatar, offer, and my last video's files in my-video/ (or pasted below).
+Help me plan my next video. Use my CLAUDE.md, viewer avatar, offer, and my last video's files in videos/<my-video>/ (or pasted below).
 
 1. LOOK BACK: In 3 bullets, what worked and what didn't in my last video, based only on my notes and results.
 2. ONE CHANGE: The one thing I should do better or differently next time.

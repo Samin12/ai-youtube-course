@@ -1,7 +1,7 @@
 # Script architecture
 
 > The structure for every video: hook → setup → points (each with setup, tension, payoff) → transitions → analogies → ending.
-> Use it as a guide. Your working copy goes in `my-video/04-script.md`.
+> Use it as a guide. Your working copy goes in `videos/<your-video>/04-script.md`.
 
 ## 0. The promise
 

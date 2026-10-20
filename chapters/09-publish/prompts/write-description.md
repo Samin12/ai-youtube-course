@@ -2,14 +2,14 @@
 
 Writes your YouTube description with your offer link on line 1. *(Nate Curtiss)*
 
-**How to use it:** paste this into Claude. Under it, paste your final transcript (with timestamps) if Claude can't see your `my-video/` files.
+**How to use it:** paste this into Claude. Under it, paste your final transcript (with timestamps) if Claude can't see your `videos/<my-video>/` files.
 
 ````text
 Write the YouTube description for my video.
 
 Use:
 - My CLAUDE.md, viewer avatar and offer (my-channel/offer.md has my link).
-- My title from my-video/03-packaging.md.
+- My title from videos/<my-video>/03-packaging.md.
 - The transcript below, for the summary and the chapters.
 
 Follow this structure exactly:

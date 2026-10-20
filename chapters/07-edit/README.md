@@ -22,7 +22,7 @@ Raw footage isn't a video yet. Editing is where we keep people watching and back
 
 ## What you'll build
 
-[`my-video/06-edit-notes.md`](../../my-video/06-edit-notes.md): your claim → proof map, cut notes, and chapters. The map format, with an example, is in [`templates/claim-proof-map.md`](templates/claim-proof-map.md).
+[`videos/<your-video>/06-edit-notes.md`](../../videos/_template/06-edit-notes.md): your claim → proof map, cut notes, and chapters. The map format, with an example, is in [`templates/claim-proof-map.md`](templates/claim-proof-map.md).
 
 ## Steps
 

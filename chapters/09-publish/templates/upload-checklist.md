@@ -10,7 +10,7 @@
 
 ## Every video
 
-- [ ] Title and thumbnail from `my-video/03-packaging.md`
+- [ ] Title and thumbnail from `videos/<your-video>/03-packaging.md`
 - [ ] Description with your offer link on line 1
 - [ ] "Made for kids": **No**
 - [ ] Category set
@@ -24,4 +24,4 @@
 
 - [ ] Repurposed pieces scheduled and spread out (Blotato, or by hand)
 - [ ] Post and forget for the first day
-- [ ] Results read and written down in `my-video/08-publish.md`
+- [ ] Results read and written down in `videos/<your-video>/08-publish.md`

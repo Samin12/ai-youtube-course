@@ -20,7 +20,7 @@ The title and thumbnail made a promise. The script keeps it. Viewers arrive with
 
 ## What you'll build
 
-[`my-video/04-script.md`](../../my-video/04-script.md): your outline and script. The full structure, with notes, is in [`templates/script-architecture.md`](templates/script-architecture.md).
+[`videos/<your-video>/04-script.md`](../../videos/_template/04-script.md): your outline and script. The full structure, with notes, is in [`templates/script-architecture.md`](templates/script-architecture.md).
 
 ## Steps
 
@@ -29,7 +29,7 @@ The title and thumbnail made a promise. The script keeps it. Viewers arrive with
 3. **Draft in your voice.** Run [`prompts/draft-script.md`](prompts/draft-script.md). Feed it your past transcripts and your brain dump from Research, so it doesn't sound like generic AI.
 4. **Add transitions and an analogy for every point.**
 5. **Read it out loud and cut.** "If you're not taking out 10%, you're not trying very hard." *(Jon Dorman)*
-6. **Save** it in `my-video/04-script.md`.
+6. **Save** it in `videos/<your-video>/04-script.md`.
 
 ## Check it
 

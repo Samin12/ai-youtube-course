@@ -2,10 +2,10 @@
 
 Finds every claim in your script and suggests proof to show on screen. *(Proof-based editing: every claim gets proof.)*
 
-**How to use it:** paste this into Claude. Your script should be in `my-video/04-script.md`, or paste it (or a transcript of your recording) under the prompt.
+**How to use it:** paste this into Claude. Your script should be in `videos/<my-video>/04-script.md`, or paste it (or a transcript of your recording) under the prompt.
 
 ````text
-Go through my script (my-video/04-script.md, or pasted below) and build a claim → proof map.
+Go through my script (videos/<my-video>/04-script.md, or pasted below) and build a claim → proof map.
 
 1. List every claim: any number, result, "this works", comparison, or statement a skeptical viewer might doubt.
 2. For each claim, suggest the proof to show on screen: a screenshot, chart, tweet or post, result, screen recording, on-screen text, or a full-frame diagram. Be specific about what's in it.

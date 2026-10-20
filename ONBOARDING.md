@@ -175,6 +175,6 @@ Follow the rules in `chapters/01-foundation/prompts/brand-voice.md`: quote their
 2. Tell them back, in 3 short bullets, who they are, who their viewer is, and what their lane is. Say: "This is what I'll remember every time you open this folder."
 3. Next steps:
    - Share it in the course community for feedback: [Community link]
-   - Start Chapter 2 (Ideation): `chapters/02-ideation/README.md`
+   - Start your first video: say **"make a new video."** I'll make its folder in `videos/`, write the brief, and start Ideation with you.
 4. If you're not running inside the course folder itself (for example, you downloaded it into their Documents folder), tell them: "Next time, open the ai-youtube-course folder itself in Claude, so I read your CLAUDE.md automatically."
 5. Ask if they want to change anything before they go.

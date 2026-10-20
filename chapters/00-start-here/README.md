@@ -30,13 +30,13 @@ This chapter shows you how the course works and gets your tools ready. Once it's
 2. **Install Claude.** Download the Claude desktop app from [claude.ai/download](https://claude.ai/download) and sign in. Any AI tool works for this course. I use Claude with the Claude Opus model.
 3. **Paste the onboarding prompt.** Open the **Code** tab in the desktop app, pick the course folder, and paste the prompt from the [main README](../../README.md#start-here-copy-this-prompt). Claude checks your setup, then starts Chapter 1 with you, one question at a time. (Using a normal chat or another AI? Copy [`ONBOARDING.md`](../../ONBOARDING.md) into a new chat instead.)
 4. **Optional: test it.** In a new chat in the course folder, paste the prompt in [`prompts/check-my-setup.md`](prompts/check-my-setup.md). Claude should already know who you are.
-5. **Look around.** Open `chapters/`, `my-channel/` and `my-video/` so you know where things live.
+5. **Look around.** Open `chapters/`, `my-channel/` and `videos/` so you know where things live.
 
 ## How this repo is laid out
 
 - `chapters/`: what to learn and do, one folder per chapter.
 - `my-channel/`: files about you and your channel. You fill these in once.
-- `my-video/`: the video you're making, one file per stage. You fill these in as you go.
+- `videos/`: one folder per video, made for you when you say "make a new video". Each has a brief and one file per stage.
 - `examples/samin/`: my filled-in versions, so you can see what "done" looks like.
 - `.claude/skills/`: saved instructions Claude Code can run for you, like `/viewer-avatar`.
 
@@ -44,7 +44,7 @@ This chapter shows you how the course works and gets your tools ready. Once it's
 
 - [ ] You pasted the onboarding prompt, and Claude started interviewing you.
 - [ ] Claude can tell you your name and what you do, without you typing it again.
-- [ ] You can find `chapters/`, `my-channel/` and `my-video/`.
+- [ ] You can find `chapters/`, `my-channel/` and `videos/`.
 - [ ] You can see the hidden `.claude` folder (see Tips).
 
 ## Tips

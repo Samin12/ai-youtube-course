@@ -10,3 +10,14 @@
 .env
 .env.*
 !.env.example
+
+# Video files stay on your computer (too big for GitHub)
+videos/*/assets/*
+videos/*/exports/*
+!videos/*/assets/.gitkeep
+!videos/*/exports/.gitkeep
+*.mp4
+*.mov
+*.m4v
+*.wav
+*.mp3

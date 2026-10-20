@@ -57,7 +57,8 @@ My brand voice guide is in this file: @my-channel/brand-voice.md
 
 ## What I'm working on
 
-- The video I'm making right now lives in `my-video/`, one file per stage.
+- My videos live in `videos/`, one folder per video. To start one, I say "make a new video."
+- Current video: [folder, e.g. videos/001-my-first-video]
 
 ## How to help me
 

@@ -25,13 +25,13 @@ You've built one video, start to finish, by hand and with AI. What makes the dif
 
 ## What you'll build
 
-A plan for your next video, in a fresh copy of `my-video/`.
+A plan for your next video, in a new video folder (say "make a new video").
 
 ## Steps
 
-1. **Look back.** Re-read your `my-video/` files, especially what you learned in `08-publish.md`.
+1. **Look back.** Re-read your last video's files in `videos/`, especially what you learned in `08-publish.md`.
 2. **Plan the next one.** Run [`prompts/next-video.md`](prompts/next-video.md).
-3. **Start video 2.** Copy the `my-video` folder, name the copy after your new video (like `my-video-2`), clear out your old answers, and go back to [Chapter 2](../02-ideation/README.md).
+3. **Start video 2.** Say "make a new video." Claude makes the next folder in `videos/` and starts Ideation, using what you learned from video 1.
 4. **The one thing to do this week:** *[Samin to fill]*
 5. **Share what you made** in the community: [Community link]
 

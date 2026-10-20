@@ -20,7 +20,7 @@ The thinking's done. Now we make it. Because we did the hard part first, filming
 
 ## What you'll build
 
-[`my-video/05-film-checklist.md`](../../my-video/05-film-checklist.md): your setup and pre-record checks, ticked off.
+[`videos/<your-video>/05-film-checklist.md`](../../videos/_template/05-film-checklist.md): your setup and pre-record checks, ticked off.
 
 ## Steps
 

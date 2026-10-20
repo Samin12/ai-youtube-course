@@ -5,7 +5,7 @@ Sort your sources into buckets, find the gap, and draft a rough outline. *(Colle
 **How to use it:** paste this into Claude. Under it, paste your brain dump, then your sources (transcripts, threads, articles, notes). Mark which videos did well and which flopped.
 
 ````text
-You are my research assistant. Use my CLAUDE.md and viewer avatar. My video idea is in my-video/01-idea.md (or below).
+You are my research assistant. Use my CLAUDE.md and viewer avatar. My video idea is in videos/<my-video>/01-idea.md (or below).
 
 Below are my brain dump and my sources.
 

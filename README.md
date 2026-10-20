@@ -53,20 +53,22 @@ At the end, we put an AI agent team on top of everything, so it runs on autopilo
 
 **The map:** Foundation → Ideation → Research → Packaging → Script → Film → Edit → Repurpose → Publish → Funnel → Autopilot
 
+**This folder is your content operating system.** `my-channel/` holds who you are and who you make videos for. `videos/` holds one folder per video. `CLAUDE.md` is what Claude remembers about you. Set it up once, and every new video starts with "make a new video."
+
 ## The chapters
 
 | # | Chapter | What you build | Status |
 |---|---|---|---|
 | 00 | [Start here](chapters/00-start-here/README.md) | Your setup: Claude, this repo, and the onboarding prompt | **Ready** |
 | 01 | [Foundation](chapters/01-foundation/README.md) | `my-channel/`: about you, viewer avatar, offer, lane, brand voice | **Ready** |
-| 02 | [Ideation](chapters/02-ideation/README.md) | `my-video/01-idea.md` | Outline ready, build coming soon |
-| 03 | [Research](chapters/03-research/README.md) | `my-video/02-research.md` | Outline ready, build coming soon |
-| 04 | [Packaging](chapters/04-packaging/README.md) | `my-video/03-packaging.md` | Outline ready, build coming soon |
-| 05 | [Script](chapters/05-script/README.md) | `my-video/04-script.md` | Outline ready, build coming soon |
-| 06 | [Film](chapters/06-film/README.md) | `my-video/05-film-checklist.md` | Outline ready, build coming soon |
-| 07 | [Edit](chapters/07-edit/README.md) | `my-video/06-edit-notes.md` | Outline ready, build coming soon |
-| 08 | [Repurpose](chapters/08-repurpose/README.md) | `my-video/07-repurpose.md` | Outline ready, build coming soon |
-| 09 | [Publish](chapters/09-publish/README.md) | `my-video/08-publish.md` | Outline ready, build coming soon |
+| 02 | [Ideation](chapters/02-ideation/README.md) | `videos/<your-video>/01-idea.md` | Outline ready, build coming soon |
+| 03 | [Research](chapters/03-research/README.md) | `videos/<your-video>/02-research.md` | Outline ready, build coming soon |
+| 04 | [Packaging](chapters/04-packaging/README.md) | `videos/<your-video>/03-packaging.md` | Outline ready, build coming soon |
+| 05 | [Script](chapters/05-script/README.md) | `videos/<your-video>/04-script.md` | Outline ready, build coming soon |
+| 06 | [Film](chapters/06-film/README.md) | `videos/<your-video>/05-film-checklist.md` | Outline ready, build coming soon |
+| 07 | [Edit](chapters/07-edit/README.md) | `videos/<your-video>/06-edit-notes.md` | Outline ready, build coming soon |
+| 08 | [Repurpose](chapters/08-repurpose/README.md) | `videos/<your-video>/07-repurpose.md` | Outline ready, build coming soon |
+| 09 | [Publish](chapters/09-publish/README.md) | `videos/<your-video>/08-publish.md` | Outline ready, build coming soon |
 | 10 | [Funnel](chapters/10-funnel/README.md) | `my-channel/funnel-map.md` | Outline ready, build coming soon |
 | 11 | [Autopilot](chapters/11-autopilot/README.md) | Your first skill, then the full autopilot setup | Outline ready, build coming soon |
 | 12 | [Tips and next steps](chapters/12-tips-and-next-steps/README.md) | A plan for your next video | Outline ready, build coming soon |
@@ -100,7 +102,7 @@ questions.html     The same questions as a visual checklist. Claude opens it whe
 chapters/          One folder per chapter. Each has a README, prompts, and sometimes templates.
 my-channel/        Your channel files: about me, offer, viewer avatar, customer avatar, lane, brand voice, funnel map,
                    plus avatar-profile.html, a one-page visual of your viewer. Fill these in once.
-my-video/          The video you're making. One file per stage, filled in as you go.
+videos/            One folder per video. Say "make a new video" and Claude makes the next one from videos/_template/.
 examples/samin/    My filled-in examples, so you can see what "done" looks like.
 .claude/skills/    The same steps as Claude skills (saved instructions Claude can run for you).
 ```
@@ -111,9 +113,9 @@ Inside each chapter:
 - `prompts/`: copy-and-paste prompts. They work in any AI tool.
 - `templates/`: blank forms and checklists (only where they help).
 
-**Making another video?** Copy the `my-video` folder, name the copy after your new video (like `my-video-2`), and clear out your old answers.
+**Making a video?** Open this folder in Claude and say **"make a new video."** Claude makes the next numbered folder in `videos/` (like `videos/001-my-first-video/`), writes the brief, and starts Ideation with you. Say **"continue my video"** to pick up where you left off, or **"show my videos"** to see them all. More in [`videos/README.md`](videos/README.md).
 
-**Skills** work in Claude Code, the version of Claude that can read and save files on your computer (the Code tab in the desktop app). Type `/onboarding` to run the whole onboarding, or `/viewer-avatar` to run just the viewer avatar interview.
+**Skills** work in Claude Code, the version of Claude that can read and save files on your computer (the Code tab in the desktop app). Type `/onboarding` to run the whole onboarding, `/new-video` to start a video, or `/viewer-avatar` to run just the viewer avatar interview. You can also just ask in plain English, like "make a new video."
 
 **Can't see the `.claude` folder?** Folders that start with a dot are hidden. On a Mac, press **Cmd + Shift + .** in Finder to show them. On Windows, turn on **View > Hidden items** in File Explorer.
 

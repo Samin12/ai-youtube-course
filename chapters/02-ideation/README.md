@@ -18,16 +18,18 @@
 
 ## What you'll build
 
-[`my-video/01-idea.md`](../../my-video/01-idea.md): one idea, with proof people want it and how it leads to your offer.
+[`videos/<your-video>/01-idea.md`](../../videos/_template/01-idea.md): one idea, with proof people want it and how it leads to your offer.
 
 ## Steps
+
+**Start here:** open the course folder in Claude and say **"make a new video."** Claude makes your video's folder in `videos/`, writes the brief, and walks you through these steps.
 
 1. **Open Claude in this repo,** so it can see your `CLAUDE.md`, viewer avatar and offer.
 2. **Get seed keywords.** Run [`prompts/seed-keywords.md`](prompts/seed-keywords.md). Search each keyword on YouTube and follow the outliers. *(Jake Trinder's method)*
 3. **Find 5–10 outliers** for your topic, in your niche and nearby niches. Note each one's views and the channel's average. Check the floor and ceiling.
 4. **Ask what problems you can solve.** Run [`prompts/audience-problems.md`](prompts/audience-problems.md). *(Nate Curtiss)*
 5. **Generate ideas.** Run [`prompts/idea-generator.md`](prompts/idea-generator.md) with your outliers pasted in.
-6. **Pick one.** Run your favorites through the checklist below. Save the winner in `my-video/01-idea.md`.
+6. **Pick one.** Run your favorites through the checklist below. Save the winner in `videos/<your-video>/01-idea.md`.
 
 **How I do it:** I save outliers to a Poppy board (a visual board where you save videos and chat with AI about them), then ask AI to ideate with my avatar, offer and outliers as context. *[Coming soon: my full walkthrough]*
 
@@ -43,7 +45,7 @@
 
 - **Make a "burner" YouTube account** and train it by watching your competitors, so its homepage shows you outliers. *(Nate Curtiss)*
 - **Tools:** the 1of10 browser extension shows outlier scores *(Nate Curtiss)*; Poppy for saving and searching them.
-- **Keep a running list** of ideas you're excited about. There's a spot for it in `my-video/01-idea.md`.
+- **Keep a running list** of ideas you're excited about. There's a spot for it in `videos/<your-video>/01-idea.md`.
 
 ## Status
 

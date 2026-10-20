@@ -17,14 +17,14 @@ Your decisions are only as good as your information. Economists call this bounde
 
 ## What you'll build
 
-[`my-video/02-research.md`](../../my-video/02-research.md): your brain dump, your sources, the buckets, the gap, and a rough outline.
+[`videos/<your-video>/02-research.md`](../../videos/_template/02-research.md): your brain dump, your sources, the buckets, the gap, and a rough outline.
 
 ## Steps
 
 1. **Brain dump.** Record a voice memo with your own take on the idea. Get the transcript and run [`prompts/brain-dump.md`](prompts/brain-dump.md).
 2. **Collect sources.** The top videos on your topic, a few flops, plus threads, articles and podcasts. Grab transcripts where you can. Timestamp your notes.
 3. **Connect them.** Run [`prompts/collect-and-connect.md`](prompts/collect-and-connect.md) with your brain dump and sources pasted in. It sorts points into buckets, finds the gap, and drafts a rough outline.
-4. **Save it** in `my-video/02-research.md`. The rough outline is where the Script chapter starts.
+4. **Save it** in `videos/<your-video>/02-research.md`. The rough outline is where the Script chapter starts.
 
 **How I do it:** I brain dump first, then run my research skill, which pulls points from X/Twitter, YouTube and the web. I put it all in Poppy next to my brain dump and have AI sort it into buckets. *[Coming soon: my research skill]*
 

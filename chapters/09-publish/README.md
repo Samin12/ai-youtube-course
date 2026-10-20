@@ -21,7 +21,7 @@ How you publish decides whether YouTube shows your video to the right people. An
 
 ## What you'll build
 
-[`my-video/08-publish.md`](../../my-video/08-publish.md): your description, upload checklist, schedule, and results notes.
+[`videos/<your-video>/08-publish.md`](../../videos/_template/08-publish.md): your description, upload checklist, schedule, and results notes.
 
 ## Steps
 
@@ -30,7 +30,7 @@ How you publish decides whether YouTube shows your video to the right people. An
 3. **Upload.** Add chapters, the end screen, and a pinned comment. Tick off the checklist.
 4. **Schedule your repurposed pieces** in Blotato (or post them by hand). Spread them out.
 5. **Post and forget** for the first day.
-6. **Read your results.** Take screenshots of your YouTube Studio analytics and run [`prompts/read-my-results.md`](prompts/read-my-results.md). Write what you learned in `my-video/08-publish.md`, and feed it into your next idea.
+6. **Read your results.** Take screenshots of your YouTube Studio analytics and run [`prompts/read-my-results.md`](prompts/read-my-results.md). Write what you learned in `videos/<your-video>/08-publish.md`, and feed it into your next idea.
 
 *[Coming soon: my real upload, scheduling and results walkthrough]*
 
