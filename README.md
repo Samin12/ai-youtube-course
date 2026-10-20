@@ -1,3 +1,5 @@
+![Grow your business with YouTube + Claude: your AI content system, free on GitHub](assets/readme-banner.jpg)
+
 # Grow Your Business with YouTube (and Let AI Do Most of the Work)
 
 A free course by Samin Yasar.
@@ -6,6 +8,8 @@ You'll learn how to use YouTube to grow your business. AI does most of the heavy
 
 - Watch the course: [Video link]
 - Join the free community: [Community link]
+
+![How it works: 1. Paste one prompt and Claude interviews you. 2. Say "make a new video" and Claude builds the folder. 3. AI does the heavy lifting, you make the calls.](assets/how-it-works.jpg)
 
 ## Start here: copy this prompt
 
