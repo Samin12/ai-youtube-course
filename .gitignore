@@ -1,0 +1,12 @@
+# macOS junk
+.DS_Store
+._*
+.AppleDouble
+.LSOverride
+.Spotlight-V100
+.Trashes
+
+# Secrets
+.env
+.env.*
+!.env.example
