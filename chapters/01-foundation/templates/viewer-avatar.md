@@ -1,10 +1,10 @@
 # Viewer avatar
 
 > A viewer avatar is a short profile of the one person your channel is for.
-> Fill it in with the interview prompt (`prompts/viewer-avatar-interview.md`), or by hand.
+> Fill it in with the interview prompt (`chapters/01-foundation/prompts/viewer-avatar-interview.md`), or by hand.
 > Where it says "1–2 words", keep it that short. Short answers are easier to use, for you and for AI.
-> Save your filled-in copy as `my-viewer-avatar.md` in the main folder of this repo.
-> Example: `examples/samin-viewer-avatar.md`
+> Your filled-in copy lives in `my-channel/viewer-avatar.md`.
+> Example: `examples/samin/viewer-avatar.md`
 
 ## Audience overview: [your channel name]
 

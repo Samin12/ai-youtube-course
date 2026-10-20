@@ -1,58 +1,71 @@
-# Step 1: Your viewer avatar
+# Chapter 1: Foundation (your viewer, your offer, your voice)
 
-**Time:** about 15 minutes.
-**Required:** yes. Every other step in this course builds on it.
+**Time:** about 15 minutes for the viewer avatar, plus a few minutes each for your offer and voice.
+**Required:** yes. Every other chapter builds on it.
 
 ## Why this matters
 
-Amazon has a famous habit called "working backwards." Before they build anything, they start with the customer and work back from there.
+YouTube wants to show people videos they're glad they watched. So viewer satisfaction is what makes videos do well, and you can't satisfy someone you don't know.
 
-We do the same thing with YouTube. We start with the viewer.
+And AI can only come up with good ideas if it knows who you're talking to and what you sell. This chapter gives it both.
 
-Here's why. YouTube wants to show people videos they're glad they watched. So viewer satisfaction is what makes videos do well.
+## What you'll learn
 
-And you can't satisfy someone you don't know.
+- **Working backwards.** Amazon starts with the customer and works back from there. We start with the viewer. *(Samin, from his time as an Amazon engineer)*
+- **Satisfaction is the metric.** Jake Trinder had a training video people watched only about 12% of on average, and it still got over 800,000 views, because the right people watched it and were happy. *(Jake Trinder)*
+- **Pick your lane.** A lane is audience + value: "Who are your videos for, and why do they care?" Random videos with no through-line confuse YouTube about who to show them to. Treat your lane as a hypothesis, not a forever decision. *(Aprilynne Alter)* "The best sushi restaurants, they just do sushi." *(Paddy Galloway, in Aprilynne Alter's course)*
+- **Have a business? Your niche is your customer.**
+- **Test the niche.** Is it still alive (check Google Trends)? Can you make 250+ videos on it? Is the audience big enough (a high-ticket offer only needs a few hundred of the right people)? Can you be the best or the first? *(Marcus Jones's niche funnel)*
+- **Be different, not just better.** Don't open a knockoff Five Guys, make a "burgerito." *(DougDoug, in Aprilynne Alter's course)* Find your X factors: real traits your audience cares about. Exaggerate real ones, never fake them. *(Marcus Jones)*
+- **The viewer avatar.** A short profile of one specific person: who they are, what they want, where they're stuck, what they've tried, the words they use.
+- **Viewer vs buyer.** Not every viewer buys. But every video should attract the people who could.
+- **One main offer.** What you sell, who it's for, what problem it solves. A magnifying glass only starts a fire when the light is focused on one spot. Point every video at one offer.
+- **Brand voice guide.** Talk into a voice memo, then have Claude turn it into a guide. *(Nate Curtiss)*
 
-That's what a viewer avatar fixes. It's a short profile of the one person your channel is for. Once you have it, every idea, title, script and offer gets easier, because you know exactly who you're talking to.
+## What you'll build
 
-## What you'll make
+1. [`my-channel/viewer-avatar.md`](../../my-channel/viewer-avatar.md): a one-page profile of your ideal viewer.
+2. [`my-channel/offer.md`](../../my-channel/offer.md): your one main offer.
+3. [`my-channel/brand-voice.md`](../../my-channel/brand-voice.md): how you sound.
+4. A filled-in [`CLAUDE.md`](../../CLAUDE.md), with a 5-line summary of your viewer.
 
-1. **`my-viewer-avatar.md`**: a one-page profile of your ideal viewer. (A `.md` file is a plain text file. Any text editor can open it.)
-2. **A 5-line summary** of that viewer, which you paste into your `CLAUDE.md`.
-3. **A filled-in `CLAUDE.md`**: who you are, your business and offer, and your voice. That covers the rest of the Foundation stage.
+Want to see a finished avatar? Here's mine (still in progress): [`examples/samin/viewer-avatar.md`](../../examples/samin/viewer-avatar.md)
 
-Want to see a finished one? Here's mine (still in progress): [`examples/samin-viewer-avatar.md`](../../examples/samin-viewer-avatar.md)
+## Steps
 
-## Before you start: gather what you have
+1. **Gather what you have (optional, but it makes your avatar much better).** Real words from real people beat guesses.
+   - Have customers? Grab sales-call transcripts or customer emails. Claude pulls out their pains, words and objections.
+   - Starting from scratch? Grab comments (on your videos or channels like yours), Reddit threads, and competitor video titles and comments.
+2. **Run the viewer avatar interview.** Start a new chat. Paste the prompt from [`prompts/viewer-avatar-interview.md`](prompts/viewer-avatar-interview.md), paste your material under it, and press Enter.
+3. **Answer the questions.** Claude asks one at a time. Short answers are fine. Stuck? Say "give me examples." Not sure? Give your best guess.
+4. **Save it.** Open [`my-channel/viewer-avatar.md`](../../my-channel/viewer-avatar.md) and replace everything inside with Claude's finished avatar.
+5. **Update your CLAUDE.md.** Paste Claude's 5-line summary into the "My viewer" part of [`CLAUDE.md`](../../CLAUDE.md).
+6. **Write your offer.** Run [`prompts/offer.md`](prompts/offer.md). Save the result in `my-channel/offer.md`, and paste the one-line summary into `CLAUDE.md`.
+7. **Make your brand voice guide.** Record a short voice memo (the prompt tells you what to talk about), get the transcript, and run [`prompts/brand-voice.md`](prompts/brand-voice.md). Save it in `my-channel/brand-voice.md`.
 
-This part is optional, but it makes your avatar much better. Real words from real people beat guesses every time.
+**Using Claude Code?** Skip the copy and paste for the avatar. Open this folder in Claude Code and type `/viewer-avatar`. Claude runs the same interview and saves the file for you.
 
-If you already have customers, paste in sales-call transcripts or customer emails; if you're starting from scratch, use comments, Reddit and competitor videos.
+The blank avatar form is in [`templates/viewer-avatar.md`](templates/viewer-avatar.md), if you'd rather fill it in by hand.
 
-- **Comments:** on your own videos, or on videos from channels like yours.
-- **Reddit:** threads where your kind of viewer asks questions or complains.
-- **Competitor videos:** their titles, and the comments under them.
+## Check it
 
-Copy the useful bits into one note so they're ready to paste.
-
-## How to do it with Claude (about 15 minutes)
-
-1. **Open Claude.** I recommend the Claude desktop app with Claude Opus. Any AI tool works.
-2. **Start a new chat.**
-3. **Paste the interview prompt.** Open [`prompts/viewer-avatar-interview.md`](../../prompts/viewer-avatar-interview.md), copy the prompt in the box, and paste it into the chat. Paste the material you gathered right under it. Press Enter.
-4. **Answer the questions.** Claude asks one at a time. Short answers are fine. Stuck? Say "give me examples." Not sure? Give your best guess. You can fix it later.
-5. **Save the result.** At the end, Claude gives you your finished avatar. Make a copy of [`templates/viewer-avatar.md`](../../templates/viewer-avatar.md), rename the copy `my-viewer-avatar.md`, and replace everything inside with Claude's version. Keep it in the main folder of this repo.
-6. **Update your CLAUDE.md.** Claude also gives you a 5-line summary. Paste it into the "My viewer" part of [`CLAUDE.md`](../../CLAUDE.md). While you're there, fill in the rest: who you are, your business and offer, and your voice.
-
-**Using Claude Code?** You can skip the copy and paste. Open this folder in Claude Code and type `/viewer-avatar`. Claude runs the same interview and saves the file for you.
+- [ ] Can you describe your viewer in one sentence?
+- [ ] Does the avatar sound like your real customers, or generic?
+- [ ] Would 80% of the people who liked your last video want your next one? *(Aprilynne Alter's 80% rule)*
+- [ ] Do you have one main offer every video can point to?
+- [ ] Does your brand voice guide sound like you when you read it out loud?
 
 ## Tips
 
-- **Pick one person.** Make it about your main viewer, not everyone who might watch.
+- **Pick one person.** Your main viewer, not everyone who might watch.
 - **Be specific.** "Small business owners" is too broad. "Owners of 5-person cleaning companies who want more clients" is much better.
-- **Guessing is fine.** Write your best guess now. Update it as you learn more about your viewers.
-- **Come back to it.** Look at it again every few months. Your avatar grows as your channel grows.
+- **Guessing is fine.** Update it as you learn more. Come back to it every few months.
+- **Don't overthink branding early, and be decisive.** *(Marcus Jones)*
+- **Give a lane at least 10 focused videos before you switch.** *(Aprilynne Alter)*
+- **No offer yet?** That's fine. Make content about what you can do and cool things you've done.
 
----
+## Status
 
-Done? Share your avatar in the community: [Community link]
+**Step ready.** Done? Share your avatar in the community: [Community link]
+
+Next: [Chapter 2: Ideation](../02-ideation/README.md).

@@ -88,10 +88,12 @@ After the last question, do these four things:
    3. What they want
    4. The words they use
    5. What I offer them
-3. Tell me: "Save the first block as my-viewer-avatar.md in the main folder of the course repo. Paste the 5 lines into the 'My viewer' part of your CLAUDE.md."
+3. Tell me: "Save the first block in my-channel/viewer-avatar.md in the course repo (replace everything in it). Paste the 5 lines into the 'My viewer' part of your CLAUDE.md."
 4. Ask if I want to change anything.
 
 Start now.
 ````
 
-**Saving the result:** the easiest way is to make a copy of `templates/viewer-avatar.md`, rename the copy `my-viewer-avatar.md`, open it, and replace everything inside with what Claude gave you. You can also ask Claude to give it to you as a file you can download.
+**Saving the result:** open `my-channel/viewer-avatar.md` in the main folder of this repo and replace everything inside with what Claude gave you. You can also ask Claude to give it to you as a file you can download.
+
+**Using Claude Code?** Type `/viewer-avatar` instead. It runs the same interview and saves the file for you.
