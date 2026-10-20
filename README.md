@@ -23,9 +23,11 @@ Set up my AI YouTube course and onboard me.
 3. Explain what you're doing in plain English as you go. Ask before installing anything.
 ````
 
+**Want to see the questions first?** Here's the full list: [`QUESTIONS.md`](QUESTIONS.md). The fastest way through is to read it once, then turn on voice and just talk through everything in one go. When Claude asks how you want to do it, say "I'll talk through it."
+
 **Want to stop and come back later?** Just say "pause." Next time, open the course folder in Claude and say "continue onboarding." Everything you've answered is saved.
 
-**Using a regular chat or ChatGPT?** It works there too. Copy everything in [`ONBOARDING.md`](ONBOARDING.md) and paste it into a new chat. The AI interviews you the same way and hands you each finished file to save.
+**Using a regular chat or ChatGPT?** It works there too. Copy everything in [`ONBOARDING.md`](ONBOARDING.md) and [`QUESTIONS.md`](QUESTIONS.md) and paste it into a new chat. The AI interviews you the same way and hands you each finished file to save.
 
 ## Who this is for
 
@@ -88,6 +90,7 @@ Start with the [onboarding prompt](#start-here-copy-this-prompt) above. It cover
 ```
 CLAUDE.md          Your "about me" file for AI. Claude reads it every time.
 ONBOARDING.md      The steps Claude follows when you paste the onboarding prompt.
+QUESTIONS.md       Every onboarding question in one list. Read it, then talk through it.
 chapters/          One folder per chapter. Each has a README, prompts, and sometimes templates.
 my-channel/        Your channel files: about me, viewer avatar, offer, lane, brand voice, funnel map. Fill these in once.
 my-video/          The video you're making. One file per stage, filled in as you go.

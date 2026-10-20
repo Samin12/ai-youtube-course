@@ -37,7 +37,7 @@ Want to see a finished avatar? Here's mine (still in progress): [`examples/samin
 
 ## Steps
 
-**Fastest way:** paste the onboarding prompt from the [main README](../../README.md#start-here-copy-this-prompt), or type `/onboarding` in Claude Code. It runs every step below for you, one question at a time, and saves the files. The steps below are the same thing by hand.
+**Fastest way:** paste the onboarding prompt from the [main README](../../README.md#start-here-copy-this-prompt), or type `/onboarding` in Claude Code. It runs every step below for you and saves the files. All the questions are in [`QUESTIONS.md`](../../QUESTIONS.md): read them once, then talk through everything in one go with voice. The steps below are the same thing by hand.
 
 1. **Audit yourself.** Fill in [`my-channel/about-me.md`](../../my-channel/about-me.md): who you are, your story, your skills, your proof, and what you could make 100 videos about.
 2. **Write your offer.** Run [`prompts/offer.md`](prompts/offer.md). Save the result in `my-channel/offer.md`, and paste the one-line summary into `CLAUDE.md`.

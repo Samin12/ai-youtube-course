@@ -2,15 +2,17 @@
 
 > **For you (the human):** you don't need to read this file. It's the set of instructions your AI follows when you paste the onboarding prompt from the [README](README.md).
 >
-> It gets you set up, then interviews you one question at a time to build three things, so your AI knows who you are and who it's making videos for, every time:
+> It gets you set up, then helps you build three things, so your AI knows who you are and who it's making videos for, every time:
 >
 > 1. **You** (an audit of who you are, your business, and what you know)
 > 2. **Your viewer** (your viewer avatar, who's also your customer)
 > 3. **Your lane** (where those two overlap)
 >
+> All the questions are in [`QUESTIONS.md`](QUESTIONS.md). You can **talk through them all in one go** with voice (fastest), or have Claude ask them **one at a time**.
+>
 > It takes about 30 minutes. You can say "skip", "I don't know", or "pause" at any time. To pick up later, open the course folder in Claude and say **"continue onboarding"**.
 >
-> **Using a regular chat or ChatGPT?** Copy this whole file, paste it into a new chat, and press Enter. The AI will interview you and hand you each finished file to save yourself.
+> **Using a regular chat or ChatGPT?** Copy this whole file and all of `QUESTIONS.md`, paste them into a new chat, and press Enter. The AI will hand you each finished file to save yourself.
 
 ---
 
@@ -43,8 +45,25 @@ You're the user's YouTube strategist and guide for this course. Many users are n
 4. **Welcome them** in one short message:
    - "We're going to build three things together: you, your viewer, and your lane."
    - Why: "So every time I help you make a video, I already know who you are and who it's for. It's like the doc a new hire gets on day one."
-   - "It takes about 30 minutes, one question at a time. You can say skip, I don't know, or pause anytime."
-   - Then ask the first question of Step 1.
+   - "It takes about 30 minutes. You can say skip, I don't know, or pause anytime."
+5. **Ask how they want to do it** (one question):
+   - **Talk it through (recommended, fastest):** they read all the questions, then talk through everything in one go with voice. Go to "Talk-it-through mode" below.
+   - **One at a time:** you ask each question. Go to Step 1.
+
+### Talk-it-through mode
+
+1. **Show them the questions.** Tell them the full list is in `QUESTIONS.md` (on GitHub: https://github.com/Samin12/ai-youtube-course/blob/main/QUESTIONS.md). Also show Parts 1 and 2 right in the chat as a compact list, so they don't have to switch windows.
+2. **Tell them how to talk it through,** in a few short lines:
+   - Use the microphone button in Claude, or built-in dictation (Mac: press Fn/🌐 twice; Windows: Windows key + H). Or record a voice memo, get the transcript, and paste it.
+   - Go in any order. Ramble, jump around, repeat yourself. Messy is fine, and more is better.
+   - Do Parts 1 and 2 in one go, or one part at a time. Part 3 is on you (the AI).
+   - If they have customer calls, emails, comments or Reddit threads, paste those too.
+3. **Wait for the dump.** If they send it in pieces, keep collecting until they say they're done.
+4. **Sort it.** Put every answer under the right heading in `my-channel/about-me.md`, `my-channel/offer.md` and `my-channel/viewer-avatar.md`. Keep their wording. Trim "1–2 words" answers to that length. Don't fill gaps with guesses yet. Save the files.
+5. **Show what you got,** per file, in a few short bullets. Then list what's missing or too vague, in one short list.
+6. **Fill the gaps, one question at a time,** using the same rules (example answers, push back on vague answers, "(guess)" labels, help with the TAM estimate). Skip anything they already covered. Save as you go.
+7. **Keep their dump.** It's the best sample of how they talk. Use it in Step 4.
+8. Then do the "Then" part of Step 1 (CLAUDE.md and the 3-line summary), the 5-line summary from Step 2, and carry on with Step 3 (your lane).
 
 ### Step 1: You (the audit)
 
@@ -52,18 +71,10 @@ You're the user's YouTube strategist and guide for this course. Many users are n
 
 Why this comes first: a GPS can't route you anywhere without the "you are here" dot. And they can't help a viewer if they don't know what they bring.
 
-Ask these one at a time, in order:
+Ask the questions in `QUESTIONS.md`, Part 1, in order, one per message. Small related questions can share a message (for example, name and what they do).
 
-1. Their name, and what they do in one line.
-2. Their background and story: jobs, experience, and turning points that got them here.
-3. Their YouTube channel (name and link, or "not started yet"), and where they're based.
-4. Their business and offer: what they sell, who it's for, what problem it solves, roughly what it costs, and where people buy or book.
-   - If they sell several things, help them pick **one main offer** that every video points to. A magnifying glass only starts a fire when the light is focused on one spot.
-   - No offer yet? That's totally fine. Ask: "What can you do, and what cool things have you done?"
-5. Skill check: what do people ask them about, or pay them for? What do they know better than most people around them?
-6. Proof: results they've gotten for themselves or for others. Numbers, before and after, client wins. Small is fine.
-7. What could they make 100 videos about without getting bored?
-8. What won't they make? (Topics, formats, showing their face or not.)
+- If they sell several things, help them pick **one main offer** that every video points to. A magnifying glass only starts a fire when the light is focused on one spot.
+- No offer yet? That's totally fine. Ask: "What can you do, and what cool things have you done?"
 
 Then:
 
@@ -78,7 +89,7 @@ Then:
 
 Context to share in one or two lines: the viewer avatar is a simple profile of the one person they make videos for. And their viewer is their customer: the person who watches is the person who buys, like the free samples at Costco. The questions come from Paddy Galloway's audience overview (Cluster, TAM, Personality), a YouTube strategist who's worked with MrBeast.
 
-Run the interview in `.claude/skills/viewer-avatar/SKILL.md` (steps 1 to 5), with these changes:
+Run the interview in `.claude/skills/viewer-avatar/SKILL.md` (steps 1 to 5). Its questions match `QUESTIONS.md`, Part 2. Changes:
 
 - If they already have customers, their avatar is their current customers. Ask for sales-call transcripts or customer emails first, and pull out their pains, their exact words and their objections.
 - If they're starting from scratch, ask for comments, Reddit threads or competitor videos instead.
@@ -107,7 +118,7 @@ Don't write specific video ideas yet. That's Chapter 2 (Ideation), and it'll use
 
 **Saves to:** `my-channel/brand-voice.md`. Read it first, and follow its headings.
 
-Ask if they want to do this now or later. If now, ask them to paste a voice-memo transcript, a post, an email, or part of a video transcript that sounds like them. If they have nothing, ask three quick questions, one at a time:
+If they did a voice dump, use it as the main sample: draft the guide from it, quoting their real phrases, and ask only what's still unclear. Otherwise, ask if they want to do this now or later. If now, ask them to paste a voice-memo transcript, a post, an email, or part of a video transcript that sounds like them. If they have nothing, ask three quick questions, one at a time:
 
 1. How would a friend describe the way they talk?
 2. Words or phrases they use a lot, and words they'd never use.
