@@ -18,6 +18,8 @@ You don't have to answer these one by one. The fastest way is to read through th
 
 **Tip:** do Part 1 and Part 2 in one go, or one part at a time if that's easier. You don't need to answer Part 3. Claude drafts it for you.
 
+**At the end,** Claude builds you a one-page visual of your viewer: who they are, why they watch, why they buy, and their journey from where they are to where they want to be.
+
 **Bonus:** the way you talk in your voice dump is the best sample of your voice there is. Claude uses it to start your brand voice guide.
 
 ---
@@ -54,7 +56,7 @@ You don't have to answer these one by one. The fastest way is to read through th
 
 ## Part 2: Your viewer (the viewer avatar)
 
-*The one person you make videos for, who's also your customer. Based on Paddy Galloway's audience overview: Cluster, TAM and Personality. Saves to `my-channel/viewer-avatar.md`.*
+*The one person you make videos for, who's also your customer. Based on Paddy Galloway's audience overview: Cluster, TAM and Personality. Saves to `my-channel/viewer-avatar.md` (why they watch) and `my-channel/customer-avatar.md` (why they buy).*
 
 - **Got material? Paste it in first.** It makes your avatar much better.
   - Have customers? Sales-call transcripts or customer emails.
@@ -85,6 +87,13 @@ You don't have to answer these one by one. The fastest way is to read through th
 - **The transformation**
   - Where are they now?
   - Where do they want to be?
+- **Why they buy** (your customer avatar; saves to `my-channel/customer-avatar.md`; no offer yet? skip this)
+  - What makes someone ready to buy from you?
+  - What have they usually watched or tried before they buy?
+  - What are their biggest worries before buying, and how do you answer them?
+  - What do they get when they buy?
+  - What does success look like after they buy? Their first win, and 90 days later?
+  - Got DMs, sales calls or testimonials from buyers? Paste them in.
 
 ## Part 3: Your lane (the overlap)
 

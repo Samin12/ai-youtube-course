@@ -28,10 +28,12 @@ And AI can only come up with good ideas if it knows who you're talking to and wh
 
 1. [`my-channel/about-me.md`](../../my-channel/about-me.md): your audit. Who you are, what you know, your proof.
 2. [`my-channel/offer.md`](../../my-channel/offer.md): your one main offer.
-3. [`my-channel/viewer-avatar.md`](../../my-channel/viewer-avatar.md): a one-page profile of your ideal viewer (and customer).
-4. [`my-channel/lane.md`](../../my-channel/lane.md): your lane, where your skills meet their problems.
-5. [`my-channel/brand-voice.md`](../../my-channel/brand-voice.md): how you sound (optional for now).
-6. A filled-in [`CLAUDE.md`](../../CLAUDE.md) that points to all of them.
+3. [`my-channel/viewer-avatar.md`](../../my-channel/viewer-avatar.md): a one-page profile of your ideal viewer. Why they watch.
+4. [`my-channel/customer-avatar.md`](../../my-channel/customer-avatar.md): the same person, from the buying side. Why they buy.
+5. [`my-channel/lane.md`](../../my-channel/lane.md): your lane, where your skills meet their problems.
+6. `my-channel/avatar-profile.html`: a one-page visual of your viewer, customer, transformation and lane. Claude builds it from the files above using [`templates/avatar-profile.html`](templates/avatar-profile.html).
+7. [`my-channel/brand-voice.md`](../../my-channel/brand-voice.md): how you sound (optional for now).
+8. A filled-in [`CLAUDE.md`](../../CLAUDE.md) that points to all of them.
 
 Want to see a finished avatar? Here's mine (still in progress): [`examples/samin/viewer-avatar.md`](../../examples/samin/viewer-avatar.md)
 
@@ -49,7 +51,9 @@ Want to see a finished avatar? Here's mine (still in progress): [`examples/samin
 6. **Save it.** Open [`my-channel/viewer-avatar.md`](../../my-channel/viewer-avatar.md) and replace everything inside with Claude's finished avatar.
 7. **Update your CLAUDE.md.** Paste Claude's 5-line summary into the "My viewer" part of [`CLAUDE.md`](../../CLAUDE.md).
 8. **Find your lane.** Read your audit and your avatar side by side (or ask Claude to). Write your lane in one sentence and 3–5 lane topics in [`my-channel/lane.md`](../../my-channel/lane.md).
-9. **Optional: make your brand voice guide.** Record a short voice memo (the prompt tells you what to talk about), get the transcript, and run [`prompts/brand-voice.md`](prompts/brand-voice.md). Save it in `my-channel/brand-voice.md`.
+9. **Add the customer side.** Answer the "Why they buy" questions in [`QUESTIONS.md`](../../QUESTIONS.md) and save them in [`my-channel/customer-avatar.md`](../../my-channel/customer-avatar.md).
+10. **See it on one page.** Ask Claude to fill in [`templates/avatar-profile.html`](templates/avatar-profile.html) from your files, save it as `my-channel/avatar-profile.html`, and open it.
+11. **Optional: make your brand voice guide.** Record a short voice memo (the prompt tells you what to talk about), get the transcript, and run [`prompts/brand-voice.md`](prompts/brand-voice.md). Save it in `my-channel/brand-voice.md`.
 
 **Using Claude Code?** Skip the copy and paste for the avatar. Open this folder in Claude Code and type `/viewer-avatar`. Claude runs the same interview and saves the file for you.
 

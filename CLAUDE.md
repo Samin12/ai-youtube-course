@@ -25,6 +25,8 @@ My full audit (background, skills, proof, what I'll make) is in this file: @my-c
 
 My full viewer avatar is in this file: @my-channel/viewer-avatar.md
 My viewer is also my customer: the person who watches is the person who buys.
+Why they buy (my customer avatar) is in this file: @my-channel/customer-avatar.md
+My viewer on one page (visual): `my-channel/avatar-profile.html`
 
 My viewer in 5 lines:
 

@@ -5,8 +5,10 @@
 > It gets you set up, then helps you build three things, so your AI knows who you are and who it's making videos for, every time:
 >
 > 1. **You** (an audit of who you are, your business, and what you know)
-> 2. **Your viewer** (your viewer avatar, who's also your customer)
+> 2. **Your viewer** (why they watch: your viewer avatar; and why they buy: your customer avatar)
 > 3. **Your lane** (where those two overlap)
+>
+> At the end, it builds a one-page visual of your viewer (who they are, why they watch, why they buy, and their journey) and opens it in your browser.
 >
 > All the questions are in [`QUESTIONS.md`](QUESTIONS.md). You can **talk through them all in one go** with voice (fastest), or have Claude ask them **one at a time**.
 >
@@ -42,7 +44,7 @@ You're the user's YouTube strategist and guide for this course. Many users are n
    - If Git isn't installed, download and unzip `https://github.com/Samin12/ai-youtube-course/archive/refs/heads/main.zip` there instead, and rename the folder to `ai-youtube-course`.
    - Work inside that folder from now on. Tell them where it is, so they can find it later.
 2. **Can you save files?** If you can't read or save files on their computer (a regular chat, or another AI tool), say so in one line. Then run the whole interview anyway, and at the end of each step, give them the finished file in a code block with the file name above it, so they can save it themselves.
-3. **Check progress.** Read `my-channel/about-me.md`, `my-channel/viewer-avatar.md`, `my-channel/lane.md` and `my-channel/brand-voice.md`. A file still full of [brackets] or empty fields isn't done yet. If some are done, tell them what's done and offer to continue from the next unfinished step.
+3. **Check progress.** Read `my-channel/about-me.md`, `my-channel/viewer-avatar.md`, `my-channel/customer-avatar.md`, `my-channel/lane.md` and `my-channel/brand-voice.md`. A file still full of [brackets] or empty fields isn't done yet. If some are done, tell them what's done and offer to continue from the next unfinished step.
 4. **Welcome them** in one short message:
    - "We're going to build three things together: you, your viewer, and your lane."
    - Why: "So every time I help you make a video, I already know who you are and who it's for. It's like the doc a new hire gets on day one."
@@ -72,11 +74,11 @@ You're the user's YouTube strategist and guide for this course. Many users are n
    - Do Parts 1 and 2 in one go, or one part at a time. Part 3 is on you (the AI).
    - If they have customer calls, emails, comments or Reddit threads, paste those too.
 3. **Wait for the dump.** If they send it in pieces, keep collecting until they say they're done.
-4. **Sort it.** Put every answer under the right heading in `my-channel/about-me.md`, `my-channel/offer.md` and `my-channel/viewer-avatar.md`. Keep their wording. Trim "1–2 words" answers to that length. Don't fill gaps with guesses yet. Save the files.
+4. **Sort it.** Put every answer under the right heading in `my-channel/about-me.md`, `my-channel/offer.md`, `my-channel/viewer-avatar.md` and `my-channel/customer-avatar.md` (why they watch goes in the viewer avatar, why they buy goes in the customer avatar). Keep their wording. Trim "1–2 words" answers to that length. Don't fill gaps with guesses yet. Save the files.
 5. **Show what you got,** per file, in a few short bullets. Then list what's missing or too vague, in one short list.
 6. **Fill the gaps, one question at a time,** using the same rules (example answers, push back on vague answers, "(guess)" labels, help with the TAM estimate). Skip anything they already covered. Save as you go.
-7. **Keep their dump.** It's the best sample of how they talk. Use it in Step 4.
-8. Then do the "Then" part of Step 1 (CLAUDE.md and the 3-line summary), the 5-line summary from Step 2, and carry on with Step 3 (your lane).
+7. **Keep their dump.** It's the best sample of how they talk. Use it in Step 5 (your voice).
+8. Then do the "Then" part of Step 1 (CLAUDE.md and the 3-line summary), the 5-line summary from Step 2, and carry on with Step 3 (your lane) and Step 4 (your visual profile). If they asked for things in their dump (like a TAM estimate or a lane draft), do those too.
 
 ### Step 1: You (the audit)
 
@@ -109,6 +111,15 @@ Run the interview in `.claude/skills/viewer-avatar/SKILL.md` (steps 1 to 5). Its
 - You already know their offer from Step 1, so fill the "Your offer" section from `my-channel/offer.md` instead of asking again.
 - Skip that skill's step 6 (wrap up). Come back here instead.
 
+Then the customer side, in the same interview style:
+
+**Saves to:** `my-channel/customer-avatar.md`. Read it first, and follow its headings.
+
+- One line of context: "Same person, now from the buying side. Your viewer avatar is why they watch. This is why they buy."
+- Ask the "Why they buy" questions in `QUESTIONS.md`, Part 2, one per message. Fill "What they buy" from `my-channel/offer.md` instead of asking again.
+- No offer yet? Skip this, and leave a note at the top of the file: "Fill this in once you have an offer."
+- Save the file.
+
 Transition: "Now let's put the two together."
 
 ### Step 3: Your lane (the overlap)
@@ -127,7 +138,26 @@ Your lane is where what they know meets what their viewer needs. Like a taco tru
 
 Don't write specific video ideas yet. That's Chapter 2 (Ideation), and it'll use this lane.
 
-### Step 4: Your voice (optional, about 5 minutes)
+### Step 4: Your visual profile
+
+**Saves to:** `my-channel/avatar-profile.html`.
+
+This turns their files into one page they can actually see: who their viewer is, why they watch, why they buy, the transformation journey, their words, and their lane.
+
+1. Copy `chapters/01-foundation/templates/avatar-profile.html` to `my-channel/avatar-profile.html`.
+2. In the copy, replace only the `DATA` object between `/* DATA START */` and `/* DATA END */`. Keep the same keys. Fill it from `about-me.md`, `offer.md`, `viewer-avatar.md`, `customer-avatar.md` and `lane.md`:
+   - Remove `"example": true`.
+   - `viewer.persona`: a short, memorable name for their viewer (for example, "The corporate AI upgrader"). `viewer.summary`: one sentence.
+   - `journey`: 4 stages from first video to first win, specific to them (finds you → starts to trust → buys → wins).
+   - Keep every item short: a few words, or one short sentence.
+   - Leave anything unknown as `""` or `[]`. The page hides empty fields. Never invent facts, numbers or quotes. Quotes in `words` must be real phrases from their material or their dump.
+3. Open it in their browser (Mac: `open my-channel/avatar-profile.html`; Windows: `start my-channel/avatar-profile.html`). If you can't run commands but can make artifacts, build the same page as an artifact with the same sections. Otherwise, skip this step.
+4. Say: "Here's your viewer on one page: who they are, why they watch, why they buy, and the journey from where they are to where they want to be."
+5. Ask if anything looks off, and fix the files and the page together.
+
+Anytime later, if they say "update my profile", rebuild this page from their latest files.
+
+### Step 5: Your voice (optional, about 5 minutes)
 
 **Saves to:** `my-channel/brand-voice.md`. Read it first, and follow its headings.
 
@@ -139,9 +169,9 @@ If they did a voice dump, use it as the main sample: draft the guide from it, qu
 
 Follow the rules in `chapters/01-foundation/prompts/brand-voice.md`: quote their real phrases and mark guesses. Save the file, and fill in "How I sound" in `CLAUDE.md`.
 
-### Step 5: Wrap up
+### Step 6: Wrap up
 
-1. Make sure `CLAUDE.md` points to every file with an @ line (about-me, viewer-avatar, offer, lane, brand-voice), and that the summary lines are filled in.
+1. Make sure `CLAUDE.md` points to every file with an @ line (about-me, offer, viewer-avatar, customer-avatar, lane, brand-voice), and that the summary lines are filled in.
 2. Tell them back, in 3 short bullets, who they are, who their viewer is, and what their lane is. Say: "This is what I'll remember every time you open this folder."
 3. Next steps:
    - Share it in the course community for feedback: [Community link]

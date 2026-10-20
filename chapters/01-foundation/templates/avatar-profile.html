@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>My viewer, on one page</title>
+<!--
+  HOW THIS WORKS
+  This page draws your viewer avatar, customer avatar and lane as a one-page visual.
+  Claude copies it to my-channel/avatar-profile.html and fills in only the DATA block below,
+  using your files in my-channel/. Empty fields are simply hidden.
+-->
+<script>
+/* DATA START */
+const DATA = {
+  "example": true,
+  "me": {
+    "name": "Jordan (example)",
+    "oneLine": "I help accountants use AI to win back their evenings.",
+    "goal": "Help 10,000 accountants work less with AI.",
+    "proof": ["Cut my own close process from 5 days to 2", "Trained 40 firms on AI workflows"]
+  },
+  "viewer": {
+    "persona": "The overworked accountant",
+    "summary": "A mid-career accountant who's buried in busywork and curious about AI, but doesn't know where to start.",
+    "niche": "AI for accountants",
+    "age": "30–50",
+    "countries": ["US", "Canada"],
+    "similarChannels": ["Accounting Stuff", "Jeff Su"],
+    "who": "Senior accountant or small-firm owner",
+    "like": ["Practical tutorials", "Templates", "Saving time"],
+    "dislike": ["Hype", "Jargon", "Long intros"],
+    "comeFor": "Step-by-step AI workflows they can use on Monday",
+    "vibe": "Skeptical but curious",
+    "stuck": ["Too many AI tools", "No time to learn", "Worried about accuracy"],
+    "tried": ["ChatGPT for emails", "A course they never finished"],
+    "words": ["I'm drowning in reconciliations", "Is AI even safe for client data?"],
+    "online": ["YouTube", "LinkedIn", "r/Accounting"],
+    "offline": ["CPA meetups", "Firm offices"],
+    "now": "Working late every month-end, using AI a little",
+    "want": "Home by 6, with AI doing the busywork"
+  },
+  "customer": {
+    "offer": "AI Workflow Academy",
+    "price": "$49/month",
+    "triggers": ["Watched 5+ videos", "Tried one workflow and it worked"],
+    "objections": ["Is it too technical?", "Do I have time?"],
+    "gets": ["Weekly workflows", "Templates", "Live Q&A"],
+    "success": ["First workflow live in week one", "Month-end in half the time"],
+    "words": ["Saved me 6 hours this week"]
+  },
+  "journey": [
+    {"stage": "Finds you", "text": "Searches for a fix and finds your video"},
+    {"stage": "Starts to trust", "text": "Watches a few more, tries one workflow"},
+    {"stage": "Buys", "text": "Joins to go faster with people like them"},
+    {"stage": "Wins", "text": "Month-end in half the time"}
+  ],
+  "tam": {"estimate": "1,500,000", "avgViews": "2,000", "percent": "0.13%"},
+  "lane": {
+    "sentence": "I help overworked accountants go from late nights to home by 6, using AI workflows I've tested on real books.",
+    "topics": [
+      {"name": "AI for month-end close", "why": "Their biggest time sink"},
+      {"name": "Client emails on autopilot", "why": "Hours back every week"},
+      {"name": "Safe AI for client data", "why": "Their biggest worry"}
+    ],
+    "notLane": ["Crypto", "Get-rich-quick"]
+  }
+};
+/* DATA END */
+</script>
+<style>
+  :root { --bg:#f5f0e8; --card:#fffdf9; --ink:#1f1e1d; --muted:#6b6560; --line:#e6ddd0; --clay:#c96442; --clay-soft:#f3e2d8; --sage:#5f7a61; --sage-soft:#e3ebe1; }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--ink); font:17px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; }
+  .wrap { max-width:1180px; margin:0 auto; padding:44px 28px 64px; }
+  h1,h2,h3 { font-family: ui-serif, "Iowan Old Style", Georgia, "Times New Roman", serif; font-weight:500; letter-spacing:-0.01em; margin:0; }
+  .eyebrow { color:var(--clay); font-weight:600; font-size:13px; letter-spacing:.08em; text-transform:uppercase; margin-bottom:10px; }
+  .banner { background:var(--clay-soft); color:#8a4a33; border-radius:12px; padding:10px 14px; font-size:15px; margin-bottom:18px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:18px; padding:24px 26px; }
+  .grid2 { display:grid; grid-template-columns:1fr 1fr; gap:18px; margin-top:18px; }
+  .grid3 { display:grid; grid-template-columns:repeat(3,1fr); gap:18px; margin-top:18px; }
+  .hero { display:grid; grid-template-columns:auto 1fr; gap:26px; align-items:center; }
+  .avatar { width:112px; height:112px; border-radius:50%; background:var(--clay); color:#fff; display:flex; align-items:center; justify-content:center; font:500 46px ui-serif, Georgia, serif; }
+  .hero h1 { font-size:42px; line-height:1.1; margin:2px 0 8px; }
+  .hero p { margin:0; color:var(--muted); font-size:19px; max-width:760px; }
+  .chips { display:flex; flex-wrap:wrap; gap:8px; margin-top:14px; }
+  .chip { background:#fff; border:1px solid var(--line); border-radius:999px; padding:4px 12px; font-size:14px; }
+  .chip b { color:var(--muted); font-weight:500; margin-right:4px; }
+  h2 { font-size:26px; margin-bottom:12px; }
+  h3 { font-size:18px; margin:16px 0 6px; color:var(--muted); }
+  ul.dots { margin:0; padding-left:20px; }
+  ul.dots li { margin:3px 0; }
+  .side-watch { border-top:5px solid var(--sage); }
+  .side-buy { border-top:5px solid var(--clay); }
+  .label { display:inline-block; font-size:12px; font-weight:700; letter-spacing:.06em; text-transform:uppercase; border-radius:999px; padding:3px 10px; margin-bottom:8px; }
+  .side-watch .label { background:var(--sage-soft); color:var(--sage); }
+  .side-buy .label { background:var(--clay-soft); color:var(--clay); }
+  .journey { display:grid; grid-template-columns: 1fr auto 1fr; gap:18px; align-items:stretch; margin-top:6px; }
+  .end { border-radius:14px; padding:16px 18px; }
+  .end.now { background:#efe9e0; }
+  .end.want { background:var(--sage-soft); }
+  .end small { display:block; font-size:12px; font-weight:700; letter-spacing:.06em; text-transform:uppercase; color:var(--muted); margin-bottom:4px; }
+  .end p { margin:0; font:500 20px/1.3 ui-serif, Georgia, serif; }
+  .steps { display:flex; align-items:center; gap:0; }
+  .steps ol { list-style:none; margin:0; padding:0; display:flex; gap:10px; }
+  .step { width:150px; background:#fff; border:1px solid var(--line); border-radius:12px; padding:10px 12px; font-size:14px; position:relative; }
+  .step strong { display:block; color:var(--clay); font-size:13px; margin-bottom:2px; }
+  .arrow { color:var(--clay); font-size:22px; padding:0 4px; align-self:center; }
+  .quotes { display:flex; flex-wrap:wrap; gap:10px; }
+  .quote { background:#fff; border:1px solid var(--line); border-radius:16px 16px 16px 4px; padding:10px 14px; font:italic 17px ui-serif, Georgia, serif; }
+  .tam .bar { height:12px; background:var(--line); border-radius:999px; overflow:hidden; margin:10px 0 6px; }
+  .tam .fill { height:100%; background:var(--clay); min-width:6px; }
+  .big { font:500 30px ui-serif, Georgia, serif; }
+  .muted { color:var(--muted); font-size:15px; }
+  .lane-sentence { font:500 24px/1.35 ui-serif, Georgia, serif; margin:0 0 14px; }
+  .topic { background:#fff; border:1px solid var(--line); border-radius:14px; padding:14px 16px; }
+  .topic strong { display:block; margin-bottom:4px; }
+  .topics { display:grid; grid-template-columns:repeat(auto-fit,minmax(220px,1fr)); gap:12px; }
+  .not { margin-top:12px; }
+  .not .chip { text-decoration:line-through; color:var(--muted); }
+  footer { margin-top:28px; color:var(--muted); font-size:14px; text-align:center; }
+  @media (max-width:900px) { .grid2,.grid3,.journey { grid-template-columns:1fr; } .steps ol { flex-wrap:wrap; } .arrow { display:none; } .hero { grid-template-columns:1fr; } }
+  @media print { body { background:#fff; } .card { break-inside:avoid; } }
+</style>
+</head>
+<body>
+<div class="wrap" id="app"></div>
+<script>
+(function () {
+  const D = DATA, v = D.viewer || {}, c = D.customer || {}, me = D.me || {}, lane = D.lane || {}, tam = D.tam || {};
+  const esc = s => String(s == null ? '' : s).replace(/[&<>"]/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[ch]));
+  const has = x => Array.isArray(x) ? x.filter(Boolean).length > 0 : !!(x && String(x).trim());
+  const list = (arr) => has(arr) ? '<ul class="dots">' + arr.filter(Boolean).map(i => '<li>' + esc(i) + '</li>').join('') + '</ul>' : '';
+  const block = (title, body) => body ? '<h3>' + esc(title) + '</h3>' + body : '';
+  const chip = (k, val) => has(val) ? '<span class="chip"><b>' + esc(k) + '</b>' + esc(Array.isArray(val) ? val.join(', ') : val) + '</span>' : '';
+  const chips = arr => has(arr) ? '<div class="chips">' + arr.filter(Boolean).map(i => '<span class="chip">' + esc(i) + '</span>').join('') + '</div>' : '';
+  const initial = (v.persona || me.name || '?').trim().replace(/^(the|a|an)\s+/i, '').charAt(0).toUpperCase();
+  let h = '';
+
+  if (D.example) h += '<div class="banner">This is an example. Run onboarding and Claude fills it in with your real viewer.</div>';
+
+  h += '<div class="eyebrow">' + esc(me.name ? me.name + "'s viewer" : 'My viewer') + ' · on one page</div>';
+  h += '<section class="card hero"><div class="avatar">' + esc(initial) + '</div><div>';
+  h += '<h1>' + esc(v.persona || 'My viewer') + '</h1>';
+  if (has(v.summary)) h += '<p>' + esc(v.summary) + '</p>';
+  h += '<div class="chips">' + chip('Niche', v.niche) + chip('Age', v.age) + chip('Where', v.countries) + chip('Who', v.who) + chip('Vibe', v.vibe) + '</div>';
+  h += '</div></section>';
+
+  // Why they watch / why they buy
+  const watch = block('They come to you for', has(v.comeFor) ? '<p style="margin:0">' + esc(v.comeFor) + '</p>' : '') + block("Where they're stuck", list(v.stuck)) + block("What they've tried", list(v.tried)) + block('They like', chips(v.like)) + block("They don't like", chips(v.dislike));
+  const buy = block('What makes them buy', list(c.triggers)) + block('Worries before buying', list(c.objections)) + block('What they get' + (has(c.offer) ? ' from ' + c.offer : '') + (has(c.price) ? ' (' + c.price + ')' : ''), list(c.gets)) + block('What success looks like', list(c.success));
+  if (watch || buy) {
+    h += '<div class="grid2">';
+    h += '<section class="card side-watch"><span class="label">Viewer avatar</span><h2>Why they watch</h2>' + (watch || '<p class="muted">Not filled in yet.</p>') + '</section>';
+    h += '<section class="card side-buy"><span class="label">Customer avatar</span><h2>Why they buy</h2>' + (buy || '<p class="muted">Not filled in yet.</p>') + '</section>';
+    h += '</div>';
+  }
+
+  // Transformation journey
+  if (has(v.now) || has(v.want) || has(D.journey)) {
+    h += '<section class="card" style="margin-top:18px"><h2>The transformation</h2><div class="journey">';
+    h += '<div class="end now"><small>Where they are now</small><p>' + esc(v.now || '') + '</p></div>';
+    h += '<div class="steps">';
+    if (has(D.journey)) {
+      h += '<ol>' + D.journey.map((s, i) => (i ? '<li class="arrow">→</li>' : '') + '<li class="step"><strong>' + (i + 1) + '. ' + esc(s.stage) + '</strong>' + esc(s.text) + '</li>').join('') + '</ol>';
+    } else { h += '<span class="arrow">→</span>'; }
+    h += '</div>';
+    h += '<div class="end want"><small>Where they want to be</small><p>' + esc(v.want || '') + '</p></div>';
+    h += '</div></section>';
+  }
+
+  // Words, hangouts, TAM
+  const words = [].concat(v.words || [], c.words || []).filter(Boolean);
+  const hang = chips([].concat(v.online || [], v.offline || []));
+  h += '<div class="grid3">';
+  h += '<section class="card"><h2>In their words</h2>' + (words.length ? '<div class="quotes">' + words.map(w => '<span class="quote">"' + esc(w.replace(/^"|"$/g, '')) + '"</span>').join('') + '</div>' : '<p class="muted">Paste real comments, DMs or call notes to fill this in.</p>') + '</section>';
+  h += '<section class="card"><h2>Where they hang out</h2>' + (hang || '<p class="muted">Not filled in yet.</p>') + block('Channels they already watch', chips(v.similarChannels)) + '</section>';
+  const pct = parseFloat(String(tam.percent || '').replace(/[^0-9.]/g, ''));
+  h += '<section class="card tam"><h2>How big is the pond?</h2>' + (has(tam.estimate) ? '<div class="big">' + esc(tam.estimate) + '</div><div class="muted">people who could want this (estimate)</div>' : '<p class="muted">Not estimated yet.</p>');
+  if (has(tam.avgViews)) h += '<div class="bar"><div class="fill" style="width:' + (isNaN(pct) ? 0 : Math.min(100, pct)) + '%"></div></div><div class="muted">' + esc(tam.avgViews) + ' average views' + (has(tam.percent) ? ' · reaching ' + esc(tam.percent) : '') + '</div>';
+  h += '</section></div>';
+
+  // Lane
+  if (has(lane.sentence) || has(lane.topics)) {
+    h += '<section class="card" style="margin-top:18px"><h2>Your lane</h2>';
+    if (has(lane.sentence)) h += '<p class="lane-sentence">' + esc(lane.sentence) + '</p>';
+    if (has(lane.topics)) h += '<div class="topics">' + lane.topics.map(t => '<div class="topic"><strong>' + esc(t.name) + '</strong><span class="muted">' + esc(t.why || '') + '</span></div>').join('') + '</div>';
+    if (has(lane.notLane)) h += '<div class="not"><span class="muted">Not in my lane:</span> ' + chips(lane.notLane) + '</div>';
+    h += '</section>';
+  }
+
+  // About me strip
+  if (has(me.oneLine) || has(me.goal) || has(me.proof)) {
+    h += '<section class="card" style="margin-top:18px"><h2>What you bring</h2>';
+    if (has(me.oneLine)) h += '<p class="lane-sentence" style="font-size:20px">' + esc(me.oneLine) + '</p>';
+    h += block('My goal', has(me.goal) ? '<p style="margin:0">' + esc(me.goal) + '</p>' : '') + block('My proof', list(me.proof));
+    h += '</section>';
+  }
+
+  h += '<footer>Built from my-channel/about-me.md, offer.md, viewer-avatar.md, customer-avatar.md and lane.md. Ask Claude to "update my profile" after you change them.</footer>';
+  document.getElementById('app').innerHTML = h;
+})();
+</script>
+</body>
+</html>

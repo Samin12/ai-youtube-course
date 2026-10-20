@@ -9,7 +9,7 @@ You'll learn how to use YouTube to grow your business. AI does most of the heavy
 
 ## Start here: copy this prompt
 
-This one prompt sets everything up for you. Then Claude interviews you, one question at a time, and builds your first files: **you** (an audit of who you are and what you know), **your viewer** (your viewer avatar), and **your lane** (where the two overlap). It takes about 30 minutes.
+This one prompt sets everything up for you. Then Claude builds your first files with you: **you** (an audit of who you are and what you know), **your viewer** (why they watch, and why they buy), and **your lane** (where the two overlap). At the end, it makes a one-page visual of your viewer and opens it in your browser. It takes about 30 minutes.
 
 1. **Get Claude.** Download the Claude desktop app from [claude.ai/download](https://claude.ai/download) and sign in. I recommend the Opus model.
 2. **Open the Code tab** in the desktop app and choose a folder. If you downloaded this course already, pick its folder. If not, pick your Documents folder, and Claude will download the course for you.
@@ -98,7 +98,8 @@ ONBOARDING.md      The steps Claude follows when you paste the onboarding prompt
 QUESTIONS.md       Every onboarding question in one list. Read it, then talk through it.
 questions.html     The same questions as a visual checklist. Claude opens it when onboarding starts.
 chapters/          One folder per chapter. Each has a README, prompts, and sometimes templates.
-my-channel/        Your channel files: about me, viewer avatar, offer, lane, brand voice, funnel map. Fill these in once.
+my-channel/        Your channel files: about me, offer, viewer avatar, customer avatar, lane, brand voice, funnel map,
+                   plus avatar-profile.html, a one-page visual of your viewer. Fill these in once.
 my-video/          The video you're making. One file per stage, filled in as you go.
 examples/samin/    My filled-in examples, so you can see what "done" looks like.
 .claude/skills/    The same steps as Claude skills (saved instructions Claude can run for you).
