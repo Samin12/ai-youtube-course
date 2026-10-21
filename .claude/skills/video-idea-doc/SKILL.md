@@ -5,7 +5,7 @@ description: Research a video idea and write a short, one-page video idea doc (t
 
 # Video idea doc
 
-One short doc per video idea, so several ideas can be compared side by side in a minute. Short beats complete: every line earns its place. Example of a finished doc: `examples/samin/video-idea-doc-ai-trader.md`. Blank template: `videos/_template/01-idea.md`.
+One short doc per video idea, so several ideas can be compared side by side in a minute. Short beats complete: every line earns its place. Example of a finished doc, copied exactly from Samin's card: `example.md` in this folder (also at `examples/samin/video-idea-doc-ai-trader.md`). Match its format and length. Blank template: `videos/_template/01-idea.md`.
 
 ## Before you start
 

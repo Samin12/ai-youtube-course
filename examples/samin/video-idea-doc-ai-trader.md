@@ -1,7 +1,6 @@
-> Example video idea doc for Samin's channel (researched Oct 21, 2026 with the Poppy MCP). Numbers were real on that date.
+> Example video idea doc for Samin's channel, copied exactly from the Heptabase card (researched Oct 21, 2026 with the Poppy MCP). Numbers were real on that date.
 
-# Idea doc: The self-updating AI trader (Claude + Hermes + Quiver)
-
+# Idea doc v3: The self-updating AI trader (Claude + Hermes + Quiver)
 - **Topic:** an AI trader that follows what Congress, insiders and hedge funds buy, trades on its own, and gets smarter every week
 - **Idea:** connect Claude to Quiver with the new one-click connector, link a paper broker, then move the brain into Hermes so it trades without me, reviews its own trades, and rewrites its strategy
 - **Unique angle**
@@ -36,7 +35,7 @@
   - **Level 1: Connect Claude to Quiver and get the data**
     - One click from Claude's connector directory, then "Do you have access to Quiver?"
     - Ask what Congress, insiders and hedge funds bought in the last 30 days
-    - Turn it into rules: STRATEGY.md
+    - Turn it into rules: [STRATEGY.md](http://STRATEGY.md)
   - **Level 2: Place the trades**
     - Link a broker in paper mode (Liquid or Alpaca), since Quiver is the data, not the broker
     - Claude proposes a trade from the rules
@@ -44,7 +43,7 @@
   - **Level 3: Let Hermes run it on its own**
     - Hermes on a server (Hostinger), Claude as the brain, Telegram for updates
     - Same connections and rules, with limits: max per trade, stop-loss, paper first
-    - Every week it reviews its trades and rewrites STRATEGY.md (show v1 vs v2)
+    - Every week it reviews its trades and rewrites [STRATEGY.md](http://STRATEGY.md) (show v1 vs v2)
     - You stay in control: limits, pause, revoke anytime
   - **CTA END:** watch my 1.8M video next
 
