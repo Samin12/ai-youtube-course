@@ -30,7 +30,7 @@ This course folder is the user's content operating system. Every video gets its 
    >
    > **First up: Ideation.**
 
-7. **Start Stage 1.** Follow `chapters/02-ideation/README.md` and its prompts, using their `CLAUDE.md` and `my-channel/` files. Save the result in the video's `01-idea.md`. If they already have a firm idea, check it against their viewer and lane instead, and save it.
+7. **Start Stage 1.** Run the `video-idea-doc` skill (`.claude/skills/video-idea-doc/SKILL.md`) to research the idea and fill in the video's `01-idea.md`, using their `CLAUDE.md` and `my-channel/` files. If they already have a firm idea, research that one; if not, research 2–3 candidates as separate docs so they can compare.
 
 ## Running each stage
 

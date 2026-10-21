@@ -18,7 +18,7 @@
 
 ## What you'll build
 
-[`videos/<your-video>/01-idea.md`](../../videos/_template/01-idea.md): one idea, with proof people want it and how it leads to your offer.
+[`videos/<your-video>/01-idea.md`](../../videos/_template/01-idea.md): a one-page **video idea doc**: topic, unique angle, why it'll work, TAM analysis, title and thumbnail, outline, and research links. Say "make a video idea doc" and Claude researches it for you (skill: `video-idea-doc`). See a finished one: [`examples/samin/video-idea-doc-ai-trader.md`](../../examples/samin/video-idea-doc-ai-trader.md).
 
 ## Steps
 

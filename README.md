@@ -119,7 +119,7 @@ Inside each chapter:
 
 **Making a video?** Open this folder in Claude and say **"make a new video."** Claude makes the next numbered folder in `videos/` (like `videos/001-my-first-video/`), writes the brief, and starts Ideation with you. Say **"continue my video"** to pick up where you left off, or **"show my videos"** to see them all. More in [`videos/README.md`](videos/README.md).
 
-**Skills** work in Claude Code, the version of Claude that can read and save files on your computer (the Code tab in the desktop app). Type `/onboarding` to run the whole onboarding, `/new-video` to start a video, or `/viewer-avatar` to run just the viewer avatar interview. You can also just ask in plain English, like "make a new video."
+**Skills** work in Claude Code, the version of Claude that can read and save files on your computer (the Code tab in the desktop app). Type `/onboarding` to run the whole onboarding, `/new-video` to start a video, `/video-idea-doc` to research an idea into a one-page doc, or `/viewer-avatar` to run just the viewer avatar interview. You can also just ask in plain English, like "make a new video."
 
 **Can't see the `.claude` folder?** Folders that start with a dot are hidden. On a Mac, press **Cmd + Shift + .** in Finder to show them. On Windows, turn on **View > Hidden items** in File Explorer.
 

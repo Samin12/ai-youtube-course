@@ -1,35 +1,37 @@
-# 1. Idea
+# 1. Idea doc: [working title]
 
-> Stage 1 of 8. Fill this in with Chapter 2: `chapters/02-ideation/README.md`.
+> Stage 1 of 8. Say "make a video idea doc" and Claude researches the idea and fills this in (skill: `video-idea-doc`). Guide: `chapters/02-ideation/README.md`. Example: `examples/samin/video-idea-doc-ai-trader.md`.
 
-## My idea
+- **Topic:**
+- **Idea:**
+- **Unique angle**
+  -
 
-- **Working title:**
-- **The problem it solves for my viewer (in their words):**
-- **How it leads to my offer:**
+- **Why it'll work:**
+- **TAM analysis**
+  - Floor:
+  - Ceiling:
+  - My typical video:
+  - My expected range:
+  - Watch out:
 
-## Proof people want it
+- **Title:**
+  - Backups:
+- **Thumbnail:**
 
-| Outlier video | Channel | Views | Channel's average views |
-|---|---|---|---|
-| | | | |
-| | | | |
-| | | | |
+- **Outline**
+  - **Intro**
+  - **Why this matters**
+  - **Level 1:**
+  - **Level 2:**
+  - **Level 3:**
+  - **CTA END:**
 
-- **Floor (what a decent video on this gets):**
-- **Ceiling (what the best one gets):**
-- **How I'll raise the ceiling:**
-- **Bigger demand it stacks on (optional):**
-- **Format I'm borrowing, and why it worked (optional):**
+- **Research links**
+  -
 
-## Idea filter
-
-- [ ] I can make it
-- [ ] A stranger would care
-- [ ] 80% of my audience would care
-- [ ] I can package it (title + thumbnail)
-- [ ] I'm at least 7/10 excited
-- [ ] It's mine, not a clone
+- **Make it ours:**
+- **Sponsor:**
 
 ## Running list of other ideas
 
