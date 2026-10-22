@@ -1,10 +1,10 @@
 # Video one-pager: Claude + Hermes Just Changed the Stock Market Forever! (Tutorial)
 
-**Package:** "Claude + Hermes Just Changed the Stock Market Forever! (Tutorial)" · thumbnail: Claude Trader 2.0 · Claude + Hermes logos · Runs Itself
-**The promise:** "Claude Trader is back and upgraded. With Hermes it now runs itself, and this tutorial shows you how to set it up."
-**Format:** tutorial, season two of my 1.8M video · **Circle:** anyone into AI and the stock market · **Slice:** a trading agent that runs itself and rewrites its own strategy every week
-**The video must show:** the bot trading without me tapping Confirm, the weekly review rewriting STRATEGY.md (v1 vs v2), and every setup step to get there
-**What breaks the promise:** the "runs itself" moment shows up too late, or we never say why it changes trading for regular people
+**Packages (testing):** (1) "Build a Self Learning Claude Trading Bot" · CLAUDE TRADER + IT'S INSANE · (2) "Claude + Hermes = Self Improving Trading Agent" · SELF-IMPROVING · (3) "I Gave Claude a Trading Account... What Happened Is Insane" · CLAUDE TRADER + IT'S INSANE · (4) "Claude + Hermes Just Changed the Stock Market Forever! (Tutorial)" · Claude Trader 2.0 + Runs Itself
+**The promise (true for all four):** "Claude can now trade for you on its own and get smarter every week. I'll show you what happened when I let it, and how to set up your own."
+**Format:** a tutorial with the result up front: what happened first, then how to build it · **Circle:** anyone into AI and the stock market · **Slice:** a trading agent that runs itself and gets smarter every week
+**The video must show:** the result (what happened), the bot trading without me tapping Confirm, the weekly review rewriting STRATEGY.md (v1 vs v2), and every setup step to get there
+**What breaks the promise:** paper money under "trading account" (say "paper" in the hook), a so-so result after "it's insane", or the "runs itself" moment showing up too late
 
 **Video idea:** Connect Claude to Quiver with the new one-click connector, link a paper broker, then move the brain into Hermes so it trades without me, reviews its own trades, and rewrites its strategy.
 **Goal of video:** Someone who's never built a trading bot walks away with an agent trading a paper account on its own, and getting smarter every week.
@@ -18,7 +18,7 @@
 - [The bot's real result: days running, trades, P&L on paper]
 
 ## Intro
-- Hook: Claude can now see what Congress, insiders and hedge funds are buying, place the trade, and with one more piece, do it all on its own while you sleep
+- Hook: I gave Claude a paper trading account and let it trade on its own. With Hermes, it runs 24/7, and every week it reviews its own trades and rewrites its strategy. Here's what happened, and how to set up your own. [show the account and the result]
 - Proof: my first video on this got 1.8M views. [My bot's been running X days]
 - Setup: 3 levels: (1) connect it, (2) place the trades, (3) make it run itself
 

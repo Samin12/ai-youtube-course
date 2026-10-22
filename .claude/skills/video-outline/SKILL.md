@@ -22,9 +22,9 @@ The outline is where a video gets its structure. People learn when they can foll
    - **Slice:** the one specific thing this video goes deep on.
    - **The video must show:** what has to be on screen for the promise to be kept. (These are the acceptance criteria: what has to be true by the end for the title to be true. *Jake Trinder*)
    - **What breaks the promise:** e.g. a so-so result under "it's insane", paper money under "I gave Claude a trading account", or the payoff shows up too late.
-   - Several packages still in play? Do this for each one, side by side, and say which one the outline is built on. Same video, different package = a different promise, hook and format.
+   - Testing several packages? Don't write a promise per package. Find what they all share and write one broad promise that's true for every one of them. The hook keeps it, so whichever package wins the test, the viewer lands in the right place.
 2. **Map the levels of awareness.** Who's inside the circle: never heard of it → heard of it, never tried it → tried it, got stuck → uses it, wants more. The less aware groups are the biggest. So the levels go easy to hard: Level 1 is a quick win for beginners, Level 2 goes further, Level 3 is the advanced payoff. Everyone stays.
-3. **Intro.** Hook: the outcome in one line that matches the title and thumbnail (first line = the title, first shot = the thumbnail). Proof: one line. Setup: "3 levels: …", the route.
+3. **Intro.** Hook: keeps the promise in the first 30 seconds and hits every part of it (first line = the title, first shot = the thumbnail). Proof: one line. Setup: "3 levels: …", the route.
 4. **Why this matters.** 3 points, before any how-to. Each point is a bold one-liner plus its analogy or story. No demos here.
 5. **Levels 1–3.** Each level is something concrete the viewer does. 2–5 points per level. Every point is built the same way:
    - a bold one-liner (the point)
@@ -42,8 +42,8 @@ The outline is where a video gets its structure. People learn when they can foll
 ```
 # Video one-pager: <working title>
 
-**Package:** "<title>" · thumbnail: <text · elements>
-**The promise:** "<one sentence, in the viewer's words>"
+**Package:** "<title>" · thumbnail: <text · elements> (testing several? list each one)
+**The promise:** "<one sentence, in the viewer's words, true for every package>"
 **Format:** … · **Circle:** … · **Slice:** …
 **The video must show:** …
 **What breaks the promise:** …
