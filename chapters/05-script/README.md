@@ -8,6 +8,11 @@ The title and thumbnail made a promise. The script keeps it. Viewers arrive with
 
 ## What you'll learn
 
+- **Write the promise first.** Your title and thumbnail make one promise. Write it in one sentence, in the viewer's words, then list what the video must show to keep it. Same video, different package: a different promise, hook and format.
+- **Package the whole circle, go deep on one slice.** A fitness magazine cover says "Get in the best shape of your life," and almost anyone picks it up. Inside, it's one 20-minute workout. The package reaches the most people; the video goes deep on one thing. ![The whole circle](images/1-package-the-whole-circle.png) ![One slice](images/2-go-deep-on-one-slice.png)
+- **Levels.** Like a ski resort: same mountain, green runs to black diamonds. A broad package brings in every level at once, so the video goes easy to hard: Level 1 is a quick win for beginners, Level 3 is the advanced payoff. ![Levels structure](images/3-script-structure-levels.png)
+- **People need to be reminded more than they need to be taught.** Pilots still read the checklist before every flight. Repeat the basics in every video.
+- **Inside every point.** Set up → analogy → explain → example → how-to → transition. Feel it first, then use it. One analogy per point, never two. ![Inside every point](images/4-inside-every-point.png)
 - **Outline first, using acceptance criteria.** In software, acceptance criteria are the checklist that must pass before a feature counts as done. Treat your title the same way: "What has to be true by the end for the title to be true?" That list is your points. *(Jake Trinder)*
 - **The hook (first 5–30 seconds) and the 4 P's.** Promise: is this what I clicked for? Proof: why should I listen to you? (one proof line you reuse every video) Plan: how are you getting me there? Persona: is this for me? *(Jake Trinder)*
 - **Match the click.** First sentence matches the title, first shot matches the thumbnail. *(Aprilynne Alter)* Never open with "sup guys, hit like": that's about 30 seconds gone. *(Jon Dorman)*
@@ -20,11 +25,11 @@ The title and thumbnail made a promise. The script keeps it. Viewers arrive with
 
 ## What you'll build
 
-[`videos/<your-video>/04-script.md`](../../videos/_template/04-script.md): your outline and script. The full structure, with notes, is in [`templates/script-architecture.md`](templates/script-architecture.md).
+[`videos/<your-video>/04-script.md`](../../videos/_template/04-script.md): your one-page outline (the one-pager), then your script. Say "make the outline" and Claude writes the one-pager from your idea doc and package (skill: `video-outline`). See a finished one: [`examples/samin/video-one-pager-ai-trader.md`](../../examples/samin/video-one-pager-ai-trader.md), and the one behind my 1.8M video: [`examples/samin/video-one-pager-stock-market.md`](../../examples/samin/video-one-pager-stock-market.md). The full structure, with notes, is in [`templates/script-architecture.md`](templates/script-architecture.md).
 
 ## Steps
 
-1. **Outline.** Run [`prompts/acceptance-criteria-outline.md`](prompts/acceptance-criteria-outline.md). It turns your title and research outline into must-be-true points.
+1. **Outline.** Say **"make the outline"** (skill: `video-outline`). Claude writes the promise first, then the one-pager: Intro, Why this matters, Levels 1–3, CTA. No Claude Code? Run [`prompts/acceptance-criteria-outline.md`](prompts/acceptance-criteria-outline.md); it turns your title and research outline into must-be-true points.
 2. **Hooks.** Run [`prompts/hook-variations.md`](prompts/hook-variations.md). Pick one and check it hits all 4 P's. *(Nate Curtiss)*
 3. **Draft in your voice.** Run [`prompts/draft-script.md`](prompts/draft-script.md). Feed it your past transcripts and your brain dump from Research, so it doesn't sound like generic AI.
 4. **Add transitions and an analogy for every point.**
