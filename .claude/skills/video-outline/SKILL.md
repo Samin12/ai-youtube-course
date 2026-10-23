@@ -1,6 +1,6 @@
 ---
 name: video-outline
-description: Build a video's one-page outline (the one-pager) with the user, as a session. Checks the idea doc and package, interviews them (one question at a time, or all at once by voice) to get their brain dump, organizes it in their words into 02-research.md and their Poppy board, then writes the one-pager (promise first, then Intro, Why this matters, Levels 1–3 and CTA) in the exact format of example.md and puts it on the board too. Use when the user says "outline this", "make the outline", "make the one-pager", "plan the video", "brain dump my video", "write the outline for my video", or at the start of Stage 4 (Script). Also folds the user's notes into an outline they paste back.
+description: Build a video's one-page outline (the one-pager) with the user, as a session. Checks the idea doc and package, interviews them (one question at a time, or all at once by voice) to get their brain dump, organizes it in their words into 02-research.md and their Poppy board, then writes the one-pager (promise first, then Intro, Why this matters, Levels 1–3 and CTA) in the exact format of example.md and puts it on the board too. Use when the user says "outline this", "make the outline", "make the one-pager", "plan the video", "brain dump my video", "write the outline for my video", or at the start of Stage 4 (Outline + script). Also folds the user's notes into an outline they paste back.
 ---
 
 # Video outline (the one-pager)

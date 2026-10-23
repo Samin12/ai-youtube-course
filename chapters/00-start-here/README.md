@@ -12,7 +12,7 @@ This chapter shows you how the course works and gets your tools ready. Once it's
 - **The self-driving car.** The car does most of the driving, but you're still in the driver's seat, and you still need to know how to drive so you can grab the wheel. AI is the same. You learn how each stage works so you can judge what the AI gives you.
 - **Tools change, concepts don't.** Tools change every month. If something breaks or updates, you'll know how to rebuild it.
 - **My process.** Know your viewer. Know your business and your offer. Then pick ideas your viewer wants that also lead back to your offer.
-- **The 8 stages.** Every video goes through the same stages: Ideation → Research → Packaging → Script → Film → Edit → Repurpose → Publish. Then we turn views into customers (Funnel) and put it all on autopilot.
+- **The 8 stages.** Every video goes through the same stages: Ideation → Research → Packaging → Outline + script → Film → Edit → Repurpose → Publish. Then we turn views into customers (Funnel) and put it all on autopilot.
 - **Every chapter has the same shape.** Why it matters → concepts → do it → check it → tips.
 - **Model vs. harness.** The model is the engine: the part that thinks and writes (like Claude Opus, GPT or Gemini). The harness is the car built around it: the app you use (the Claude app, ChatGPT, Claude Code). The harness decides whether the AI can read your files and remember you.
 - **Web vs. desktop.** The web version of Claude is great for chatting, with nothing to install. The desktop app can open the course folder on your computer, so that's what we use.

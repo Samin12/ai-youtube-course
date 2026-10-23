@@ -12,7 +12,7 @@ Because you did every stage by hand, you know what good looks like, and you'll k
 - **Scheduled tasks.** Agents that run on a timer, like "every morning, find new outliers in my niche."
 - **MCPs and connectors.** How agents reach your tools, like Poppy, Borumi and Blotato. (We met these in the Edit chapter.)
 - **The board is the system.** Staying organized is what makes it run. Every video is one card moving left to right.
-- **The pipeline board (Multica).** One column per stage: Ideation → Research → Packaging → Script → Film → Edit → Repurpose → Publish. Drag a card to the next column, and that stage's agent picks it up.
+- **The pipeline board (Multica).** One column per stage: Ideation → Research → Packaging → Outline + script → Film → Edit → Repurpose → Publish. Drag a card to the next column, and that stage's agent picks it up.
 - **The capture system.** Record a voice note anywhere, and it lands on the board as an idea card. Agents refine each idea against your viewer avatar and offer.
 - **Ideas on autopilot.** A scheduled task finds outliers in your niche and nearby niches. Ideas get scored against your avatar and offer, so you only see the good ones.
 - **From idea to film-ready.** Idea → research brief → outline → script. You review each step, using the "Check it" list from each chapter. Film from the script, or straight from the outline.

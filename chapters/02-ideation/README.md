@@ -1,6 +1,6 @@
 # Chapter 2: Ideation
 
-**Stage 1 of 8:** **Ideation** → Research → Packaging → Script → Film → Edit → Repurpose → Publish
+**Stage 1 of 8:** **Ideation** → Research → Packaging → Outline + script → Film → Edit → Repurpose → Publish
 
 ## Why this matters
 

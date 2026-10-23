@@ -1,6 +1,6 @@
 # Chapter 4: Packaging (title and thumbnail)
 
-**Stage 3 of 8:** Ideation → Research → **Packaging** → Script → Film → Edit → Repurpose → Publish
+**Stage 3 of 8:** Ideation → Research → **Packaging** → Outline + script → Film → Edit → Repurpose → Publish
 
 ## Why this matters
 
@@ -51,4 +51,4 @@ Your video sits next to 20 others in the feed, and people pick one. *(Jake Trind
 
 **Coming soon.** Outline ready: the concepts, prompts and template work now. The full walkthrough is coming.
 
-Next: [Chapter 5: Script](../05-script/README.md).
+Next: [Chapter 5: Outline + script](../05-script/README.md).

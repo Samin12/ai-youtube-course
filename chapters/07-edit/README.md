@@ -1,6 +1,6 @@
 # Chapter 7: Edit
 
-**Stage 6 of 8:** Ideation → Research → Packaging → Script → Film → **Edit** → Repurpose → Publish
+**Stage 6 of 8:** Ideation → Research → Packaging → Outline + script → Film → **Edit** → Repurpose → Publish
 
 ## Why this matters
 

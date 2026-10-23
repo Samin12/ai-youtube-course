@@ -55,7 +55,7 @@ Think of a self-driving car. The car does most of the driving, but you're still 
 
 At the end, we put an AI agent team on top of everything, so it runs on autopilot.
 
-**The map:** Foundation → Ideation → Research → Packaging → Script → Film → Edit → Repurpose → Publish → Funnel → Autopilot
+**The map:** Foundation → Ideation → Research → Packaging → Outline + script → Film → Edit → Repurpose → Publish → Funnel → Autopilot
 
 **This folder is your content operating system.** `my-channel/` holds who you are and who you make videos for. `videos/` holds one folder per video. `CLAUDE.md` is what Claude remembers about you. Set it up once, and every new video starts with "make a new video."
 
@@ -68,7 +68,7 @@ At the end, we put an AI agent team on top of everything, so it runs on autopilo
 | 02 | [Ideation](chapters/02-ideation/README.md) | `videos/<your-video>/01-idea.md` | Outline ready, build coming soon |
 | 03 | [Research](chapters/03-research/README.md) | `videos/<your-video>/02-research.md` | Outline ready, build coming soon |
 | 04 | [Packaging](chapters/04-packaging/README.md) | `videos/<your-video>/03-packaging.md` | Outline ready, build coming soon |
-| 05 | [Script](chapters/05-script/README.md) | `videos/<your-video>/04-script.md` | Outline ready, build coming soon |
+| 05 | [Outline + script](chapters/05-script/README.md) | The one-pager outline (`/video-outline`), then the script: `videos/<your-video>/04-script.md` | Outline ready, build coming soon |
 | 06 | [Film](chapters/06-film/README.md) | `videos/<your-video>/05-film-checklist.md` | Outline ready, build coming soon |
 | 07 | [Edit](chapters/07-edit/README.md) | `videos/<your-video>/06-edit-notes.md` | Outline ready, build coming soon |
 | 08 | [Repurpose](chapters/08-repurpose/README.md) | `videos/<your-video>/07-repurpose.md` | Outline ready, build coming soon |

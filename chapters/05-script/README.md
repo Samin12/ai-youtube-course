@@ -1,6 +1,6 @@
-# Chapter 5: Script
+# Chapter 5: Outline + script
 
-**Stage 4 of 8:** Ideation → Research → Packaging → **Script** → Film → Edit → Repurpose → Publish
+**Stage 4 of 8:** Ideation → Research → Packaging → **Outline + script** → Film → Edit → Repurpose → Publish
 
 ## Why this matters
 

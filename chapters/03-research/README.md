@@ -1,6 +1,6 @@
 # Chapter 3: Research
 
-**Stage 2 of 8:** Ideation → **Research** → Packaging → Script → Film → Edit → Repurpose → Publish
+**Stage 2 of 8:** Ideation → **Research** → Packaging → Outline + script → Film → Edit → Repurpose → Publish
 
 ## Why this matters
 

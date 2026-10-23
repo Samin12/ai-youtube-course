@@ -12,7 +12,7 @@ Claude will:
 
 1. Make the next numbered folder, like `videos/001-my-first-video/`, from [`_template/`](_template/).
 2. Fill in the brief: who it's for, the problem it solves, the lane topic, and how it leads to your offer, all from your `my-channel/` files.
-3. Show you the plan (Ideation → Research → Packaging → Script → Film → Edit → Repurpose → Publish) and start Stage 1 with you.
+3. Show you the plan (Ideation → Research → Packaging → Outline + script → Film → Edit → Repurpose → Publish) and start Stage 1 with you.
 
 ## Pick up where you left off
 

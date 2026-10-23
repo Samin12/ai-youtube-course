@@ -26,7 +26,7 @@ This course folder is the user's content operating system. Every video gets its 
    > - **How it leads to your offer:** ...
    > - **Folder:** `videos/001-.../`
    >
-   > **Here's what we're going to do:** Ideation → Research → Packaging → Script → Film → Edit → Repurpose → Publish. Each stage saves into this folder.
+   > **Here's what we're going to do:** Ideation → Research → Packaging → Outline + script → Film → Edit → Repurpose → Publish. Each stage saves into this folder.
    >
    > **First up: Ideation.**
 
