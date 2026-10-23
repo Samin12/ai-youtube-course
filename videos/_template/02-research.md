@@ -7,6 +7,9 @@
 - **My main points:**
 - **My stories and examples:**
 - **My opinions:**
+- **Proof I have (results, numbers, screenshots):**
+- **What I'll show on screen:**
+- **Questions I raised but didn't answer:**
 
 ## Sources
 

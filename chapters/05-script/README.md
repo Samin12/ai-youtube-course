@@ -29,7 +29,7 @@ The title and thumbnail made a promise. The script keeps it. Viewers arrive with
 
 ## Steps
 
-1. **Outline.** Say **"make the outline"** (skill: `video-outline`). Claude writes the promise first, then the one-pager: Intro, Why this matters, Levels 1–3, CTA. No Claude Code? Run [`prompts/acceptance-criteria-outline.md`](prompts/acceptance-criteria-outline.md); it turns your title and research outline into must-be-true points.
+1. **Outline.** Say **"make the outline"** (skill: `video-outline`). Claude asks you a few questions, or you talk it all through at once, so it gets your brain dump: the stories and results only you have. It organizes that in your words (and puts it on your Poppy board if it's connected), then writes the promise and the one-pager: Intro, Why this matters, Levels 1–3, CTA. No Claude Code? Run [`prompts/acceptance-criteria-outline.md`](prompts/acceptance-criteria-outline.md); it turns your title and research outline into must-be-true points.
 2. **Hooks.** Run [`prompts/hook-variations.md`](prompts/hook-variations.md). Pick one and check it hits all 4 P's. *(Nate Curtiss)*
 3. **Draft in your voice.** Run [`prompts/draft-script.md`](prompts/draft-script.md). Feed it your past transcripts and your brain dump from Research, so it doesn't sound like generic AI.
 4. **Add transitions and an analogy for every point.**
