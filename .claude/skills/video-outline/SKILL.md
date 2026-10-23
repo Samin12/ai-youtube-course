@@ -142,7 +142,7 @@ They'll often paste the outline back with notes inside it.
 
 ## After the outline: what to script
 
-- **Word for word:** the hook and the intro.
+- **Word for word:** the hook and the intro. Next step: "help me write the intro for this" (skill: `video-intro`) writes 3 options that hit the 4 P's.
 - **Bullets:** everything else, straight from the outline.
 - **Demos:** don't script them. Talk through them on screen.
 - Then read it out loud and cut what you don't need.

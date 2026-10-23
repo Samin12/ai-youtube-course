@@ -50,6 +50,17 @@
 ### CTA (end)
 - Watch this next:
 
+## Intro (word for word)
+
+Say "help me write the intro for this" and Claude writes 3 options (skill: `video-intro`). Put the one you pick first.
+
+- **Promise (confirms the click):**
+- **Give them more:**
+- **Proof:**
+- **Plan:**
+- **Persona:**
+- **First shot:**
+
 ## Full script
 
 Word for word: the hook and the intro. Everything else: bullets from the outline. Talk through the demos.
