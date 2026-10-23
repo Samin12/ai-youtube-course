@@ -13,7 +13,8 @@ Run it as a session. Keep messages short and plain, and ask one question at a ti
 
 - Read `CLAUDE.md` and `my-channel/` (viewer avatar, offer, brand voice).
 - Find the current video: the path in `CLAUDE.md` under "What I'm working on", or the highest-numbered folder in `videos/`. Read its `01-idea.md`, `02-research.md` and `03-packaging.md`.
-- **No package yet? Stop.** Say: "Let's do the title and thumbnail first (Chapter 4). The outline keeps the package's promise, so the package comes first."
+- **Can't find the video's context there?** Ask where it is, in one question: "Where's the context for this video: a folder here, your Poppy board, a doc or card, or do you want to paste it?" Read whatever they point to: the idea doc, research, outliers, and the title and thumbnail.
+- **Still no title and thumbnail anywhere? Stop.** Say: "Let's do the title and thumbnail first (Chapter 4). The outline keeps the package's promise, so the package comes first."
 - **Poppy connected?** Find the board for this video (`list_boards`, then `list_board_nodes`: the board with its idea doc or outliers). If it's unclear which board, ask. The brain dump and the one-pager go there too.
 - Tell them in 3 short lines what you found (the video, the package, what's missing), then: "First I need your special sauce: the stuff only you know."
 
