@@ -11,6 +11,7 @@ The outline is where a video gets its structure. People learn when they can foll
 
 - Read `CLAUDE.md` and `my-channel/` (viewer avatar, offer, brand voice).
 - Read the video's `01-idea.md` (its draft outline, unique angle and research links), `02-research.md` and `03-packaging.md`.
+- **Get their brain dump (the special sauce).** It's what only they have: their stories, results, opinions, mistakes, and what their clients ask. Look for it in `02-research.md`. None yet? Ask them to talk through the idea in a voice memo, then organize the transcript with `chapters/03-research/prompts/brain-dump.md`. Without it the outline sounds like every other video on the topic.
 - **No package yet? Stop.** Say: "Let's do the title and thumbnail first (Chapter 4). The outline keeps the package's promise, so the package comes first."
 - Ask one question only if you must.
 
@@ -28,7 +29,7 @@ The outline is where a video gets its structure. People learn when they can foll
 4. **Why this matters.** 3 points, before any how-to. Each point is a bold one-liner plus its analogy or story. No demos here.
 5. **Levels 1–3.** Each level is something concrete the viewer does. 2–5 points per level. Every point is built the same way:
    - a bold one-liner (the point)
-   - **Example / story analogy:** lead with it. One per point, never two. Skip it when the point is already clear.
+   - **Example / story analogy:** lead with it. Use their own stories and results from the brain dump first; only invent an analogy when they have none. One per point, never two. Skip it when the point is already clear.
    - **Step by step (screenshare):** only when it's shown on screen.
    - Proof the viewer will see (a screenshot, a result, a number) goes inside the example or the steps. Unknown? `[brackets]`.
    - End each section with a **→ Transition:** line that pays off this part and sets up the next.
