@@ -40,7 +40,9 @@ Pick the 3 opening styles from `intro-patterns.md` that fit this video best. For
 5. **Persona:** who it's for, and that they can do it: "Even if you've never [the scary thing], you'll be able to do this."
 6. End with "Let's get into it." and one line into Why this matters: "Okay, before we get into anything, I need to give you some context on why this matters."
 
-Add the **first shot**: what's on screen in the first 5 seconds, matching the thumbnail. Under each intro, mark each line with its P, and give the word count (aim for 100–150 words, so it's under a minute out loud).
+Add the **first shot**: what's on screen in the first 5 seconds, matching the thumbnail. Under each intro, mark each line with its P, and give the word count and the time at their pace.
+
+**Length:** under a minute at the way they actually talk. Measure it from one of their real intros (words ÷ seconds). Samin talks fast: his best intros are 210–280 words, about 50–60 seconds (the 1.8M intro is 226 words in 52 seconds). Don't cut an intro short just to hit a word count: match the length of their intros that worked.
 
 ## Step 2: Check every option
 
@@ -50,7 +52,7 @@ Fix anything that fails before you show them.
 - [ ] The first shot matches the thumbnail
 - [ ] It gives more than the title promised
 - [ ] All 4 P's are there
-- [ ] Under a minute out loud (150 words max)
+- [ ] Under a minute at their pace, and about as long as their best intros
 - [ ] No "hey guys", no subscribe ask, no logo, no long backstory, no vague hype ("you won't believe…")
 - [ ] Anything that would break the promise is said up front (e.g. "paper" money)
 - [ ] No made-up results, numbers or quotes
@@ -95,7 +97,8 @@ Fix anything that fails before you show them.
 
 ## Rules
 
-- Write the way they talk: short sentences, one idea per line. Their own stock lines beat new ones.
+- Write the way they talk. Copy the flow and the sentence shapes of their real intros, not just the 4 P's: their stock lines beat new ones.
+- Writing it with Echo? Feed it their real intros as the samples (for Samin: `--samples-file references/intro-samples.md` in the Echo skill), then fact-check what it adds about them.
 - No analogies in the intro. Save them for Why this matters.
 - Never name other creators or quote them in the intro.
 - Never invent results, numbers, costs or quotes. Anything only they know goes in `[brackets]`.

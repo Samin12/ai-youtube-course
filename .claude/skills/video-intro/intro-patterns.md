@@ -12,6 +12,22 @@ Every one of them does the same 4 things: **Promise** (the first line says what 
 - "Let's get into it."
 - Right after: "Okay, before we get into anything, I need to give you some context on why this matters."
 
+## The flow of my "changed forever" intros, sentence by sentence
+
+This is the shape behind my biggest tutorials (1.8M, 250K, 150K, 128K). Each one is 210–280 words, about 50–60 seconds.
+
+1. "[Claude] just changed how we [do X] forever, and it's because of this new [skill / setup] that lets it [thing 1], [thing 2], and [thing 3]."
+2. Optional, give them more: "And you can even [text it from your phone to check on it or steer it]."
+3. Proof: "I've actually been using this for the past couple of weeks, and it's completely changed how I [think about X]."
+4. "So, in this video, I'm going to be breaking down how you can get started in three levels."
+5. "First, we're going to get set up. I'll walk you through the basics of how [X] works, and we'll get [Claude] and all the tech set up."
+6. "Then, we're going to be building [the thing]. I'm going to be showing you how to [do it], and have [Claude] [do it] automatically."
+7. "And in level three, [this is where it gets really powerful / we're going to get into X]. I'll break down [what it is], and then we're going to be building [the big payoff]."
+8. Optional: "And as a bonus, I'll cover [Y]. Because the worst thing you can do is hand your AI a bunch of money and say, 'Go figure it out.'"
+9. "And even if you've never [bought a single stock] before or have zero technical background, you'll be able to do this because all we're going to be doing is simply speaking to [Claude]. Let's get into it."
+
+Every level gets two sentences: what we're doing, then "I'll walk you through / I'll show you" how.
+
 ## 1. Result first: "it just changed forever" (tutorials)
 
 **Claude Just Changed the Stock Market Forever! (Tutorial)** · 1.8M views
