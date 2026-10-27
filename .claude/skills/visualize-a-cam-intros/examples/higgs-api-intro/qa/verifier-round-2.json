@@ -1,0 +1,276 @@
+{
+ "verdict": "fix-then-ship",
+ "round1": [
+  {
+   "beat": 4,
+   "lens": "proof",
+   "status": "partly",
+   "evidence": "strip-04.jpg (start/mid/end); v2/verify/b04-18p23-right.jpg",
+   "note": "The API column is no longer readable, so the blocker's substance is fixed, but the crop still bleeds ~130 px of it along the right edge as sliced fragments 'Pay / Ch / Ite' plus the column divider for all 5.7 s. Start/mid/end tiles are otherwise identical; only a slow push (masked frame diff 0.45)."
+  },
+  {
+   "beat": 5,
+   "lens": "proof",
+   "status": "resolved",
+   "evidence": "strip-05.jpg (start/mid/end)",
+   "note": "Savings card gone from the problem line. Wallet clip: closed wallet 21.1 -> open empty wallet held to camera 24.0 (right on 'upgrade' 23.6) -> slump 26.9. Laptop heading renders as AI-garbled 'Urgalde pland' (see new)."
+  },
+  {
+   "beat": 6,
+   "lens": "proof",
+   "status": "resolved",
+   "evidence": "strip-06.jpg; contact-sheet.jpg @29/31/33 s; v2/verify/b06-31p90-full.jpg",
+   "note": "Savings $49 -> $8.40 card at 27.0-28.9 under 'instead of paying for a plan', then Which model (28.9-30.1), Explore cheaply (30.1-31.3), higgsfield-api-studio repo (31.3-32.5) and open-higgsfield repo (32.5-33.6) under 'ten times more efficient' (29.3-33.5). The card itself is letterboxed on black (see new)."
+  },
+  {
+   "beat": 8,
+   "lens": "proof",
+   "status": "open",
+   "evidence": "v2/verify/b08-38p02-bar.jpg; b08-40p80-bar.jpg; b08-faces-38p1-39p4-40p7.jpg",
+   "note": "Claim was 'in-point 9.0 s (playing)'. Actual: timer reads 0:00 / 0:49 with the scrubber at 0 at both 38.0 and 40.8, and both faces are the same frame at 38.1 / 39.4 / 40.7; only the cursor and a slow push change (masked diff flat 0.6-0.7/frame, no lip motion). Still a paused player for 2.95 s."
+  },
+  {
+   "beat": 16,
+   "lens": "proof",
+   "status": "partly",
+   "evidence": "strip-16.jpg (start/mid/end)",
+   "note": "The technical prompt bubble still fills the top ~40% of the frame (6 lines, 'Default every image request... Do not run any paid test generation during setup.', bubble cut off at the top edge) from 78.8 until the scroll at 81.2, i.e. under 'simply speaking to ChatGPT' (79.7-82.6). The plain-English reply sits below at ~25 px and only becomes the subject after 81.2 ('Installed successfully with Python 3.11...'). Not a push into the reply."
+  },
+  {
+   "beat": 13,
+   "lens": "proof",
+   "status": "partly",
+   "evidence": "strip-13.jpg (start/mid/end); v2/verify/b13-68p50-full.jpg",
+   "note": "Real README cost/route table scrolls under 'track all the costs' (67.8-70.3) - good. 'Your clients can cover their own generations' (70.35-72.6) is now the open-higgsfield file list whose About reads 'one prompt bar, each model's own settings, every finished run in one gallery' - nothing on screen about clients, keys or billing; it is the same page shown at 32.5-33.6, with the Chrome omnibox dropdown open over the header."
+  },
+  {
+   "beat": 7,
+   "lens": "proof",
+   "status": "partly",
+   "evidence": "strip-07.jpg (mid/end); v2/verify/b07-35p79-board.jpg",
+   "note": "Lands earlier (35.45) but it is not a populated board: Brief 0 / Ready 0 / In progress 0 / Review 0 / Approved 0 with placeholder copy ('New ideas start here', 'Quoted and ready to create'...). The 'You. In the scene.' card is a promo banner under the empty columns. Browser tab strip and personal bookmarks bar are in shot."
+  },
+  {
+   "beat": 12,
+   "lens": "proof",
+   "status": "partly",
+   "evidence": "strip-12.jpg (start/mid/end); v2/verify/b12-62p00-mock.jpg; b12-66p50-mock.jpg",
+   "note": "Three distinct views now (landing 60.1, new-project modal 63.1, board 65.5), but the 'populated board' is the same empty board (all counts 0, same promo card) as beat 7, and all three views are frozen frames (see new). Landing hero is legible; the modal body text (~14 px) is not."
+  },
+  {
+   "beat": 3,
+   "lens": "proof",
+   "status": "resolved",
+   "evidence": "strip-03.jpg (mid/end); motion_check hard cuts",
+   "note": "AI clip lands at 11.60, 280 ms before 'boom' (11.88): typing -> red 'Daily limit reached' banner -> hands on head. Reads as hitting a limit. The banner text itself is garbled, then says '35 hours' (see new)."
+  },
+  {
+   "beat": 1,
+   "lens": "proof",
+   "status": "partly",
+   "evidence": "v2/verify/b01-3p00-full.jpg; b01-4p76-full.jpg; column scan 2.6-4.76 s",
+   "note": "Pair now starts in its before-state (left panel black tee at 3.0, hoodie from 4.40) so the snap is shown, but it is still pillarboxed: 394 px black on each side (20-21% + 20-21% of width) for the whole 2.5-4.84 s. Not 16:9; the first thing a viewer sees is two phone panels on black."
+  },
+  {
+   "beat": 11,
+   "lens": "proof",
+   "status": "resolved",
+   "evidence": "motion_check hard-cut list",
+   "note": "Section cuts land on the beat boundaries: 53.25 / 60.10 / 67.75 vs map 53.26 / 60.10 / 67.78."
+  },
+  {
+   "beat": 11,
+   "lens": "proof",
+   "status": "resolved",
+   "evidence": "strip-11.jpg (start/mid/end)",
+   "note": "Beat 11 is README then the skill slide; the Codex screen appears only in beat 16."
+  },
+  {
+   "beat": 16,
+   "lens": "proof",
+   "status": "resolved",
+   "evidence": "analysis.json black_segments []; strip-16.jpg (start 78.81)",
+   "note": "No black frames anywhere; cut at 78.75 lands 130 ms before 'you can do this' (78.88)."
+  },
+  {
+   "beat": 9,
+   "lens": "proof",
+   "status": "superseded",
+   "evidence": "v2/verify/b09-45p90-full.jpg",
+   "note": "Map replaced by three circles on the white grid; nothing starts black."
+  },
+  {
+   "beat": 10,
+   "lens": "proof",
+   "status": "partly",
+   "evidence": "v2/verify/b10-46p50-full.jpg",
+   "note": "Opens on the Create API key modal as requested, but the key row with its ID string is still visible (dimmed) behind the modal, and the mock holds the entire browser window (tab strip, address bar, bookmarks bar incl. 'Privacy.com premium...') at ~10 px, frozen for 1.95 s."
+  },
+  {
+   "beat": 3,
+   "lens": "proof",
+   "status": "partly",
+   "evidence": "v2/verify/b03-8p52-topright.jpg; b03-11p40-topright.jpg",
+   "note": "A sliver of the canvas side panel is still in the top-right at 8.5 s until the push clears it (~10 s); the black cursor arrow stays in the top-right of the buffet slide for the whole 8.5-11.6 s."
+  },
+  {
+   "beat": 8,
+   "lens": "proof",
+   "status": "resolved",
+   "evidence": "strip-08.jpg (end); strip-09.jpg (start)",
+   "note": "Orb sits at x~0.68, clear of the camera window."
+  },
+  {
+   "beat": 14,
+   "lens": "proof",
+   "status": "resolved",
+   "evidence": "strip-14.jpg (start/mid/end)",
+   "note": "Punch-in shows steps 2-5, 'SELL A SERVICE - Deliver client value' under 'get paid for the expertise'; one slow push (diff 0.96). Footer's first letters are clipped at the left edge ('e advantage is a process your client can use')."
+  },
+  {
+   "beat": 5,
+   "lens": "pacing",
+   "status": "resolved",
+   "evidence": "strip-05.jpg; strip-06.jpg (start)",
+   "note": "Wallet 21.05-27.0; savings card opens beat 6 at 27.00, 140 ms before 'So instead' (27.14)."
+  },
+  {
+   "beat": 3,
+   "lens": "pacing",
+   "status": "resolved",
+   "evidence": "motion_check hard cuts 8.45 / 11.60",
+   "note": "Buffet -> AI clip at 11.60, 280 ms before 'boom' (11.88); no late drift."
+  },
+  {
+   "beat": 16,
+   "lens": "pacing",
+   "status": "resolved",
+   "evidence": "analysis.json black_segments []; hard cut 78.75",
+   "note": "No black frames before the finale; 78.75 leads 'you can do this' by 130 ms."
+  },
+  {
+   "beat": 7,
+   "lens": "pacing",
+   "status": "resolved",
+   "evidence": "hard cut 35.45; words.tsv",
+   "note": "Board lands 35.45, 80 ms before 'and even have my clients' (35.53). Timing fixed; content still empty (proof entry)."
+  },
+  {
+   "beat": 9,
+   "lens": "pacing",
+   "status": "resolved",
+   "evidence": "circle_pops scan; contact-sheet.jpg @45 s; v2/verify/b09-45p90-full.jpg",
+   "note": "White grid from 44.68; circles first visible 44.85 / 45.07 / 45.28; 'three' at 45.32 - the third pop leads the word by only ~40 ms, then a 0.67 s hold to the 45.95 cut."
+  },
+  {
+   "beat": 11,
+   "lens": "pacing",
+   "status": "partly",
+   "evidence": "motion_check static runs; v2/verify/b11-entrance-53p30-53p55-53p80.jpg; b11-58p50-mock.jpg",
+   "note": "Durations fixed (README 53.25-55.7 = 2.45 s, skill slide 55.7-60.1 = 4.4 s) but both are dead frames: README scrolls ~0.6 s then freezes 53.9-55.65; skill slide is still for 4.35 s with its headline clipped 'Turn your workflow into a reu'."
+  },
+  {
+   "beat": 14,
+   "lens": "pacing",
+   "status": "resolved",
+   "evidence": "strip-14.jpg",
+   "note": "Four large step titles + footer in 2.6 s, readable at 1080p."
+  },
+  {
+   "beat": 12,
+   "lens": "pacing",
+   "status": "resolved",
+   "evidence": "hard cut 63.10; static run from 63.15",
+   "note": "Modal is already open on the 63.10 cut."
+  },
+  {
+   "beat": 1,
+   "lens": "pacing",
+   "status": "open",
+   "evidence": "snap_scan (left-panel torso luminance 74.6 -> 90.4 at 4.40 s); words.tsv 'Higgsfield' 4.16-4.58",
+   "note": "Claim was 'snap lands 120 ms before Higgsfield'. Actual swap is at 4.40, 240 ms AFTER the word's onset (v1 was 110 ms after). Move the pair in-point ~0.36 s later so the swap lands ~4.04."
+  }
+ ],
+ "new": [
+  {
+   "beat": 10,
+   "severity": "blocker",
+   "image": "strip-10.jpg; strip-11.jpg; strip-12.jpg; motion_check static runs (masked bg diff 0.005-0.04)",
+   "issue": "Beats 10-12 are ten frozen holds with zero push or UI motion: 46.0-47.9 API-key modal, 48.0-49.25 break-even chart, 49.35-50.6 10-second costs, 50.7-51.95 launch table, 52.05-53.2 Which model, 53.9-55.65 README, 55.75-60.05 skill slide, 60.15-63.05 landing, 63.15-65.35 modal, 65.5-67.7 board - ~20 s of the 21.8 s section, with hard swaps between stills. The mock contents are frames of the screen recordings, not the recordings. Violates 'motion not stills', 'stills get one push', 'never two stills in a row', 'no static screenshots standing in for footage' - in the section the creator asked to look like his moving levels style.",
+   "fix": "Let the recordings play inside the mock (apikeys.mp4 typing/click, README scroll, studio.mp4 modal -> board) and give each math/strategy flash one push (1.00 -> 1.04 over its hold); keep the quick-flash cadence he asked for."
+  },
+  {
+   "beat": 10,
+   "severity": "major",
+   "image": "v2/verify/b10-49p00-mock.jpg; b11-58p50-mock.jpg; b12-62p00-mock.jpg; strip-10.jpg (end)",
+   "issue": "The device mock's right bezel is off-frame in all three level cards, so headlines and the payoff numbers are sliced by the frame edge: '117 cli[ps]' (the break-even answer), 'When does a subscription b', 'What one 10-second job c', 'Which model should I us', 'Turn your workflow into a reu', 'Let's make it'. Camera window then covers the mocks' bottom-right (chart x-axis/callout, 'Saved pr...' footer).",
+   "fix": "Scale/shift the mock so its right bezel sits >= 40 px inside the frame, and re-crop each mock content so headline + key number are whole and above y 0.7."
+  },
+  {
+   "beat": 3,
+   "severity": "major",
+   "image": "v2/verify/b03-11p94-laptop.jpg; b03-13p50-laptop.jpg; b03-15p32-laptop.jpg",
+   "issue": "The limit banner is the only text in the AI clip and it is wrong: garbled 'Daiy limid leadkesed - 3; hores' for 11.6-~13.0, then a clean, centred, fully legible 'Daily limit reached - 35 hours' from ~13.5 to 15.3 while the VO says 'three hours' (13.82). Header and button are also garbled glyphs.",
+   "fix": "Track a clean 'Daily limit reached - 3 hours' plate onto the laptop screen for 11.6-15.4, or regenerate/choose a take with correct banner text."
+  },
+  {
+   "beat": 7,
+   "severity": "major",
+   "image": "v2/verify/b07-33p66-full.jpg; b07-35p30-full.jpg",
+   "issue": "The receipt (33.6-35.45) is shown on a paused player: play icon, scrubber at 0, '0:00 / 0:30' at both ends of the hold, same STORM frame throughout, only a slow push. Same class as the round-1 beat-8 major (screenshot standing in for footage); the cursor is parked next to Play as if about to click.",
+   "fix": "Move the in-point to just after the Play click so the clip runs under 'Higgsfield API cost: $20.43 ... $10.22', or punch into the receipt line alone with a push."
+  },
+  {
+   "beat": 6,
+   "severity": "major",
+   "image": "v2/verify/b06-27p10-full.jpg; b06-28p80-full.jpg (bbox scan: 63-65% wide, 40-43% of frame)",
+   "issue": "The savings card - the hook's one 'answer' visual - is a slide floating on black with a faint slide-viewer label '05 - The savings depend on your volume' above it; 57-60% of the frame is black for 1.9 s.",
+   "fix": "Scale the card to full frame (it is already 16:9, 1203x681 at 1080p); '$40.60 less that month' and the footnote then still clear the camera window."
+  },
+  {
+   "beat": 5,
+   "severity": "minor",
+   "image": "v2/verify/b05-21p50-laptop.jpg; b05-24p05-laptop.jpg",
+   "issue": "The 'upgrade page' exists only as an AI-garbled heading 'Urgalde pland' with garbled bullets and button on a small laptop screen; the wallet reads, the page does not.",
+   "fix": "Track a clean 'Upgrade plan' pricing plate onto the laptop, or intercut a real pricing page for ~0.5 s at 'upgrade' (23.6)."
+  },
+  {
+   "beat": 13,
+   "severity": "minor",
+   "image": "strip-06.jpg (end); strip-13.jpg (end); v2/verify/b06-31p90-full.jpg",
+   "issue": "Repeated assets: open-higgsfield repo page (with the omnibox dropdown open over the header) at 32.5-33.6 and 70.35-72.6; README in beats 6 (repo landing), 11 (mock) and 13; 'Which model' in beats 6 and 10. The 31.3-32.5 repo flash also shows '1 Commit - 17 minutes ago - 0 stars - 0 forks'.",
+   "fix": "At 70.35 use a moment that carries the claim - e.g. the higgsfield-api-studio About line 'private key onboarding and live cost receipts' visible at 31.9, or a per-client receipt; close the omnibox dropdown / crop below the browser chrome; crop the repo flash to the About text or README hero."
+  },
+  {
+   "beat": 11,
+   "severity": "minor",
+   "image": "strip-11.jpg (start)",
+   "issue": "Card reads '2 Model Efficiency Strategy' while the VO says 'load in the skills and the workflows so you can have your own platform'; the mock shows README + reusable-skill slide, so the graphic title is the odd one out.",
+   "fix": "Make the level-2 card title match his actual level-2 chapter name / what he says."
+  },
+  {
+   "beat": 10,
+   "severity": "minor",
+   "image": "v2/verify/b10-46p50-full.jpg; b12-62p00-mock.jpg; strip-07.jpg (mid)",
+   "issue": "Screen recordings are placed with the whole browser window - tab strip, address bar, personal bookmarks bar ('Privacy.com premium...', 'Postiz...') - inside the mocks and in beat 7, at ~10 px; illegible chrome noise, and a key-ID row behind the API-key modal.",
+   "fix": "Crop to the page viewport before placing in the mock / frame."
+  },
+  {
+   "beat": 4,
+   "severity": "minor",
+   "image": "v2/verify/b04-18p23-right.jpg; b13-68p50-full.jpg; strip-14.jpg",
+   "issue": "Words sliced at frame edges: 'Pay / Ch / Ite' (beat 4 right), the table's first column and 'OME - MIT license' (beat 13 left), 'e advantage is a process...' (beat 14 left).",
+   "fix": "Re-anchor the three crops so no text is cut mid-word."
+  }
+ ],
+ "brief_checks": {
+  "presenter_on_top": "pass: camera window present at x 0.775-0.985 / y 0.715-0.965 in every tile of beats 1, 3-14 and 16 and never overlaid; beats 2 and 15 (strip-02, strip-15) are the only full-camera frames.",
+  "proof_full_frame": "fail: beat 1 pair pillarboxed 20-21% black each side for 2.5-4.84 s (b01-4p76-full.jpg); beat 6 savings card covers 40-43% of the frame on black (b06-27p10-full.jpg); beat 7 receipt is an inset player with app margins. Level cards are card+mock by design but the mock bleeds off the right edge. Beats 3, 4, 5, 8, 13, 14, 16 fill.",
+  "motion_not_stills": "fail: frozen with no push or UI motion (masked bg diff <= 0.04): beat 10 46.0-47.9, 48.0-49.25, 49.35-50.6, 50.7-51.95, 52.05-53.2; beat 11 53.9-55.65 (README plays 0.6 s then freezes), 55.75-60.05; beat 12 60.15-63.05, 63.15-65.35, 65.5-67.7. Beat 7 (33.6-35.45) and beat 8 (38.0-40.9) are paused players carried only by a slow push. Beats 4, 6-savings and 14 are stills with one push (ok); beat 9 has three small pop-ins then a 0.67 s hold.",
+  "legible": "fail: beat 3 banner garbled 11.6-13.0 then '35 hours' vs VO 'three hours'; beat 5 'Urgalde pland'; beats 10-12 headline/number truncation ('117 cli', 'Which model should I us', 'Turn your workflow into a reu', 'Let's make it'); beat 10 46-47.9 browser chrome + sidebar at ~10 px, modal body ~14 px; edge-sliced words in beats 4/13/14. Legible at 1080p: buffet slide, subscription column, savings card, Which model / Explore cheaply, receipt line, level titles, circles, README table, five-step slide, Codex reply.",
+  "nothing_under_camera": "pass: nothing load-bearing is covered - receipt line, $40.60, cost table, step 5, level titles, circles and the Codex reply all clear the window. Minor overlaps: explore-cheaply footer + UPSCALE box (30.1-31.3), beat 10 chart x-axis/callout bottom, beat 11 'Saved pr...' footer, beat 12 promo-card right edge.",
+  "ai_clips_read": "fail: the limit clip reads without narration (typing -> red banner -> hands on head, strip-03 mid/end) but its only text is garbled then wrong ('35 hours'); the wallet clip reads as 'empty wallet, frustrated at a laptop' (strip-05 mid/end) - the 'upgrade page' half exists only as a garbled 'Urgalde pland' heading on a small screen (b05-24p05-laptop.jpg), so it does not read as an upgrade page on its own.",
+  "levels_style": "pass: the layout reads as his levels style - white grid, blue numbered circles popping 44.85/45.07/45.28 before 'three levels', blue numbered circle + italic title left, dark device mock right (strip-09, b09-45p90-full.jpg, b10-46p50-full.jpg). Execution undercuts it: mock bezel off the right edge with clipped headlines, frozen mock content, whole browser windows inside the mocks, and the level-2 card title 'Model Efficiency Strategy' vs the VO's 'skills and the workflows'.",
+  "tenx_shows_strategies_repos": "pass: 'ten times more efficient' (29.3-33.5) runs over Which model (28.9-30.1), Explore cheaply (30.1-31.3), higgsfield-api-studio repo (31.3-32.5, b06-31p90-full.jpg) and open-higgsfield repo (32.5-33.6, strip-06 end). Caveats: each flash is 1.1-1.2 s, the repo pages carry browser chrome and the omnibox dropdown, and the first repo shows '1 Commit - 17 minutes ago - 0 stars'."
+ }
+}

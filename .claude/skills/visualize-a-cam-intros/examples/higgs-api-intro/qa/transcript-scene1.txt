@@ -1,0 +1,33 @@
+0:00.1 [100] I spent an unhealthy amount of time and money creating AI images and videos with Hicksfield.
+0:04.9 [4960] And I gotta get this out of my chest.
+0:06.8 [6850] Their usage limits suck.
+0:08.5 [8590] And there have been days where I've prompted maybe once or twice,
+0:11.6 [11610] and boom,
+0:12.1 [12170] there goes my limit.
+0:13.1 [13180] And now I'm waiting three hours to generate again.
+0:15.5 [15520] Not to mention it's nearly impossible to calculate generations and charge clients if you use this for client work.
+0:21.1 [21190] Because only option you had was to upgrade,
+0:24.1 [24110] pay for a bigger plan,
+0:25.2 [25270] with limits that I might not even use.
+0:27.1 [27140] So instead of paying for a plan,
+0:29.2 [29290] I actually found a way to make generating AI videos ten times more efficient,
+0:33.7 [33730] and only pay for what I generate,
+0:35.5 [35530] and even have my clients on my own platform,
+0:38.0 [38090] and in this video,
+0:38.9 [38970] I'm gonna be sharing everything I learned,
+0:41.0 [41020] generating AI images and videos for hundreds of clients,
+0:43.9 [43910] and we'll break it all down into three levels.
+0:46.0 [46090] In level one,
+0:46.9 [46930] we'll get set up,
+0:47.8 [47890] learn the right concepts and the math behind the strategy to efficiently create anything you want.
+0:53.3 [53380] And level two,
+0:54.2 [54250] we'll load in the skills and the workflows so you can have your own platform that you can use to monetized your style.
+1:00.2 [60220] And then level three,
+1:01.1 [61150] we'll turn it into a custom SaaS application because the platform with your own knowledge baked in is something you can monetized.
+1:07.9 [67900] And since you'll be able to track all the costs,
+1:10.3 [70330] your clients can cover their own generations
+1:12.7 [72730] And you get paid for the expertise behind it.
+1:15.3 [75370] and even if you've never touched anything technical like this before,
+1:18.8 [78880] you can do this
+1:19.7 [79705] Because all we're doing is simply speaking to ChatGPT.
+1:22.6 [82645] Let's get into it.

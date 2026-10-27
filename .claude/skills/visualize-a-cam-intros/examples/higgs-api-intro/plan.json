@@ -1,0 +1,247 @@
+{
+ "out": "scene1-screen.mp4",
+ "scene_ms": 83355,
+ "fps": 60,
+ "lead_ms": 120,
+ "slots": [
+  {
+   "start_ms": 0,
+   "end_ms": 4840,
+   "kind": "seq",
+   "parts": [
+    {
+     "kind": "clip",
+     "src": "native/samin-storm-motion-v3-youtube-audio.mp4",
+     "ss": 21.2,
+     "zoom": 1.04,
+     "fx": 0.5,
+     "fy": 0.4,
+     "dur": 2.5
+    },
+    {
+     "kind": "clip",
+     "src": "assets/pair-hoodie-v3.mp4",
+     "ss": 1.02,
+     "zoom": 1.03
+    }
+   ]
+  },
+  {
+   "start_ms": 4840,
+   "end_ms": 8470,
+   "kind": "black"
+  },
+  {
+   "start_ms": 8470,
+   "end_ms": 15400,
+   "kind": "clip",
+   "src": "ai-clips/clip-limit-edit.mp4",
+   "ss": 0.4,
+   "speed": 0.81,
+   "zoom": 1.03,
+   "fx": 0.55,
+   "fy": 0.45
+  },
+  {
+   "start_ms": 15400,
+   "end_ms": 21070,
+   "kind": "clip",
+   "src": "ai-clips/clip-client.mp4",
+   "ss": 0.3,
+   "zoom": 1.03,
+   "fx": 0.6,
+   "fy": 0.35
+  },
+  {
+   "start_ms": 21070,
+   "end_ms": 27020,
+   "kind": "seq",
+   "parts": [
+    {
+     "kind": "clip",
+     "src": "ai-clips/clip-behind-empty.mp4",
+     "ss": 0.8,
+     "speed": 1.22,
+     "zoom": 1.0,
+     "dur": 4.62
+    },
+    {
+     "kind": "clip",
+     "src": "ai-clips/clip-behind-empty.mp4",
+     "ss": 6.44,
+     "speed": 1.22,
+     "crop": "900:506:382:212",
+     "zoom": 1.04,
+     "fx": 0.8,
+     "fy": 0.5
+    }
+   ]
+  },
+  {
+   "start_ms": 27020,
+   "end_ms": 33610,
+   "kind": "seq",
+   "parts": [
+    {
+     "kind": "still",
+     "src": "assets/savings-slide-pad.png",
+     "zoom": 1.04,
+     "fx": 0.45,
+     "fy": 0.5,
+     "dur": 1.9
+    },
+    {
+     "kind": "broll",
+     "src": "broll/which_model.mp4",
+     "ss": 6.0,
+     "crop": "1500:844:210:40",
+     "zoom": 1.05,
+     "dur": 1.2
+    },
+    {
+     "kind": "still",
+     "src": "assets/explore-cheaply.png",
+     "zoom": 1.08,
+     "fx": 0.5,
+     "fy": 0.45,
+     "dur": 1.2
+    },
+    {
+     "kind": "broll",
+     "src": "broll/readme.mp4",
+     "ss": 3.0,
+     "zoom": 1.05,
+     "dur": 1.2,
+     "crop": "1600:900:0:95"
+    },
+    {
+     "kind": "broll",
+     "src": "broll/openhf_github.mp4",
+     "ss": 7.0,
+     "zoom": 1.05,
+     "crop": "1600:900:0:95"
+    }
+   ]
+  },
+  {
+   "start_ms": 33610,
+   "end_ms": 37970,
+   "kind": "seq",
+   "parts": [
+    {
+     "kind": "broll",
+     "src": "broll/storm_cost.mp4",
+     "ss": 16.3,
+     "crop": "1316:740:600:190",
+     "zoom": 1.06,
+     "dur": 1.83
+    },
+    {
+     "kind": "broll",
+     "src": "broll/studio.mp4",
+     "ss": 31.0,
+     "zoom": 1.02,
+     "crop": "1655:931:265:130"
+    }
+   ]
+  },
+  {
+   "start_ms": 37970,
+   "end_ms": 44550,
+   "kind": "seq",
+   "parts": [
+    {
+     "kind": "broll",
+     "src": "broll/avatar.mp4",
+     "ss": 32.0,
+     "crop": "1500:844:380:225",
+     "zoom": 1.02,
+     "dur": 2.97
+    },
+    {
+     "kind": "broll",
+     "src": "broll/hoodie.mp4",
+     "ss": 16.4,
+     "crop": "1400:788:430:95",
+     "zoom": 1.02
+    }
+   ]
+  },
+  {
+   "start_ms": 44550,
+   "end_ms": 45970,
+   "kind": "raw",
+   "src": "levels/levels-intro.mp4",
+   "ss": 0.0
+  },
+  {
+   "start_ms": 45970,
+   "end_ms": 53260,
+   "kind": "raw",
+   "src": "levels/level-1.mp4",
+   "ss": 0.0,
+   "v": 4
+  },
+  {
+   "start_ms": 53260,
+   "end_ms": 60100,
+   "kind": "raw",
+   "src": "levels/level-2.mp4",
+   "ss": 0.0,
+   "v": 6
+  },
+  {
+   "start_ms": 60100,
+   "end_ms": 67780,
+   "kind": "raw",
+   "src": "levels/level-3.mp4",
+   "ss": 0.0,
+   "v": 5
+  },
+  {
+   "start_ms": 67780,
+   "end_ms": 72610,
+   "kind": "seq",
+   "parts": [
+    {
+     "kind": "broll",
+     "src": "broll/readme.mp4",
+     "ss": 13.0,
+     "crop": "1400:788:260:120",
+     "zoom": 1.05,
+     "dur": 2.43
+    },
+    {
+     "kind": "broll",
+     "src": "broll/chatgpt_prompt.mp4",
+     "ss": 22.0,
+     "crop": "1100:619:460:220",
+     "zoom": 1.05
+    }
+   ]
+  },
+  {
+   "start_ms": 72610,
+   "end_ms": 75250,
+   "kind": "broll",
+   "src": "broll/workflow_useful.mp4",
+   "ss": 5.0,
+   "crop": "1500:844:300:60",
+   "zoom": 1.0
+  },
+  {
+   "start_ms": 75250,
+   "end_ms": 78760,
+   "kind": "black"
+  },
+  {
+   "start_ms": 78760,
+   "end_ms": 83355,
+   "kind": "broll",
+   "src": "broll/chatgpt_prompt.mp4",
+   "ss": 12.5,
+   "zoom": 1.04,
+   "crop": "1200:675:680:520"
+  }
+ ]
+}

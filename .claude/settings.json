@@ -1,0 +1,13 @@
+{
+  "extraKnownMarketplaces": {
+    "ai-youtube-course": {
+      "source": {
+        "source": "github",
+        "repo": "Samin12/ai-youtube-course"
+      }
+    }
+  },
+  "enabledPlugins": {
+    "borumi@ai-youtube-course": true
+  }
+}

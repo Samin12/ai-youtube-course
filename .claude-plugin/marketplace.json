@@ -1,0 +1,19 @@
+{
+  "name": "ai-youtube-course",
+  "owner": {
+    "name": "Samin Yasar"
+  },
+  "metadata": {
+    "description": "Plugins used in the AI YouTube course."
+  },
+  "plugins": [
+    {
+      "name": "borumi",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/Samin12/opencutagent-borumi"
+      },
+      "description": "The cut and the visuals: edit a Borumi project from Claude Code. Remove silences and retakes, cut ranges, add chapter cards and captions, and visualize a scene with a rendered animation behind or in front of your camera."
+    }
+  ]
+}

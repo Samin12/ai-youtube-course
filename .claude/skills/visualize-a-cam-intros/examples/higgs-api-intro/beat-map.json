@@ -1,0 +1,157 @@
+{
+ "range_ms": [
+  0,
+  83355
+ ],
+ "notes": "Higgs Api scene 1 (hook). Cuts lead the spoken word by 120 ms. Presenter pinned bottom-right (custom layout); A-cam resets are fullscreen camera layouts. All later-footage b-roll carries the vignette + bottom line; generated-output clips carry the vignette only.",
+ "beats": [
+  {
+   "start_ms": 0,
+   "end_ms": 4840,
+   "claim": "I spent an unhealthy amount of time and money creating AI images and videos with Higgsfield.",
+   "visual": "The start of the motion in his STORM recast (the wide shot at 10:32 of the recording: the crowd drops, Samin in the white shirt stays standing), then the hoodie snap dance",
+   "source": "Codex outputs/samin-storm-motion-v3-youtube-audio.mp4 @21.2s (native 1280x720 file of the clip playing in Codex at 10:32) + assets/pair-hoodie-v3.mp4",
+   "proof": "Real generated outputs he made and paid for; result role",
+   "presentation": "fullscreen",
+   "shows": "The start of the motion in his STORM recast (the wide shot at 10:32 of the recording: the crowd drops, Samin in the white shirt stays standing), then the hoodie snap dance"
+  },
+  {
+   "start_ms": 4840,
+   "end_ms": 8470,
+   "claim": "And I gotta get this off my chest. Their usage limits suck.",
+   "visual": "Full A-cam",
+   "source": "camera_1",
+   "proof": "Presenter reset for the emotional line",
+   "presentation": "a-cam-reset"
+  },
+  {
+   "start_ms": 8470,
+   "end_ms": 15400,
+   "claim": "There have been days where I've prompted once or twice, and boom, there goes my limit, and now I'm waiting three hours.",
+   "visual": "From 'there have been days': the Higgsfield clip of Samin typing a prompt, the red 'Daily limit reached' banner popping and his hands going to his head (no subscription graphic)",
+   "source": "ai/clip-limit-edit.mp4 (Seedance 2.5 from his Soul, text corrected), played at 0.81x to cover the whole line",
+   "proof": "The exact metaphor he teaches at 1:32; the wall is the limit; later-footage marks",
+   "presentation": "a-cam-pip",
+   "shows": "From 'there have been days': the Higgsfield clip of Samin typing a prompt, the red 'Daily limit reached' banner popping and his hands going to his head (no subscription graphic)"
+  },
+  {
+   "start_ms": 15400,
+   "end_ms": 21070,
+   "claim": "Not to mention it's nearly impossible to calculate generations and charge clients if you use this for client work.",
+   "visual": "Samin across a table from a client; her speech bubble reads 'How much does it cost?' and three question marks float over his head while he scratches it and shrugs",
+   "source": "ai/clip-client.mp4 (Soul start image, bubble text fixed with GPT Image 2.5, animated with Seedance 2.5)",
+   "proof": "The two billing models side by side; the left column is the problem he names",
+   "presentation": "a-cam-pip",
+   "shows": "Samin across a table from a client; her speech bubble reads 'How much does it cost?' and three question marks float over his head while he scratches it and shrugs"
+  },
+  {
+   "start_ms": 21070,
+   "end_ms": 27020,
+   "claim": "Because the only option you had was to upgrade, pay for a bigger plan, with limits I might not even use.",
+   "visual": "From behind: Samin keeps clicking Upgrade on the pricing page, then picks up his wallet, opens it, and it is empty, then a punch-in on the empty wallet",
+   "source": "ai/clip-behind-empty.mp4 (Soul start image with a clean pricing page composited on the laptop, animated with Seedance 2.5, wallet emptied with a video_edit pass); punch-in on the open wallet so it clears the camera",
+   "proof": "Shows the bigger-plan fee against what 20 clips actually cost",
+   "presentation": "a-cam-pip",
+   "shows": "From behind: Samin keeps clicking Upgrade on the pricing page, then picks up his wallet, opens it, and it is empty, then a punch-in on the empty wallet"
+  },
+  {
+   "start_ms": 27020,
+   "end_ms": 33610,
+   "claim": "So instead of paying for a plan, I actually found a way to make generating AI videos ten times more efficient,",
+   "visual": "Savings card ($49 plan vs $8.40 of API clips), then quick flashes of the Level 2 strategies (Which model, Explore cheaply) and the two GitHub repos (higgsfield-api-studio, open-higgsfield)",
+   "source": "assets/savings-frame.png + broll/which_model.mp4 + assets/explore-cheaply.png + broll/readme.mp4 + broll/openhf_github.mp4 | savings card re-fit left of the camera (padded 1400 px) so '$40.60 less that month' is never covered",
+   "proof": "The comparison he screenshots later; price proof of 'more efficient'",
+   "presentation": "a-cam-pip"
+  },
+  {
+   "start_ms": 33610,
+   "end_ms": 37970,
+   "claim": "and only pay for what I generate, and even have my clients on my own platform,",
+   "visual": "Codex receipt line 'Higgsfield API cost: $20.43 ... $10.22' under the generated video, then the Samin Studio production board",
+   "source": "broll/storm_cost.mp4 (project 599.0s, crop) + broll/studio.mp4 (project 1071.5s)",
+   "proof": "The itemized cost of a real generation; the client board of his own platform",
+   "presentation": "a-cam-pip"
+  },
+  {
+   "start_ms": 37970,
+   "end_ms": 44550,
+   "claim": "and in this video I'm gonna be sharing everything I learned generating AI images and videos for hundreds of clients,",
+   "visual": "Mobbin avatar remake (original vs Higgsfield avatar playing), then BEFORE/AFTER snap-to-hoodie page",
+   "source": "broll/avatar.mp4 (project 1104.0s, crop) + broll/hoodie.mp4 (project 1180.0s, crop)",
+   "proof": "Two client-style deliverables playing, both from the Level 3 section",
+   "presentation": "a-cam-pip"
+  },
+  {
+   "start_ms": 44550,
+   "end_ms": 45970,
+   "claim": "and we'll break it all down into three levels.",
+   "visual": "Three blue numbered circles pop in on the white grid (his levels style)",
+   "source": "assets/levels-intro.mp4",
+   "proof": "Map role; previews the exact cards the viewer will see",
+   "presentation": "graphic"
+  },
+  {
+   "start_ms": 45970,
+   "end_ms": 53260,
+   "claim": "In level one, we'll get set up, learn the right concepts and the math behind the strategy to efficiently create anything you want.",
+   "visual": "Level card '1 Setting Up Higgsfield API' with a device mock cycling: Create API key modal, break-even chart, 10-second job costs, launch table, Which model (quick math/strategy flashes)",
+   "source": "assets/level-1.mp4",
+   "proof": "Setup action with the cursor; the math slide he teaches at 5:03",
+   "presentation": "a-cam-pip"
+  },
+  {
+   "start_ms": 53260,
+   "end_ms": 60100,
+   "claim": "And level two, we'll load in the skills and the workflows so you can have your own platform that you can use to monetize your style.",
+   "visual": "Level card '2 Skills & Workflows' with the mock showing the Higgsfield API Studio README, then the reusable-skill slide",
+   "source": "assets/level-2.mp4",
+   "proof": "The skill, it running, and the packaging slide from Level 2",
+   "presentation": "a-cam-pip"
+  },
+  {
+   "start_ms": 60100,
+   "end_ms": 67780,
+   "claim": "And then level three, we'll turn it into a custom SaaS application because the platform with your own knowledge baked in is something you can monetize.",
+   "visual": "Level card '3 Turning It Into a SaaS' with the mock showing Samin Studio landing, the new-project modal, the populated board",
+   "source": "assets/level-3.mp4",
+   "proof": "The SaaS he ships in Level 3, live, with a project being created",
+   "presentation": "a-cam-pip"
+  },
+  {
+   "start_ms": 67780,
+   "end_ms": 72610,
+   "claim": "And since you'll be able to track all the costs, your clients can cover their own generations",
+   "visual": "README cost/route table (real), then the private 'What's your Higgsfield API key?' form (each client brings their own key)",
+   "source": "broll/readme.mp4 (479s) + broll/chatgpt_prompt.mp4 (514s, crop)",
+   "proof": "Cost tracking, then the per-user key that lets clients pay for their own runs",
+   "presentation": "a-cam-pip"
+  },
+  {
+   "start_ms": 72610,
+   "end_ms": 75250,
+   "claim": "And you get paid for the expertise behind it.",
+   "visual": "'Now the connection becomes useful' slide: pick a model -> build a workflow -> package a skill -> add human review -> sell a service",
+   "source": "broll/workflow_useful.mp4 (708.0s)",
+   "proof": "The five-step ladder that ends in SELL A SERVICE",
+   "presentation": "a-cam-pip"
+  },
+  {
+   "start_ms": 75250,
+   "end_ms": 78760,
+   "claim": "and even if you've never touched anything technical like this before,",
+   "visual": "Full A-cam",
+   "source": "camera_1",
+   "proof": "Presenter reassurance to camera",
+   "presentation": "a-cam-reset"
+  },
+  {
+   "start_ms": 78760,
+   "end_ms": 83355,
+   "claim": "you can do this, because all we're doing is simply speaking to ChatGPT. Let's get into it.",
+   "visual": "Codex's plain-English reply to the install prompt",
+   "source": "broll/chatgpt_prompt.mp4 (501s, crop)",
+   "proof": "Literally speaking to ChatGPT and it doing the work",
+   "presentation": "a-cam-pip"
+  }
+ ]
+}

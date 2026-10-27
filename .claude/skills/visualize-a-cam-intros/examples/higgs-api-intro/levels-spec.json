@@ -1,0 +1,91 @@
+{
+ "intro": {
+  "out": "levels/levels-intro.mp4",
+  "dur": 2.2
+ },
+ "levels": [
+  {
+   "n": 1,
+   "title": "Setting Up Higgsfield API",
+   "out": "levels/level-1.mp4",
+   "dur": 7.4,
+   "parts": [
+    {
+     "src": "broll/apikeys.mp4",
+     "ss": 18.0,
+     "dur": 2.0,
+     "crop": "1120:630:500:380"
+    },
+    {
+     "src": "broll/breakeven.mp4",
+     "ss": 8.0,
+     "crop": "1403:789:150:72",
+     "dur": 1.35
+    },
+    {
+     "src": "broll/which_model.mp4",
+     "ss": 26.0,
+     "crop": "1500:844:210:40",
+     "dur": 1.35
+    },
+    {
+     "src": "broll/table.mp4",
+     "ss": 23.5,
+     "crop": "1600:900:140:110",
+     "dur": 1.35
+    },
+    {
+     "src": "broll/which_model.mp4",
+     "ss": 8.0,
+     "crop": "1500:844:210:40",
+     "dur": 1.6
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "title": "Skills & Workflows",
+   "out": "levels/level-2.mp4",
+   "dur": 6.95,
+   "parts": [
+    {
+     "src": "broll/readme.mp4",
+     "ss": 4.0,
+     "dur": 2.46,
+     "crop": "1600:900:0:95"
+    },
+    {
+     "src": "broll/skill_slide.mp4",
+     "ss": 3.0,
+     "crop": "1600:900:160:60",
+     "dur": 4.5
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "title": "Turning It Into a SaaS",
+   "out": "levels/level-3.mp4",
+   "dur": 7.8,
+   "parts": [
+    {
+     "src": "broll/studio.mp4",
+     "ss": 3.2,
+     "dur": 3.0
+    },
+    {
+     "src": "broll/studio.mp4",
+     "ss": 20.65,
+     "dur": 2.3,
+     "crop": "1655:931:265:130"
+    },
+    {
+     "src": "broll/studio.mp4",
+     "ss": 31.0,
+     "dur": 2.6,
+     "crop": "1655:931:265:130"
+    }
+   ]
+  }
+ ]
+}

@@ -32,7 +32,22 @@ Raw footage isn't a video yet. Editing is where we keep people watching and back
 4. **Edit.** Any editor works: cut tight, add the proof and on-screen text, captions, chapters, clean audio.
 5. **Review.** Watch it once with no sound, then once as your viewer. Fix anything that drags.
 
-**How I do it:** Claude Opus runs my editing skill and drives the Borumi edit through its MCP. *[Coming soon: my editing skill]*
+**How I do it:** two passes with Claude, through Borumi's MCP: **the cut first, then visualize.** You never design a visual for a line you're about to cut.
+
+## My editing skills
+
+1. **The cut and the visuals: the `borumi` plugin** ([Samin12/opencutagent-borumi](https://github.com/Samin12/opencutagent-borumi)). It removes silences, ums and retakes, cuts ranges, adds chapter cards and captions, and visualizes a scene with a rendered animation behind or in front of your camera. Built on [OpenCutAgent](https://github.com/leonardogrig/opencutagent) by Leonardo Grigorio.
+   - **Install:** open this course in Claude Code and say yes when it offers the plugin. Or run:
+     ```bash
+     claude plugin marketplace add Samin12/ai-youtube-course
+     claude plugin install borumi@ai-youtube-course
+     ```
+   - **Use:** open your project in Borumi, then `/borumi:setup` once, then `/borumi:silences`, `/borumi:retakes`, and `/borumi:visualize scene 1`.
+2. **The proof-first intro: `visualize-a-cam-intros`** ([in this course](../../.claude/skills/visualize-a-cam-intros)). It turns your talking-head intro into a proof-first visual story: you stay pinned on top, every sentence gets real proof on screen, and a critic round checks it before you see it.
+   - **Install:** nothing to do. It's in this course's `.claude/skills/` folder.
+   - **Use:** open your project in Borumi, then `/visualize-a-cam-intros` and say which scene is your intro.
+
+**Want a different look?** Just tell Claude: "make it light mode," "use my brand colors," "put my face on the right." The skills are a starting point, not a template you're stuck with.
 
 ## Check it
 
@@ -49,6 +64,6 @@ Raw footage isn't a video yet. Editing is where we keep people watching and back
 
 ## Status
 
-**Coming soon.** Outline ready: the concepts, prompts and template work now. My editing skill and the full walkthrough are coming.
+**Coming soon.** Outline ready: the concepts, prompts, template and my editing skills work now. The full walkthrough is coming.
 
 Next: [Chapter 8: Repurpose](../08-repurpose/README.md).
