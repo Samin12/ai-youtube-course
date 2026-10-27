@@ -14,6 +14,14 @@
         "url": "https://github.com/Samin12/opencutagent-borumi"
       },
       "description": "The cut and the visuals: edit a Borumi project from Claude Code. Remove silences and retakes, cut ranges, add chapter cards and captions, and visualize a scene with a rendered animation behind or in front of your camera."
+    },
+    {
+      "name": "content-repurpose-system",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/AI-Answer/ContentRepurposeSystem"
+      },
+      "description": "Turn a finished video into blog, X/Twitter, and LinkedIn drafts, then plan reels, film new hooks, and render vertical clips."
     }
   ]
 }

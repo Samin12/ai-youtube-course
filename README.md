@@ -71,7 +71,7 @@ At the end, we put an AI agent team on top of everything, so it runs on autopilo
 | 05 | [Outline + script](chapters/05-script/README.md) | The one-pager outline (`/video-outline`), then the script: `videos/<your-video>/04-script.md` | Outline ready, build coming soon |
 | 06 | [Film](chapters/06-film/README.md) | `videos/<your-video>/05-film-checklist.md` | Outline ready, build coming soon |
 | 07 | [Edit](chapters/07-edit/README.md) | `videos/<your-video>/06-edit-notes.md` | Outline ready, build coming soon |
-| 08 | [Repurpose](chapters/08-repurpose/README.md) | `videos/<your-video>/07-repurpose.md` | Outline ready, build coming soon |
+| 08 | [Repurpose](chapters/08-repurpose/README.md) | `videos/<your-video>/07-repurpose.md`, post drafts, and reels | Plugin workflow ready |
 | 09 | [Publish](chapters/09-publish/README.md) | `videos/<your-video>/08-publish.md` | Outline ready, build coming soon |
 | 10 | [Funnel](chapters/10-funnel/README.md) | `my-channel/funnel-map.md` | Outline ready, build coming soon |
 | 11 | [Autopilot](chapters/11-autopilot/README.md) | Your first skill, then the full autopilot setup | Outline ready, build coming soon |

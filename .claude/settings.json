@@ -8,6 +8,7 @@
     }
   },
   "enabledPlugins": {
-    "borumi@ai-youtube-course": true
+    "borumi@ai-youtube-course": true,
+    "content-repurpose-system@ai-youtube-course": true
   }
 }

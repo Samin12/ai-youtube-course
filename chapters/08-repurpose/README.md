@@ -4,44 +4,62 @@
 
 ## Why this matters
 
-The video's done. Before it goes live, let's make it work 10 times harder. One video, made once, can show up on every platform. And this is where AI really shines.
+The video's done. The ideas inside it can become posts and reels. Use the finished edit so each piece matches what you actually said and showed.
 
 ## What you'll learn
 
-- **Leverage.** You make the video once, and showing it to the next person costs you nothing. Repurposing spreads that one piece of work across every platform.
+- **Reuse what you made.** You make the video once. Repurposing brings its ideas to people who may not watch the full video.
 - **Every post is another touchpoint.** Remember the 7-11-4 rule of thumb from the start of the course: before someone buys, they need about 7 hours with you, 11 touchpoints, in 4 different places. *(It's often credited to Google, but there's no published study, so treat it as a rule of thumb.)*
 - **What one video turns into.** Shorts and Reels (clips of the best moments), short-form scripts, X/Twitter threads, carousels for Instagram and LinkedIn, and a newsletter or email.
-- **How AI finds the pieces.** Claude Opus reads the finished video (its transcript) and pulls out the separate ideas inside it. Each idea can become its own post. Skills then turn each idea into a format: a short script, a thread, a carousel.
+- **How AI finds the pieces.** Claude Opus reads the finished video's transcript and finds the separate ideas inside it. `/content-cascade` turns the video into a blog post, an X/Twitter thread, and LinkedIn posts. `/reels` plans and renders short clips with hooks you can test.
 - **Short-form amplifies long-form.** It doesn't replace it.
 
 ## What you'll build
 
-[`videos/<your-video>/07-repurpose.md`](../../videos/_template/07-repurpose.md): the list of ideas inside your video, and the posts made from them, ready to schedule in Publish.
+[`videos/<your-video>/07-repurpose.md`](../../videos/_template/07-repurpose.md): your post drafts, reel plan, hooks to film, and checked render files. You'll schedule the finished pieces in Publish.
+
+## My repurpose skills
+
+I use the [Content Repurpose System](https://github.com/AI-Answer/ContentRepurposeSystem) plugin. It is included and enabled with the course's Claude Code setup. If it is missing from your session, install it in Claude Code:
+
+```text
+/plugin marketplace add AI-Answer/ContentRepurposeSystem
+/plugin install content-repurpose-system@samin-content-marketplace
+```
+
+Restart Claude Code after installing. `/content-cascade` makes the blog, thread, and LinkedIn drafts. `/reels` handles the reel loop: plan → film the hooks it asks for → render.
+
+Reel rendering needs FFmpeg, `whisper-cli`, Python 3, NumPy, and Pillow. On a Mac, install the video tools with `brew install ffmpeg whisper-cpp`. Install the Python packages with `python3 -m pip install numpy Pillow`, in a virtual environment if needed. Whisper also needs a local model file. The plugin's README has the full setup.
 
 ## Steps
 
-1. **Get the transcript** of your finished video.
-2. **Find the ideas.** Run [`prompts/find-the-ideas.md`](prompts/find-the-ideas.md). You get a list of separate ideas, each one a possible post.
-3. **Make the posts.** Run [`prompts/make-the-posts.md`](prompts/make-the-posts.md) for the ideas you like best.
-4. **Check each piece** against the list below. Fix anything that doesn't sound like you.
-5. **Save them** in `videos/<your-video>/07-repurpose.md`. You'll schedule them in the Publish chapter.
+1. **Use the finished video.** Give Claude the local edit or its YouTube URL. Keep the raw camera and matching mic files nearby for reels.
+2. **Make the posts.** Run `/content-cascade <YouTube URL>` for a blog post, an X/Twitter thread, and LinkedIn drafts. Read them and fix anything that doesn't sound like you.
+3. **Plan the reels.** Run `/reels <video path or YouTube URL>`. Claude uses word timestamps to pick 3-6 ideas. It saves `work/reels.json`, `repurpose-plan.md`, and `film-hooks.md`. Each reel has one hook from the footage and three new hooks to film.
+4. **Hooks to film.** Read `film-hooks.md`. Record each line, at most 15 words and 4 seconds. Use the same outfit and light as the long-form. Record one take per line, with a 1 second pause before and after. Save each as `hooks-filmed/<reelId>-<hookId>.mov`. Then say "attach my filmed hooks."
+5. **Render the reels.** Ask `/reels` to render all available hook variants. You get 9:16 reels with visuals on top, you on the bottom, and captions on the seam. Each variant keeps the same body and changes the hook. Missing filmed hooks can be added later.
+6. **Check and save.** Watch every render with sound. Check captions, camera sync, framing, and volume. Save the post drafts and reel file paths in `videos/<your-video>/07-repurpose.md` for Publish.
 
-**How I do it:** Opus pulls the concepts out of my video, then my repurpose skills turn them into short scripts, tweets and carousels. *[Coming soon: my repurpose skills]*
+**Using another AI tool?** The prompts still work: start with [`find-the-ideas.md`](prompts/find-the-ideas.md), then [`make-the-posts.md`](prompts/make-the-posts.md). The plugin's render tools run locally through Claude Code.
+
+Worked example: [the tips video](../../examples/samin/repurpose-tips-video.md)
 
 ## Check it
 
 - [ ] Does each piece stand on its own, without the video?
 - [ ] Does each one point back to the main video or your offer?
 - [ ] Does it still sound like you?
+- [ ] Did you watch every reel with sound and check captions, sync, and volume?
+- [ ] Are missing filmed hooks marked in the reel table?
 
 ## Tips
 
 - **Short-form amplifies long-form;** it doesn't replace it.
 - **Pick one long-form and one short-form platform first,** so you don't spread yourself too thin. *(Ed Lawrence, Taki Moore)*
-- *[Samin to fill: what my short-form team does with these pieces]*
+- **Test the hook.** Keep the reel body the same and compare different openings.
 
 ## Status
 
-**Coming soon.** Outline ready: the concepts, prompts and template work now. My repurpose skills and the full walkthrough are coming.
+**Plugin workflow ready.** The course includes Content Repurpose System. Use `/content-cascade` for post drafts and `/reels` for the plan, filmed hooks, and vertical renders.
 
 Next: [Chapter 9: Publish](../09-publish/README.md).
