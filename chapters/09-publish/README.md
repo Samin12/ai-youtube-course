@@ -23,12 +23,16 @@ How you publish decides whether YouTube shows your video to the right people. An
 
 [`videos/<your-video>/08-publish.md`](../../videos/_template/08-publish.md): your description, upload checklist, schedule, and results notes.
 
+## Start with your publish plan
+
+If you ran `/publish-pack` in Chapter 8, your video folder has `finished/PUBLISH PLAN.md`. Open it first. It lists what's in each numbered folder, where each piece goes, which day to post it, and a checklist. Each reel and carousel has its captions file next to it, one section per platform. The steps below cover the upload itself and how to read your results.
+
 ## Steps
 
 1. **Set your upload defaults once.** Use [`templates/upload-checklist.md`](templates/upload-checklist.md).
 2. **Write the description.** Run [`prompts/write-description.md`](prompts/write-description.md). It follows [`templates/description-template.md`](templates/description-template.md), with your offer link on line 1.
 3. **Upload.** Add chapters, the end screen, and a pinned comment. Tick off the checklist.
-4. **Schedule your repurposed pieces** in Blotato (or post them by hand). Spread them out.
+4. **Schedule your repurposed pieces** in Blotato (or post them by hand). Follow the day-by-day calendar in `PUBLISH PLAN.md`, and tick its checklist first.
 5. **Post and forget** for the first day.
 6. **Read your results.** Take screenshots of your YouTube Studio analytics and run [`prompts/read-my-results.md`](prompts/read-my-results.md). Write what you learned in `videos/<your-video>/08-publish.md`, and feed it into your next idea.
 
