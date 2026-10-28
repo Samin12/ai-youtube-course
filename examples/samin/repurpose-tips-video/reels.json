@@ -1,0 +1,546 @@
+{
+  "source": {
+    "edited": "edited.mp4",
+    "raw_dir": "raw",
+    "title": "10 Opus 5.5 tips",
+    "long_form_url": null
+  },
+  "reels": [
+    {
+      "id": "R1",
+      "title": "ELI5: don't read the docs",
+      "idea": "Stop reading docs: ask Claude for an interactive HTML page (/eli5) and click through it to learn anything faster.",
+      "segments": [
+        {
+          "start": 44.33,
+          "end": 60.93,
+          "note": "Anthropic's ELI5 skill: /eli5 builds an interactive HTML page (Tariq tweet on screen) | QA: cuts moved into measured silence (words.json runs ~0.2 s late); s1/s2 and s4/s5/s6 now contiguous so no words are dropped mid-join"
+        },
+        {
+          "start": 60.93,
+          "end": 65.94,
+          "note": "Karpathy: just ask for HTML (authority)"
+        },
+        {
+          "start": 68.26,
+          "end": 77.45,
+          "note": "why: a third of your brain processes what you see; wall of text is slowest"
+        },
+        {
+          "start": 81.72,
+          "end": 87.9,
+          "note": "the exact prompt to use"
+        },
+        {
+          "start": 87.9,
+          "end": 99.85,
+          "note": "proof: learned SEO/GEO from clickable pages, no guides (GEO page on screen)"
+        },
+        {
+          "start": 99.85,
+          "end": 100.58,
+          "note": "'If I were you' (own piece: the edited video uses a third camera take here, 99.88-100.5; jump cuts sit in the silences at ~99.85 and ~100.58)"
+        },
+        {
+          "start": 100.58,
+          "end": 104.8,
+          "note": "clean close + challenge: try it today"
+        }
+      ],
+      "hooks": [
+        {
+          "id": "H1",
+          "type": "film",
+          "spoken": "I learned SEO without reading a single guide. Here's the one prompt.",
+          "on_screen_text": "No guides. One prompt.",
+          "shot_note": "Tight on face, hold the laptop or phone up to camera with the GEO HTML page open, tap through one slide as you say 'one prompt'. Calm, matter-of-fact, slight smile.",
+          "framework": "About Me + Result/Proof; desire: Time (learn faster) via proxy 'never read docs'",
+          "angle": "result/proof",
+          "score": {
+            "power_words": 5,
+            "commandments": 4,
+            "total": 9
+          }
+        },
+        {
+          "id": "H2",
+          "type": "footage",
+          "spoken": "Next time you need to learn something, don't read the docs.",
+          "range": {
+            "start": 78.46,
+            "end": 81.71
+          },
+          "on_screen_text": "Stop reading the docs",
+          "framework": "Contrarian + To You; desire: Time",
+          "angle": "contrarian",
+          "score": {
+            "power_words": 4,
+            "commandments": 4,
+            "total": 8
+          },
+          "accent_word": "docs"
+        },
+        {
+          "id": "H3",
+          "type": "film",
+          "spoken": "People inside Anthropic type one command to learn anything fast.",
+          "on_screen_text": "Anthropic's /eli5 command",
+          "shot_note": "Lean in toward camera, lower voice like sharing a secret; point down to the top panel where the Tariq tweet will appear. Type '/eli5' on a keyboard just off-frame for the sound.",
+          "framework": "Secret Reveal + He/She Just Did (third-party proof); desire: Status",
+          "angle": "curiosity-gap",
+          "score": {
+            "power_words": 4,
+            "commandments": 4,
+            "total": 8
+          }
+        },
+        {
+          "id": "H4",
+          "type": "film",
+          "spoken": "If you still learn new stuff by reading docs, stop.",
+          "on_screen_text": "Still reading docs? Stop.",
+          "shot_note": "Point straight at the lens on 'you', then a flat-palm 'stop' gesture on the last word. Quick, punchy, no smile.",
+          "framework": "To You (callout the viewer) + Problem; desire: Time",
+          "angle": "callout",
+          "score": {
+            "power_words": 3,
+            "commandments": 4,
+            "total": 7
+          }
+        }
+      ],
+      "caption": "Stop reading docs to learn new stuff.\nType /eli5 (or just ask for an HTML page) and Claude builds you a clickable lesson with big pictures and very few words. I learned SEO this way without one guide.\nTip 1 of 10 from my Opus 5.5 video.",
+      "hashtags": [
+        "#claude",
+        "#claudecode",
+        "#opus",
+        "#anthropic",
+        "#ai",
+        "#aitools",
+        "#learnwithai",
+        "#productivity"
+      ],
+      "cta": "Comment 'ELI5' and pick one thing you've been putting off learning. Full 10-tip video on my channel, free Opus 5.5 playbook in Claude Club (link in bio).",
+      "est_duration": 57,
+      "caption_fixes": {
+        "Karpathi": "Karpathy",
+        "pills": "built"
+      }
+    },
+    {
+      "id": "R2",
+      "title": "Opus brain, Haiku hands",
+      "idea": "Use Opus 5.5 as the main agent and fan out Haiku 5.5 subagents for the cheap, high-volume work: faster, cheaper, same quality.",
+      "segments": [
+        {
+          "start": 634.05,
+          "end": 635.6,
+          "note": "'So when we're using Opus,' (cut on silence; words.json runs ~0.25 s late here)"
+        },
+        {
+          "start": 642.0,
+          "end": 659.75,
+          "note": "'there is a way we can get it much cheaper ... faster. And the way we do that is ... Opus 5.5 as your main agent ... Haiku 5.5 as subagents for the high-volume cheap stuff' (merged; old split at 648.04/648.22 dropped the 'And')"
+        },
+        {
+          "start": 694.57,
+          "end": 701.95,
+          "note": "proof: agents panel, Haiku subagents doing small tasks cheaper"
+        },
+        {
+          "start": 717.38,
+          "end": 728.12,
+          "note": "proof: egg-drop test tweet, Opus alone 3:37 $0.47 vs Opus + 10 Haiku 0:58 $0.14 (ends before 'So this')"
+        },
+        {
+          "start": 708.08,
+          "end": 717.24,
+          "note": "clean close: 'So highly recommend ... make sure they're Haiku.' (ends before the panel fades to the next tweet at ~717.25 and before the next 'And')"
+        }
+      ],
+      "hooks": [
+        {
+          "id": "H1",
+          "type": "film",
+          "spoken": "Same task. Opus alone: three minutes thirty-seven. With Haiku helpers: fifty-eight seconds.",
+          "on_screen_text": "3:37 → 0:58",
+          "shot_note": "Two hands as a scale: left hand up on 'Opus alone', right hand up on 'Haiku helpers'. Read the numbers slowly and clearly; the egg-drop chart sits in the top panel.",
+          "framework": "Comparison + Result/Proof; desire: Time + Money",
+          "angle": "result/proof",
+          "score": {
+            "power_words": 6,
+            "commandments": 4,
+            "total": 10
+          }
+        },
+        {
+          "id": "H2",
+          "type": "film",
+          "spoken": "If you keep hitting your Claude limits, you're using Opus wrong.",
+          "on_screen_text": "Hitting Claude limits?",
+          "shot_note": "Point at the lens on 'you', slight frown. Have the 'usage limit reached' screen visible on a monitor behind you if you can.",
+          "framework": "To You (callout) + Problem, negative framing; desire: Money",
+          "angle": "callout",
+          "score": {
+            "power_words": 4,
+            "commandments": 4,
+            "total": 8
+          }
+        },
+        {
+          "id": "H3",
+          "type": "film",
+          "spoken": "Stop using Opus for everything. It's costing you time and money.",
+          "on_screen_text": "Opus alone is a mistake",
+          "shot_note": "Shake head on 'Stop', count on fingers 'time... and money'. Direct, a little fired up.",
+          "framework": "Contrarian; desire: Money + Time",
+          "angle": "contrarian",
+          "score": {
+            "power_words": 4,
+            "commandments": 4,
+            "total": 8
+          }
+        },
+        {
+          "id": "H4",
+          "type": "footage",
+          "spoken": "So this is probably one of my favorite hacks.",
+          "range": {
+            "start": 728.18,
+            "end": 730.95
+          },
+          "on_screen_text": "Opus + Haiku: 3.7x faster",
+          "framework": "Personal Experience; desire: Status (insider hack)",
+          "angle": "curiosity-gap",
+          "score": {
+            "power_words": 2,
+            "commandments": 3,
+            "total": 5
+          }
+        }
+      ],
+      "caption": "Opus 5.5 alone: 3:37 and $0.47.\nOpus 5.5 + 10 Haiku 5.5 subagents: 0:58 and $0.14.\nLet Opus think and coordinate. Let Haiku do the cheap, high-volume work. Just tell Opus to fan out subagents and make them Haiku.",
+      "hashtags": [
+        "#claude",
+        "#claudecode",
+        "#opus",
+        "#haiku",
+        "#subagents",
+        "#aiagents",
+        "#anthropic",
+        "#ai"
+      ],
+      "cta": "Save this for your next big task. Full 10-tip video on my channel, free Opus 5.5 playbook in Claude Club (link in bio).",
+      "est_duration": 49
+    },
+    {
+      "id": "R3",
+      "title": "Two prompts: night and morning",
+      "idea": "Two prompts flip AI from reactive to proactive: one makes your agent build while you sleep, one hands you your decisions when you wake up.",
+      "segments": [
+        {
+          "start": 313.41,
+          "end": 322.71,
+          "note": "two prompts: one works while you sleep, one surfaces decisions (opens on the footage hook)"
+        },
+        {
+          "start": 322.71,
+          "end": 326.1,
+          "note": "most people use AI reactively (own piece so the Reactive/Proactive visual gets zoomed)"
+        },
+        {
+          "start": 326.22,
+          "end": 333.9,
+          "note": "before bed, spin up a prompt from the phone"
+        },
+        {
+          "start": 335.76,
+          "end": 341.3,
+          "note": "the evening prompt (Evening prompt card on screen)"
+        },
+        {
+          "start": 341.38,
+          "end": 364.4,
+          "note": "proof: wake up to new features; then the morning prompt as a scheduled task: calendar, email, plugins ready"
+        },
+        {
+          "start": 364.44,
+          "end": 371.56,
+          "note": "clean close: where each prompt runs"
+        }
+      ],
+      "hooks": [
+        {
+          "id": "H1",
+          "type": "film",
+          "spoken": "I wake up to new features my agent built while I slept.",
+          "on_screen_text": "Built while I slept",
+          "shot_note": "Start in a hoodie with a mug, just-woke-up energy; on 'new features' turn the phone to camera showing the overnight Claude Code thread. Shoot in morning light if you can.",
+          "framework": "About Me + Result/Proof; desire: Time",
+          "angle": "result/proof",
+          "score": {
+            "power_words": 5,
+            "commandments": 4,
+            "total": 9
+          }
+        },
+        {
+          "id": "H2",
+          "type": "footage",
+          "spoken": "It's just two prompts. So one makes your agent work while you sleep.",
+          "range": {
+            "start": 313.41,
+            "end": 317.98
+          },
+          "on_screen_text": "2 prompts. Agent works overnight.",
+          "framework": "List + Secret Reveal; desire: Time",
+          "angle": "curiosity-gap",
+          "score": {
+            "power_words": 4,
+            "commandments": 4,
+            "total": 8
+          }
+        },
+        {
+          "id": "H3",
+          "type": "film",
+          "spoken": "Your AI only works when you're awake. That's the mistake.",
+          "on_screen_text": "Your AI sleeps when you do",
+          "shot_note": "Low, slow delivery; on 'That's the mistake' snap fingers. Dim the room a bit for a night feel.",
+          "framework": "Contrarian + Problem (loss framing); desire: Time",
+          "angle": "contrarian",
+          "score": {
+            "power_words": 4,
+            "commandments": 4,
+            "total": 8
+          }
+        },
+        {
+          "id": "H4",
+          "type": "film",
+          "spoken": "Only open Claude when you need something? Steal these two prompts.",
+          "on_screen_text": "Steal my 2 prompts",
+          "shot_note": "Point at the lens on 'you', hold up two fingers on 'two prompts'. Friendly, fast.",
+          "framework": "To You (callout) + List; desire: Time",
+          "angle": "callout",
+          "score": {
+            "power_words": 4,
+            "commandments": 4,
+            "total": 8
+          }
+        }
+      ],
+      "caption": "Most people use AI reactively. They ask, it answers.\nNight prompt: 'About to go to sleep. What's one big thing you can start building while I'm sleeping? Do it.'\nMorning prompt (scheduled): 'I just woke up. Give me the list of decisions I have to make right now.'",
+      "hashtags": [
+        "#claude",
+        "#claudecode",
+        "#aiagents",
+        "#opus",
+        "#productivity",
+        "#automation",
+        "#ai",
+        "#anthropic"
+      ],
+      "cta": "Copy both prompts from the caption and run the night one tonight. Full 10-tip video on my channel, free Opus 5.5 playbook in Claude Club (link in bio).",
+      "est_duration": 59
+    },
+    {
+      "id": "R4",
+      "title": "/voice: stop typing to Claude",
+      "idea": "Talk to your agent instead of typing (/voice in Claude Code): you speak 5x faster and naturally give more context, so the output gets better.",
+      "segments": [
+        {
+          "start": 112.42,
+          "end": 130.76,
+          "note": "Karpathy's vibe-coding tweet: he talks to his agent; Anthropic built voice mode into Claude Code (opens on the footage hook). End moved before the 'So' onset at 131.05 (words.json runs ~0.3 s late here)"
+        },
+        {
+          "start": 131.02,
+          "end": 135.66,
+          "note": "So to activate it, type /voice, here's why it matters (starts on the real 'So' onset; ends in the pause after 'matters')"
+        },
+        {
+          "start": 135.97,
+          "end": 154.9,
+          "note": "40-50 wpm typing vs 250 wpm speaking; more context = better output. Starts on the real 'Maybe' onset (136.0); ends after 'agent' (154.75) before the panel fades to the next card (154.87) and before 'So' (155.0)"
+        }
+      ],
+      "hooks": [
+        {
+          "id": "H1",
+          "type": "film",
+          "spoken": "You type forty words a minute. You speak two hundred fifty.",
+          "on_screen_text": "40 wpm vs 250 wpm",
+          "shot_note": "Mime typing with two fingers on '40', then open both hands wide on '250'. Even pace so the numbers land.",
+          "framework": "Comparison + Contrast with numbers; desire: Time",
+          "angle": "result/proof",
+          "score": {
+            "power_words": 5,
+            "commandments": 4,
+            "total": 9
+          }
+        },
+        {
+          "id": "H2",
+          "type": "film",
+          "spoken": "Stop typing to Claude. You're leaving most of your context out.",
+          "on_screen_text": "Stop typing to Claude",
+          "shot_note": "Push the keyboard out of frame on 'Stop typing', then talk with your hands. Confident, a bit cheeky.",
+          "framework": "Contrarian + Problem; desire: Status (better output)",
+          "angle": "contrarian",
+          "score": {
+            "power_words": 4,
+            "commandments": 4,
+            "total": 8
+          }
+        },
+        {
+          "id": "H3",
+          "type": "footage",
+          "spoken": "Remember when Karpathy coined the term vibe coding?",
+          "range": {
+            "start": 112.42,
+            "end": 116.31
+          },
+          "on_screen_text": "The line everyone missed",
+          "framework": "Question + He/She Just Did; desire: Status",
+          "angle": "curiosity-gap",
+          "score": {
+            "power_words": 3,
+            "commandments": 4,
+            "total": 7
+          }
+        },
+        {
+          "id": "H4",
+          "type": "film",
+          "spoken": "If you still type every prompt, try this one command.",
+          "on_screen_text": "One command: /voice",
+          "shot_note": "Point at the lens on 'you', hold up one finger on 'one command'. Then the reel cuts to the Karpathy tweet.",
+          "framework": "To You (callout); desire: Time",
+          "angle": "callout",
+          "score": {
+            "power_words": 3,
+            "commandments": 4,
+            "total": 7
+          }
+        }
+      ],
+      "caption": "Karpathy barely touches his keyboard. He just talks to his agent.\nType /voice in Claude Code. You type 40-50 words a minute but speak 250, and when you talk you explain more. More context = better output.\nFree options: Fluid Voice, Hex. Paid: Wispr Flow.",
+      "hashtags": [
+        "#claude",
+        "#claudecode",
+        "#vibecoding",
+        "#karpathy",
+        "#voiceai",
+        "#ai",
+        "#productivity",
+        "#anthropic"
+      ],
+      "cta": "Try /voice on your next prompt and tell me the difference in the comments. Full 10-tip video on my channel, free Opus 5.5 playbook in Claude Club (link in bio).",
+      "est_duration": 42,
+      "caption_fixes": {
+        "Karpathi": "Karpathy",
+        "Claude code": "Claude Code",
+        "And remember": "Remember"
+      }
+    },
+    {
+      "id": "R5",
+      "title": "3-layer agent memory",
+      "idea": "Built-in memory is only the start: a 3-layer memory setup (codebase-memory MCP, claude-mem, Honcho) makes your agent cheaper and actually know you.",
+      "segments": [
+        {
+          "start": 195.04,
+          "end": 205.33,
+          "note": "no memory setup = burned tokens; right setup = far fewer (opens on the footage hook)"
+        },
+        {
+          "start": 205.7,
+          "end": 240.52,
+          "note": "three layers: codebase-memory MCP, claude-mem, Honcho; clean close on 'one single brain' (repo cards on screen)"
+        }
+      ],
+      "hooks": [
+        {
+          "id": "H1",
+          "type": "film",
+          "spoken": "If Claude keeps forgetting what you did yesterday, this fixes it.",
+          "on_screen_text": "Claude forgot again?",
+          "shot_note": "Start with an annoyed face-palm, then look up into the lens on 'this fixes it'. Relatable, then confident.",
+          "framework": "To You (callout) + Problem; desire: Time (no re-explaining)",
+          "angle": "callout",
+          "score": {
+            "power_words": 5,
+            "commandments": 4,
+            "total": 9
+          }
+        },
+        {
+          "id": "H2",
+          "type": "film",
+          "spoken": "Claude's built-in memory isn't enough. Here's the three-layer setup I run.",
+          "on_screen_text": "Built-in memory isn't enough",
+          "shot_note": "Hold up three fingers on 'three-layer', stack your hands like layers. Direct, teacher energy.",
+          "framework": "Contrarian + Education (step list); desire: Status",
+          "angle": "contrarian",
+          "score": {
+            "power_words": 5,
+            "commandments": 4,
+            "total": 9
+          }
+        },
+        {
+          "id": "H3",
+          "type": "footage",
+          "spoken": "Your agent can burn way more tokens just to read a code base or something as simple as answering a question.",
+          "range": {
+            "start": 195.04,
+            "end": 201.1
+          },
+          "on_screen_text": "Your agent is wasting tokens",
+          "framework": "Problem (loss framing); desire: Money",
+          "angle": "result/proof",
+          "score": {
+            "power_words": 4,
+            "commandments": 3,
+            "total": 7
+          }
+        },
+        {
+          "id": "H4",
+          "type": "film",
+          "spoken": "My agent knows my taste, my projects, and my preferences. Here's how.",
+          "on_screen_text": "My agent actually knows me",
+          "shot_note": "Relaxed, proud; tap your temple on 'knows'. The Honcho card shows in the top panel.",
+          "framework": "About Me + Secret Reveal; desire: Status",
+          "angle": "curiosity-gap",
+          "score": {
+            "power_words": 4,
+            "commandments": 4,
+            "total": 8
+          }
+        }
+      ],
+      "caption": "Claude's built-in memory is only the start.\nMy 3 layers:\n1. codebase-memory MCP for your repos\n2. claude-mem to compress past sessions\n3. Honcho so your agent knows you, synced across ChatGPT, Hermes and more.\nFewer tokens, fewer mistakes.",
+      "hashtags": [
+        "#claude",
+        "#claudecode",
+        "#aimemory",
+        "#aiagents",
+        "#mcp",
+        "#opus",
+        "#ai",
+        "#anthropic"
+      ],
+      "cta": "Comment 'MEMORY' if you want the setup steps. Full 10-tip video on my channel, free Opus 5.5 playbook in Claude Club (link in bio).",
+      "est_duration": 48,
+      "caption_fixes": {
+        "Hancho": "Honcho",
+        "chat GPT": "ChatGPT",
+        "Claude mem": "claude-mem",
+        "that ones": "that one's"
+      }
+    }
+  ]
+}
